@@ -1,0 +1,48 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.2 07/10/2002            
+-- Compiled: 01/22/2023 17:42:58      
+
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "test"
+BEGIN
+
+    DEVICE = "EP1K10TC100-1";
+
+    "b"                            : INPUT_PIN  = 38     ;
+    "cin"                          : INPUT_PIN  = 40     ;
+    "c"                            : OUTPUT_PIN = 20     ;
+    "s"                            : OUTPUT_PIN = 19     ;
+    "|fulladder:6|:7"              : LOCATION   = LC1_C14;  -- |fulladder:6|S
+    "|fulladder:6|:10"             : LOCATION   = LC2_C14;  -- |fulladder:6|cout
+
+END;
+
+INTERNAL_INFO "test"
+BEGIN
+	DEVICE = EP1K10TC100-1;
+    OD2P38  : LORAX = "1:FB2|2:FH2R2,PA6R2C13->LC1_C14,->LC2_C14||";
+    OD3P40  : LORAX = "1:FB3|2:FH3R2,PA5R2C13->LC1_C14,->LC2_C14||";
+    LC1_C14 : LORAX = "1:MSW0R2C13,HHR23R2->OH0R2P19|";
+    LC2_C14 : LORAX = "1:MSW1R2C13,G29R2->OH1R2P20|";
+	LC1_C14 : LORAX2 = "X, X, OD3P40, OD2P38";
+	LC2_C14 : LORAX2 = "X, X, OD3P40, OD2P38";
+END;
