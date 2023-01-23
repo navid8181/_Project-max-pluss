@@ -24,61 +24,22 @@ HIF003
 --
 FILES
 {
-	lpm_constant.tdf
-	{
-		lpm_constant [LPM_CVALUE,LPM_WIDTH,USE_LPM_FOR_AHDL_OPERATORS] []
-		{
-			5 [LPM_CVALUE=0,LPM_WIDTH=1,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
-		}
-	}
-	zero.tdf
-	{
-		zero [USE_LPM_FOR_AHDL_OPERATORS] [lpm_constant.inc]
-		{
-			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
-		}
-	}
-	mux4x1.gdf
-	{
-		mux4x1 [] []
-		{
-			3 [] [];
-		}
-	}
-	fulladder.gdf
-	{
-		fulladder [] []
-		{
-			2 [] [];
-		}
-	}
-	arithmeticlayer.gdf
-	{
-		arithmeticlayer [] []
-		{
-			1 [] [];
-		}
-	}
-	testaritmetic.gdf
-	{
-		testaritmetic [] []
-		{
-			0 [] [];
-		}
-	}
 }
 TREE
 {
-	testaritmetic::(0,0):(0): testaritmetic.gdf
+	4bitregister::(0,0):(0): 4bitregister.gdf
 	{
-		arithmeticlayer::(0,0):(1): arithmeticlayer.gdf
-		{
-			fulladder:2:(0,0):(12): fulladder.gdf;
-			mux4x1:3:(0,0):(6): mux4x1.gdf;
-			zero:4:(0,0):(3): zero.tdf
-			{
-				lpm_constant:5:(48,2):(28,lpm_constant_component): lpm_constant.tdf;
-			}
-		}
+		d::(0,0):(44): d.tdf;
+		d::(0,0):(43): d.tdf;
+		d::(0,0):(42): d.tdf;
+		d::(0,0):(40): d.tdf;
+		mux2x1::(0,0):(38): mux2x1.gdf;
+		mux2x1::(0,0):(37): mux2x1.gdf;
+		mux2x1::(0,0):(36): mux2x1.gdf;
+		mux2x1::(0,0):(35): mux2x1.gdf;
+		ha::(0,0):(27): ha.gdf;
+		ha::(0,0):(24): ha.gdf;
+		ha::(0,0):(23): ha.gdf;
+		ha::(0,0):(22): ha.gdf;
 	}
 }

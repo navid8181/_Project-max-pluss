@@ -24,44 +24,37 @@ HIF003
 --
 FILES
 {
-	lpm_constant.tdf
+	d.tdf
 	{
-		lpm_constant [LPM_CVALUE,LPM_WIDTH,USE_LPM_FOR_AHDL_OPERATORS] []
+		d [USE_LPM_FOR_AHDL_OPERATORS] [lpm_ff.inc]
 		{
-			5 [LPM_CVALUE=0,LPM_WIDTH=1,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
+			3 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [sclr,data,clock,enable,q];
 		}
 	}
-	zero.tdf
+	mux2x1.gdf
 	{
-		zero [USE_LPM_FOR_AHDL_OPERATORS] [lpm_constant.inc]
-		{
-			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
-		}
-	}
-	mux4x1.gdf
-	{
-		mux4x1 [] []
-		{
-			3 [] [];
-		}
-	}
-	fulladder.gdf
-	{
-		fulladder [] []
+		mux2x1 [] []
 		{
 			2 [] [];
 		}
 	}
-	arithmeticlayer.gdf
+	ha.gdf
 	{
-		arithmeticlayer [] []
+		ha [] []
 		{
 			1 [] [];
 		}
 	}
-	testaritmetic.gdf
+	lpm_ff.tdf
 	{
-		testaritmetic [] []
+		lpm_ff [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_AVALUE=0,LPM_SVALUE=0,LPM_FFTYPE=DFF,DEVICE_FAMILY] [aglobal.inc,lpm_constant.inc]
+		{
+			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=1,LPM_AVALUE=0,LPM_SVALUE=0,LPM_FFTYPE=DFF,DEVICE_FAMILY=ACEX1K] [sclr,enable,clock,data0,q0];
+		}
+	}
+	testregister.gdf
+	{
+		testregister [] []
 		{
 			0 [] [];
 		}
@@ -69,16 +62,31 @@ FILES
 }
 TREE
 {
-	testaritmetic::(0,0):(0): testaritmetic.gdf
+	testregister::(0,0):(0): testregister.gdf
 	{
-		arithmeticlayer::(0,0):(1): arithmeticlayer.gdf
+		ha::(0,0):(13): ha.gdf;
+		ha::(0,0):(12): ha.gdf;
+		ha::(0,0):(11): ha.gdf;
+		ha::(0,0):(10): ha.gdf;
+		mux2x1::(0,0):(9): mux2x1.gdf;
+		mux2x1::(0,0):(8): mux2x1.gdf;
+		mux2x1::(0,0):(7): mux2x1.gdf;
+		mux2x1::(0,0):(6): mux2x1.gdf;
+		d::(0,0):(5): d.tdf
 		{
-			fulladder:2:(0,0):(12): fulladder.gdf;
-			mux4x1:3:(0,0):(6): mux4x1.gdf;
-			zero:4:(0,0):(3): zero.tdf
-			{
-				lpm_constant:5:(48,2):(28,lpm_constant_component): lpm_constant.tdf;
-			}
+			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
+		}
+		d::(0,0):(4): d.tdf
+		{
+			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
+		}
+		d::(0,0):(3): d.tdf
+		{
+			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
+		}
+		d::(0,0):(2): d.tdf
+		{
+			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
 		}
 	}
 }

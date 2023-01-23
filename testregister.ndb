@@ -1,0 +1,106 @@
+NDB006
+The number of symbol table entries is: 13
+The length of the symbol table is: 209
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|ha:10|
+6	|ha:13|
+>	|ha:12|
+F	|ha:11|
+N	|mux2x1:6|
+Y	|mux2x1:7|
+d	|mux2x1:8|
+o	|mux2x1:9|
+z	|D:2|lpm_ff:lpm_ff_component|
+":	|D:3|lpm_ff:lpm_ff_component|
+"X	|D:4|lpm_ff:lpm_ff_component|
+"v	|D:5|lpm_ff:lpm_ff_component|
+
+The number of name info structs is : 82
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	Ky'E	!	4	6	>	F	N	:27	"\
+#	Ky&|	!	1	c	a0	m
+$	Ky&|	!	1	h	a1	r
+%	Ky&|	!	1	m	a2	q
+&	Ky&|	!	1	r	a3	p
+'	Ky&|	!	4	6	>	F	N	Clear	t
+(	(@>U^	!	4	6	>	F	N	clk	s
+)	IGdq	!	cout	y
+*	Ky&|	!	6	U	c	h	m	r	"	INR	o
++	Ky&|	!	1	"	Load	n
+,	IGdq	!	q0	u
+-	IGdq	!	q1	v
+.	IGdq	!	q2	w
+/	IGdq	!	q3	x
+0	IeEA	z	166	35	:41	$%
+1	IeEA	z	167	18	:42	$&
+2	IeEA	z	167	18	:43	$'
+3	IeEA	z	167	9	:44	$(
+4	IeEA	z	166	25	:45	$)
+5	IeEA	z	166	17	:46	$*
+6	L8e}	z	58	6	4	U	c	h	,	dffs0	$!
+7	IeEA	z	166	17	nxd0	$+
+8	IeEA	":	166	35	:41	$[
+9	IeEA	":	167	18	:42	$\
+:	IeEA	":	167	18	:43	$]
+;	IeEA	":	167	9	:44	$^
+<	IeEA	":	166	25	:45	$_
+=	IeEA	":	166	17	:46	$`
+>	L8e}	":	58	6	3	U	h	-	dffs0	$W
+?	IeEA	":	166	17	nxd0	$a
+@	IeEA	"X	166	35	:41	%2
+A	IeEA	"X	167	18	:42	%3
+B	IeEA	"X	167	18	:43	%4
+C	IeEA	"X	167	9	:44	%5
+D	IeEA	"X	166	25	:45	%6
+E	IeEA	"X	166	17	:46	%7
+F	L8e}	"X	58	6	4	Y	]	m	.	dffs0	%.
+G	IeEA	"X	166	17	nxd0	%8
+H	IeEA	"v	166	35	:41	%g
+I	IeEA	"v	167	18	:42	%h
+J	IeEA	"v	167	18	:43	%i
+K	IeEA	"v	167	9	:44	%j
+L	IeEA	"v	166	25	:45	%k
+M	IeEA	"v	166	17	:46	%l
+N	L8e}	"v	58	6	3	]	r	/	dffs0	%c
+O	IeEA	"v	166	17	nxd0	%m
+P	IVOQ	.	S	:3	"f
+Q	IVOQ	.	R	:4	"g
+R	INu}	.	Q	c	"g
+S	INu}	.	P	S	"f
+T	IVOQ	F	W	:3	#'
+U	L)p?	F	V	3	Y	]	m	:4	#(
+V	INv_	F	U	c	#(
+W	INu}	F	T	S	#'
+X	IVOQ	>	[	:3	"{
+Y	L)p?	>	Z	1	r	:4	"|
+Z	INv_	>	Y	c	"|
+[	INu}	>	X	S	"{
+\	IVOQ	6	_	:3	"q
+]	L)p?	6	^	1	)	:4	"r
+^	INv_	6	]	c	"r
+_	INu}	6	\	S	"q
+`	IGdW	N	:10	#4
+a	IGdW	N	:5	#1
+b	IGdW	N	:6	#2
+c	L)p?	N	d	1	6	:8	#3
+d	INv_	N	c	O	#3
+e	IGdW	Y	:10	#A
+f	IGdW	Y	:5	#>
+g	IGdW	Y	:6	#?
+h	L)p?	Y	i	1	>	:8	#@
+i	INv_	Y	h	O	#@
+j	IGdW	d	:10	#M
+k	IGdW	d	:5	#J
+l	IGdW	d	:6	#K
+m	L)p?	d	n	1	F	:8	#L
+n	INv_	d	m	O	#L
+o	IGdW	o	:10	#Y
+p	IGdW	o	:5	#V
+q	IGdW	o	:6	#W
+r	L)p?	o	s	1	N	:8	#X
+s	INv_	o	r	O	#X
