@@ -24,30 +24,9 @@ HIF003
 --
 FILES
 {
-	zero.tdf
+	extractor.gdf
 	{
-		zero [USE_LPM_FOR_AHDL_OPERATORS] [lpm_constant.inc]
-		{
-			2 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
-		}
-	}
-	compressor16.v
-	{
-		compressor16 [] []
-		{
-			1 [] [];
-		}
-	}
-	lpm_constant.tdf
-	{
-		lpm_constant [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_CVALUE] []
-		{
-			3 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=1,LPM_CVALUE=0] [result0];
-		}
-	}
-	test_compressor.gdf
-	{
-		test_compressor [] []
+		extractor [] []
 		{
 			0 [] [];
 		}
@@ -55,12 +34,5 @@ FILES
 }
 TREE
 {
-	test_compressor::(0,0):(0): test_compressor.gdf
-	{
-		zero:2:(0,0):(4): zero.tdf
-		{
-			lpm_constant:3:(48,2):(28,lpm_constant_component): lpm_constant.tdf;
-		}
-		compressor16:1:(0,0):(1): compressor16.v;
-	}
+	extractor::(0,0):(0): extractor.gdf;
 }
