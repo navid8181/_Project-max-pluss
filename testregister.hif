@@ -64,27 +64,27 @@ TREE
 {
 	testregister::(0,0):(0): testregister.gdf
 	{
-		ha::(0,0):(13): ha.gdf;
-		ha::(0,0):(12): ha.gdf;
-		ha::(0,0):(11): ha.gdf;
-		ha::(0,0):(10): ha.gdf;
-		mux2x1::(0,0):(9): mux2x1.gdf;
-		mux2x1::(0,0):(8): mux2x1.gdf;
-		mux2x1::(0,0):(7): mux2x1.gdf;
-		mux2x1::(0,0):(6): mux2x1.gdf;
-		d::(0,0):(5): d.tdf
+		ha:1:(0,0):(10): ha.gdf;
+		ha:1:(0,0):(13): ha.gdf;
+		ha:1:(0,0):(12): ha.gdf;
+		ha:1:(0,0):(11): ha.gdf;
+		mux2x1:2:(0,0):(6): mux2x1.gdf;
+		mux2x1:2:(0,0):(7): mux2x1.gdf;
+		mux2x1:2:(0,0):(8): mux2x1.gdf;
+		mux2x1:2:(0,0):(9): mux2x1.gdf;
+		d:3:(0,0):(2): d.tdf
 		{
 			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
 		}
-		d::(0,0):(4): d.tdf
+		d:3:(0,0):(3): d.tdf
 		{
 			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
 		}
-		d::(0,0):(3): d.tdf
+		d:3:(0,0):(4): d.tdf
 		{
 			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
 		}
-		d::(0,0):(2): d.tdf
+		d:3:(0,0):(5): d.tdf
 		{
 			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
 		}

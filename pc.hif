@@ -24,61 +24,13 @@ HIF003
 --
 FILES
 {
-	arithmeticlayer.gdf
-	{
-		arithmeticlayer [] []
-		{
-			1 [] [];
-		}
-	}
-	fulladder.gdf
-	{
-		fulladder [] []
-		{
-			2 [] [];
-		}
-	}
-	mux4x1.gdf
-	{
-		mux4x1 [] []
-		{
-			3 [] [];
-		}
-	}
-	zero.tdf
-	{
-		zero [USE_LPM_FOR_AHDL_OPERATORS] [lpm_constant.inc]
-		{
-			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
-		}
-	}
-	lpm_constant.tdf
-	{
-		lpm_constant [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_CVALUE] []
-		{
-			5 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=1,LPM_CVALUE=0] [result0];
-		}
-	}
-	testaritmetic.gdf
-	{
-		testaritmetic [] []
-		{
-			0 [] [];
-		}
-	}
 }
 TREE
 {
-	testaritmetic::(0,0):(0): testaritmetic.gdf
+	pc::(0,0):(0): pc.gdf
 	{
-		arithmeticlayer::(0,0):(1): arithmeticlayer.gdf
-		{
-			fulladder:2:(0,0):(12): fulladder.gdf;
-			mux4x1:3:(0,0):(6): mux4x1.gdf;
-			zero:4:(0,0):(3): zero.tdf
-			{
-				lpm_constant:5:(48,2):(28,lpm_constant_component): lpm_constant.tdf;
-			}
-		}
+		4bitregister::(0,0):(30): 4bitregister.gdf;
+		4bitregister::(0,0):(31): 4bitregister.gdf;
+		4bitregister::(0,0):(32): 4bitregister.gdf;
 	}
 }

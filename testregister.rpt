@@ -2,7 +2,7 @@ Project Information                     d:\_project max pluss\testregister.rpt
 
 MAX+plus II Compiler Report File
 Version 10.2 07/10/2002
-Compiled: 01/23/2023 10:49:37
+Compiled: 01/23/2023 16:16:20
 
 Copyright (C) 1988-2002 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -547,9 +547,9 @@ Compilation Times
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
-   Fitter                                 00:00:01
+   Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
-   Assembler                              00:00:00
+   Assembler                              00:00:01
    --------------------------             --------
    Total Time                             00:00:01
 
@@ -557,4 +557,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 17,444K
+Peak memory allocated during compilation  = 16,362K
