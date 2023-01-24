@@ -1,0 +1,254 @@
+Debug for fit_fastio_pin_reassign program (iteration 1):
+
+I/O delay matrix:-
+
+	Comb	Reg 	SU  	Pin 	Cout	Casc
+Clk 	N/A	21	N/A	32	N/A	N/A
+Clr 	N/A	21	N/A	32	N/A	N/A
+Pre 	N/A	19	N/A	30	N/A	N/A
+Ena 	N/A	N/A	12	N/A	N/A	N/A
+Ald 	N/A	19	N/A	30	N/A	N/A
+OE  	N/A	N/A	N/A	30	N/A	N/A
+Cin 	N/A	N/A	N/A	N/A	N/A	N/A
+Casc	N/A	N/A	N/A	N/A	N/A	N/A
+Pin 	8	N/A	51	N/A	N/A	N/A
+A   	N/A	N/A	9	19	N/A	N/A
+B   	N/A	N/A	N/A	N/A	N/A	N/A
+C   	N/A	N/A	N/A	N/A	N/A	N/A
+D   	N/A	N/A	N/A	N/A	N/A	N/A
+
+Global clock delay matrix:-
+
+	Comb	Reg 	SU  	Pin 	Cout	Casc
+Clk :	N/A	3	15	N/A	7	N/A
+Clr :	N/A	8	N/A	N/A	12	N/A
+Pre :	N/A	8	N/A	N/A	12	N/A
+Ena :	N/A	N/A	10	N/A	N/A	N/A
+Ald :	N/A	8	N/A	N/A	12	N/A
+OE  :	N/A	N/A	N/A	N/A	N/A	N/A
+Cin :	9	N/A	9	N/A	1	11
+Casc:	4	N/A	4	N/A	N/A	6
+Pin :	N/A	N/A	N/A	N/A	N/A	N/A
+A   :	11	N/A	11	N/A	4	13
+B   :	10	N/A	10	N/A	4	12
+C   :	10	N/A	10	N/A	N/A	12
+D   :	8	N/A	8	N/A	N/A	10
+
+I/O delay matrix:-
+
+	Comb	Reg 	SU  	Pin 	Cout	Casc
+Clk 	N/A	21	N/A	32	N/A	N/A
+Clr 	N/A	21	N/A	32	N/A	N/A
+Pre 	N/A	19	N/A	30	N/A	N/A
+Ena 	N/A	N/A	12	N/A	N/A	N/A
+Ald 	N/A	19	N/A	30	N/A	N/A
+OE  	N/A	N/A	N/A	30	N/A	N/A
+Cin 	N/A	N/A	N/A	N/A	N/A	N/A
+Casc	N/A	N/A	N/A	N/A	N/A	N/A
+Pin 	8	N/A	51	N/A	N/A	N/A
+A   	N/A	N/A	9	19	N/A	N/A
+B   	N/A	N/A	N/A	N/A	N/A	N/A
+C   	N/A	N/A	N/A	N/A	N/A	N/A
+D   	N/A	N/A	N/A	N/A	N/A	N/A
+
+Global clock delay matrix:-
+
+	Comb	Reg 	SU  	Pin 	Cout	Casc
+Clk :	N/A	3	15	N/A	7	N/A
+Clr :	N/A	8	N/A	N/A	12	N/A
+Pre :	N/A	8	N/A	N/A	12	N/A
+Ena :	N/A	N/A	10	N/A	N/A	N/A
+Ald :	N/A	8	N/A	N/A	12	N/A
+OE  :	N/A	N/A	N/A	N/A	N/A	N/A
+Cin :	9	N/A	9	N/A	1	11
+Casc:	4	N/A	4	N/A	N/A	6
+Pin :	N/A	N/A	N/A	N/A	N/A	N/A
+A   :	11	N/A	11	N/A	4	13
+B   :	10	N/A	10	N/A	4	12
+C   :	10	N/A	10	N/A	N/A	12
+D   :	8	N/A	8	N/A	N/A	10
+
+Threshold are: for Tsu - 3.800000ns and for Tco - 7.900000ns
+Global Tsu=-1(-1.000000), Tco=-1(-1.000000)
+
+
+Input/output cells:
+	i1 -> 40 : IN
+	i1clk -> 39 : IN
+	~PIN000 : IN
+	q6 : OUT
+	q7 : OUT
+
+Set clique dont_touch:
+
+Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: i1, rdfbits: 805, fast_io bit: 0, periphery: 0,0
+Cell: i1clk, rdfbits: d, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN000, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: q6, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: q7, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+
+
+Virtual pin individual set-up and clock-to-output times:
+For pin i1 delays are: tsu=-1, tco=-1;
+For pin i1clk delays are: tsu=-1, tco=-1;
+For pin ~PIN000 delays are: tsu=-1, tco=-1;
+For pin q6 delays are: tsu=-1, tco=-1;
+For pin q7 delays are: tsu=-1, tco=-1;
+
+
+Cells driven by pins
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6 is driven by i1
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7 is driven by i1
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6 is driven by i1
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7 is driven by i1
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6 is driven by i1clk
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7 is driven by i1clk
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6 is driven by i1clk
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7 is driven by i1clk
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node is driven by ~PIN000
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node is driven by ~PIN000
+
+
+Cells driving pins
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node drives q6
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node drives q7
+
+
+FAST I/O assignement after cleaning up:
+i1: fast_io=0
+i1clk: fast_io=0
+~PIN000: fast_io=0
+q6: fast_io=0
+q7: fast_io=0
+
+
+Layer-by-layer logic: fast_io=0
+
+Layer 0
+	i1, RDF bits: 805, lab#=0
+	i1clk, RDF bits: d, lab#=0
+	~PIN000, RDF bits: 5, lab#=0
+	q6, RDF bits: 3, lab#=0
+	q7, RDF bits: 3, lab#=0
+
+Layer 1
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node, RDF bits: 50, lab#=0
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node, RDF bits: 50, lab#=0
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6, RDF bits: 8000, lab#=0
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7, RDF bits: 8000, lab#=0
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6, RDF bits: 8000, lab#=0
+	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7, RDF bits: 8000, lab#=0
+
+
+Physical pins available:
+row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: -1, col: 1 RDF: 800003c7
+row: -1, col: 5 RDF: 800003c7
+row: -1, col: 6 RDF: 800003c7
+row: -1, col: 8 RDF: 800003c7
+row: -1, col: 9 RDF: 800003c7
+row: -1, col: 10 RDF: 800003c7
+row: -1, col: 11 RDF: 800003c7
+row: -1, col: -1 RDF: 4601080d
+row: -1, col: -1 RDF: 4000d
+row: -1, col: -1 RDF: 4601080d
+row: -1, col: 13 RDF: 800003c7
+row: -1, col: 14 RDF: 800003c7
+row: -1, col: 15 RDF: 800003c7
+row: -1, col: 16 RDF: 800003c7
+row: -1, col: 17 RDF: 800003c7
+47.	29 (LOCK)	row: -1, col: 18 RDF: 800003c7
+row: -1, col: 19 RDF: 800003c7
+row: -1, col: 20 RDF: 800003c7
+row: -1, col: 22 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 2, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+row: 1, col: -1 RDF: 800003c7
+66.	10 (INIT_DONE)	row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+68.	8 (RDYnBUSY)	row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+row: 0, col: -1 RDF: 800003c7
+71.	5 (CLKUSR)	row: 0, col: -1 RDF: 800003c7
+77.	99 (nCS)	row: -1, col: 23 RDF: 800003c7
+78.	98 (CS)	row: -1, col: 23 RDF: 800003c7
+79.	97 (nWS)	row: -1, col: 22 RDF: 800003c7
+80.	96 (nRS)	row: -1, col: 21 RDF: 800003c7
+row: -1, col: 18 RDF: 800003c7
+83.	93 (DEV_OE)	row: -1, col: 12 RDF: 800003c7
+row: -1, col: -1 RDF: 4601080d
+row: -1, col: -1 RDF: d
+row: -1, col: -1 RDF: 4601080d
+89.	87 (DEV_CLRn)	row: -1, col: 11 RDF: 800003c7
+row: -1, col: 8 RDF: 800003c7
+row: -1, col: 7 RDF: 800003c7
+92.	84 (DATA7)	row: -1, col: 4 RDF: 800003c7
+94.	82 (DATA6)	row: -1, col: 3 RDF: 800003c7
+95.	81 (DATA5)	row: -1, col: 2 RDF: 800003c7
+96.	80 (DATA4)	row: -1, col: 2 RDF: 800003c7
+97.	79 (DATA3)	row: -1, col: 1 RDF: 800003c7
+98.	78 (DATA2)	row: -1, col: 0 RDF: 800003c7
+99.	77 (DATA1)	row: -1, col: 0 RDF: 800003c7
+
+Sorted pins:
+
+Pin ~PIN000: Link strength=192, fast_io=0, group No.=0
+Pin i1: Link strength=160, fast_io=0, group No.=0
+Pin i1clk: Link strength=160, fast_io=0, group No.=0
+Pin q6: Link strength=144, fast_io=0, group No.=0
+Pin q7: Link strength=144, fast_io=0, group No.=0
+
+Output pin initial assignments:
+
+Initially output pin q6 is assigned to pin 71(index:5)
+Initially output pin q7 is assigned to pin 70(index:6)
+
+All the rest pin assignments:
+
+Initially pin ~PIN000 is assigned to pin 69(index:7, cost:13441)
+Initially pin q6 is assigned to pin 71(index:5, cost:8641)
+Initially pin q7 is assigned to pin 70(index:6, cost:8641)
+Initially pin ~PIN000 is assigned to pin 69(index:7, cost:13441)
+Initially pin q6 is assigned to pin 71(index:5, cost:8641)
+Initially pin q7 is assigned to pin 70(index:6, cost:8641)
+Pin 69 is being cleared (used to be vpin ~PIN000)
+Pin 71 is being cleared (used to be vpin q6)
+Pin 70 is being cleared (used to be vpin q7)
+
+
+Layer-by-layer logic: fast_io=1
+
+Layer 0
+	i1, RDF bits: 805, lab#=0
+	i1clk, RDF bits: d, lab#=0
+	~PIN000, RDF bits: 5, lab#=0
+	q6, RDF bits: 3, lab#=0
+	q7, RDF bits: 3, lab#=0
+
+Layer 1
+
+Logic level 1 allocation.

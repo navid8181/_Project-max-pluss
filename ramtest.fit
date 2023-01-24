@@ -1,0 +1,84 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.2 07/10/2002            
+-- Compiled: 01/24/2023 11:06:41      
+
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "ramtest"
+BEGIN
+
+    DEVICE = "EP1K50TC144-1";
+
+    "q1"                           : OUTPUT_PIN = 19     ;
+    "q2"                           : OUTPUT_PIN = 30     ;
+    "q3"                           : OUTPUT_PIN = 96     ;
+    "q4"                           : OUTPUT_PIN = 101    ;
+    "q5"                           : OUTPUT_PIN = 89     ;
+    "q6"                           : OUTPUT_PIN = 10     ;
+    "q7"                           : OUTPUT_PIN = 80     ;
+    "q8"                           : OUTPUT_PIN = 99     ;
+    "q9"                           : OUTPUT_PIN = 100    ;
+    "q10"                          : OUTPUT_PIN = 12     ;
+    "q11"                          : OUTPUT_PIN = 22     ;
+    "q12"                          : OUTPUT_PIN = 17     ;
+    "q13"                          : OUTPUT_PIN = 78     ;
+    "q14"                          : OUTPUT_PIN = 33     ;
+    "q15"                          : OUTPUT_PIN = 29     ;
+    "q16"                          : OUTPUT_PIN = 83     ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_0" : LOCATION   = EC1_G  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1" : LOCATION   = EC1_I  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_2" : LOCATION   = EC1_C  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3" : LOCATION   = EC9_G  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_4" : LOCATION   = EC1_F  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_5" : LOCATION   = EC9_C  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6" : LOCATION   = EC9_I  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7" : LOCATION   = EC9_F  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8" : LOCATION   = EC9_A  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_9" : LOCATION   = EC1_A  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_10" : LOCATION   = EC9_E  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11" : LOCATION   = EC1_E  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_12" : LOCATION   = EC9_J  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_13" : LOCATION   = EC1_J  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_14" : LOCATION   = EC9_H  ;
+    "|myRam:4|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_15" : LOCATION   = EC1_H  ;
+
+END;
+
+INTERNAL_INFO "ramtest"
+BEGIN
+	DEVICE = EP1K50TC144-1;
+    EC1_G   : LORAX = "1:RB0R6,RV42,G79R4->OH7R4P19|";
+    EC1_I   : LORAX = "1:RB0R8,G0R8->OH2R8P30|";
+    EC1_C   : LORAX = "1:RB0R2,G81R2->OH13R2P96|";
+    EC9_G   : LORAX = "1:RB8R6,RV18,G5R0->OH9R0P101|";
+    EC1_F   : LORAX = "1:RB0R5,G8R5->OH11R5P89|";
+    EC9_C   : LORAX = "1:RB8R2,G72R2->OH7R2P10|";
+    EC9_I   : LORAX = "1:RB8R8,G125R8,V16C28,G137R8->OH13R8P80|";
+    EC9_F   : LORAX = "1:RB8R5,G98R5,V22C33,G84R0->OH15R0P99|";
+    EC9_A   : LORAX = "1:RB8R0,G125R0,V15C28,G137R0->OH13R0P100|";
+    EC1_A   : LORAX = "1:RB0R0,RV24,G0R3->OH2R3P12|";
+    EC9_E   : LORAX = "1:RB8R4,RV12,G37R6->OH1R6P22|";
+    EC1_E   : LORAX = "1:RB0R4,G7R4->OH2R4P17|";
+    EC9_J   : LORAX = "1:RB8R9,G142R9->OH15R9P78|";
+    EC1_J   : LORAX = "1:RB0R9,G77R9,V19C10,G132R9->OH6R9P33|";
+    EC9_H   : LORAX = "1:RB8R7,G112R7->OH6R7P29|";
+    EC1_H   : LORAX = "1:RB0R7,G20R7->OH11R7P83|";
+END;

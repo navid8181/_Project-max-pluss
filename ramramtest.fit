@@ -1,0 +1,213 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.2 07/10/2002            
+-- Compiled: 01/24/2023 12:07:40      
+
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "ramramtest"
+BEGIN
+
+    DEVICE = "EP1K100QC208-1";
+
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|xladdr0" : INPUT_PIN  = 183    ;
+    "i1"                           : INPUT_PIN  = 80     ;
+    "i1clk"                        : INPUT_PIN  = 79     ;
+    "q0"                           : OUTPUT_PIN = 127    ;
+    "q2"                           : OUTPUT_PIN = 150    ;
+    "q3"                           : OUTPUT_PIN = 148    ;
+    "q4"                           : OUTPUT_PIN = 147    ;
+    "q8"                           : OUTPUT_PIN = 142    ;
+    "q9"                           : OUTPUT_PIN = 141    ;
+    "q10"                          : OUTPUT_PIN = 139    ;
+    "q11"                          : OUTPUT_PIN = 135    ;
+    "q12"                          : OUTPUT_PIN = 133    ;
+    "q13"                          : OUTPUT_PIN = 132    ;
+    "q14"                          : OUTPUT_PIN = 131    ;
+    "q15"                          : OUTPUT_PIN = 126    ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:117|result_node" : LOCATION   = LC2_F6 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:147|result_node" : LOCATION   = LC2_A1 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:162|result_node" : LOCATION   = LC6_A1 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:177|result_node" : LOCATION   = LC1_B2 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:237|result_node" : LOCATION   = LC7_B2 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:252|result_node" : LOCATION   = LC1_C3 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:267|result_node" : LOCATION   = LC5_C3 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:282|result_node" : LOCATION   = LC1_D4 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:297|result_node" : LOCATION   = LC6_D4 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:312|result_node" : LOCATION   = LC1_E5 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:327|result_node" : LOCATION   = LC5_E5 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:342|result_node" : LOCATION   = LC5_F6 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_0" : LOCATION   = EC1_H  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_2" : LOCATION   = EC9_H  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3" : LOCATION   = EC1_I  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_4" : LOCATION   = EC9_I  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8" : LOCATION   = EC1_J  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_9" : LOCATION   = EC9_J  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_10" : LOCATION   = EC1_K  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11" : LOCATION   = EC9_K  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_12" : LOCATION   = EC1_L  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_13" : LOCATION   = EC9_L  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_14" : LOCATION   = EC1_G  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_15" : LOCATION   = EC9_G  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_0" : LOCATION   = EC1_F  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_2" : LOCATION   = EC1_A  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3" : LOCATION   = EC9_A  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_4" : LOCATION   = EC1_B  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8" : LOCATION   = EC9_B  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_9" : LOCATION   = EC1_C  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_10" : LOCATION   = EC9_C  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11" : LOCATION   = EC1_D  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_12" : LOCATION   = EC9_D  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_13" : LOCATION   = EC1_E  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_14" : LOCATION   = EC9_E  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_15" : LOCATION   = EC9_F  ;
+
+END;
+
+INTERNAL_INFO "ramramtest"
+BEGIN
+	DEVICE = EP1K100QC208-1;
+    LC2_F6  : LORAX = "1:MSW2R5C4,HHL37R5->OH10R5P127|";
+    LC2_A1  : LORAX = "1:MSW1R0C0,HHL38R0->OH9R0P150|";
+    LC6_A1  : LORAX = "1:MSW5R0C0,HHL102R0->OH13R0P148|";
+    LC1_B2  : LORAX = "1:MSW0R1C1,HHL42R1->OH8R1P147|";
+    LC7_B2  : LORAX = "1:MSW7R1C0,HHL61R1->OH15R1P142|";
+    LC1_C3  : LORAX = "1:MSW0R2C2,HHL44R2->OH8R2P141|";
+    LC5_C3  : LORAX = "1:MSW4R2C2,HHL74R2->OH12R2P139|";
+    LC1_D4  : LORAX = "1:MSW0R3C3,HHL40R3->OH8R3P135|";
+    LC6_D4  : LORAX = "1:MSW6R3C2,HHL95R3->OH14R3P133|";
+    LC1_E5  : LORAX = "1:MSW0R4C4,HHL50R4->OH8R4P132|";
+    LC5_E5  : LORAX = "1:MSW4R4C4,HHL82R4->OH12R4P131|";
+    LC5_F6  : LORAX = "1:MSW4R5C5,HHL58R5->OH12R5P126|";
+    EC1_H   : LORAX = "1:RB0R7,RV45,G14R5,PA0R5C5->LC2_F6|";
+    EC9_H   : LORAX = "1:RB8R7,RV21,G19R0,PA20R0C0->LC2_A1|";
+    EC1_I   : LORAX = "1:RB0R8,RV25,G159R0,PA9R0C0->LC6_A1|";
+    EC9_I   : LORAX = "1:RB8R8,RV1,G50R1,PA17R1C1->LC1_B2|";
+    EC1_J   : LORAX = "1:RB0R9,RV27,G2R1,PA23R1C1->LC7_B2|";
+    EC9_J   : LORAX = "1:RB8R9,RV3,G73R2,PA22R2C2->LC1_C3|";
+    EC1_K   : LORAX = "1:RB0R10,RV30,G3R2,PA3R2C2->LC5_C3|";
+    EC9_K   : LORAX = "1:RB8R10,RV6,G42R3,PA0R3C3->LC1_D4|";
+    EC1_L   : LORAX = "1:RB0R11,RV34,G5R3,PA20R3C3->LC6_D4|";
+    EC9_L   : LORAX = "1:RB8R11,RV10,G21R4,PA18R4C4->LC1_E5|";
+    EC1_G   : LORAX = "1:RB0R6,RV42,G13R4,PA1R4C4->LC5_E5|";
+    EC9_G   : LORAX = "1:RB8R6,RV18,G20R5,PA8R5C5->LC5_F6|";
+    EC1_F   : LORAX = "1:RB0R5,G12R5,PA12R5C5->LC2_F6|";
+    EC1_A   : LORAX = "1:RB0R0,G23R0,PA16R0C0->LC2_A1|";
+    EC9_A   : LORAX = "1:RB8R0,G50R0,PA17R0C0->LC6_A1|";
+    EC1_B   : LORAX = "1:RB0R1,G106R1,PA6R1C1->LC1_B2|";
+    EC9_B   : LORAX = "1:RB8R1,G73R1,PA22R1C1->LC7_B2|";
+    EC1_C   : LORAX = "1:RB0R2,G111R2,PA1R2C2->LC1_C3|";
+    EC9_C   : LORAX = "1:RB8R2,G42R2,PA0R2C2->LC5_C3|";
+    EC1_D   : LORAX = "1:RB0R3,G112R3,PA16R3C3->LC1_D4|";
+    EC9_D   : LORAX = "1:RB8R3,G21R3,PA18R3C3->LC6_D4|";
+    EC1_E   : LORAX = "1:RB0R4,G11R4,PA14R4C4->LC1_E5|";
+    EC9_E   : LORAX = "1:RB8R4,G37R4,PA16R4C4->LC5_E5|";
+    EC9_F   : LORAX = "1:RB8R5,G69R5,PA1R5C5->LC5_F6|";
+    OD3P80  : LORAX = "  1/  2. 1:FB3->EC1_H,->EC9_H,->EC1_I,->EC9_I,->EC1_J,->EC9_J,->EC1_K,->EC9_K,->EC1_L,->EC9_L,->EC1_G,->EC9_G,->EC1_F,->EC1_A,->EC9_A,->EC1_B,->EC9_B,->EC1_C,->EC9_C,->EC1_D,->EC9_D,->EC1_E,->EC9_E,->EC9_F|2:FH3R0|3:LRP13R0->EC1_A|,3:MRP13R0->EC9_A|,3:LWP13R0->EC1_A|,3:MWP13R0->EC9_A||,2:FH3R1|3:LRP13R1->EC1_B|,3:MRP13R1->EC9_B|,3:LWP13R1->EC1_B|,3:MWP13R1->EC9_B||,2:FH3R2|3:LRP13R2->EC1_C|,3:MRP13R2->EC9_C|,3:LWP13R2->EC1_C|,3:MWP13R2->EC9_C||,2:FH3R3|3:LRP13R3->EC1_D|,3:MRP13R3->EC9_D|,3:LWP13R3->EC1_D|,3:MWP13R3->EC9_D||,2:FH3R4|3:LRP13R4->EC1_E|,3:MRP13R4->EC9_E|,3:LWP13R4->EC1_E|,3:MWP13R4->EC9_E||,2:FH3R5|3:LRP13R5->EC1_F|,3:MRP13R5->EC9_F|,3:LWP13R5->EC1_F|,3:MWP13R5->EC9_F||,2:FH3R6|3:LRP13R6->EC1_G|,3:MRP13R6->EC9_G|,3:LWP13R6->EC1_G|,3:MWP13R6->EC9_G||,2:FH3R7|3:LRP13R7->EC1_H|,3:MRP13R7->EC9_H|,3:LWP13R7->EC1_H|,3:MWP13R7->EC9_H||,2:FH3R8|3:LRP13R8->EC1_I|,3:MRP13R8->EC9_I|,3:LWP13R8->EC1_I|,3:MWP13R8->EC9_I||,2:FH3R9|3:LRP13R9->EC1_J|,3:MRP13R9->EC9_J|,3:LWP13R9->EC1_J|,3:";
+    OD3P80  : LORAX = "  2/  2. MWP13R9->EC9_J||,2:FH3R10|3:LRP13R10->EC1_K|,3:MRP13R10->EC9_K|,3:LWP13R10->EC1_K|,3:MWP13R10->EC9_K||,2:FH3R11|3:LRP13R11->EC1_L|,3:MRP13R11->EC9_L|,3:LWP13R11->EC1_L|,3:MWP13R11->EC9_L|||";
+    OD5P79  : LORAX = "1:FB5->EC1_H,->EC9_H,->EC1_I,->EC9_I,->EC1_J,->EC9_J,->EC1_K,->EC9_K,->EC1_L,->EC9_L,->EC1_G,->EC9_G,->EC1_F,->EC1_A,->EC9_A,->EC1_B,->EC9_B,->EC1_C,->EC9_C,->EC1_D,->EC9_D,->EC1_E,->EC9_E,->EC9_F|2:CH1R0|3:LWP11R0->EC1_A|,3:MWP11R0->EC9_A||,2:CH1R1|3:LWP11R1->EC1_B|,3:MWP11R1->EC9_B||,2:CH1R2|3:LWP11R2->EC1_C|,3:MWP11R2->EC9_C||,2:CH1R3|3:LWP11R3->EC1_D|,3:MWP11R3->EC9_D||,2:CH1R4|3:LWP11R4->EC1_E|,3:MWP11R4->EC9_E||,2:CH1R5|3:LWP11R5->EC1_F|,3:MWP11R5->EC9_F||,2:CH1R6|3:LWP11R6->EC1_G|,3:MWP11R6->EC9_G||,2:CH1R7|3:LWP11R7->EC1_H|,3:MWP11R7->EC9_H||,2:CH1R8|3:LWP11R8->EC1_I|,3:MWP11R8->EC9_I||,2:CH1R9|3:LWP11R9->EC1_J|,3:MWP11R9->EC9_J||,2:CH1R10|3:LWP11R10->EC1_K|,3:MWP11R10->EC9_K||,2:CH1R11|3:LWP11R11->EC1_L|,3:MWP11R11->EC9_L|||";
+    OD4P183 : LORAX = "1:FB4|2:CH0R0,PA12R0C0->LC2_A1,->LC6_A1|,2:CH0R1,PA12R1C1->LC1_B2,->LC7_B2|,2:CH0R2,PA12R2C2->LC1_C3,->LC5_C3|,2:CH0R3,PA12R3C3->LC1_D4,->LC6_D4|,2:CH0R4,PA12R4C4->LC1_E5,->LC5_E5|,2:CH0R5,PA20R5C5->LC2_F6,->LC5_F6||";
+	LC2_F6  : LORAX2 = "X, EC1_F, EC1_H, OD4P183";
+	LC2_A1  : LORAX2 = "X, EC1_A, EC9_H, OD4P183";
+	LC6_A1  : LORAX2 = "X, EC9_A, EC1_I, OD4P183";
+	LC1_B2  : LORAX2 = "X, EC1_B, EC9_I, OD4P183";
+	LC7_B2  : LORAX2 = "X, EC9_B, EC1_J, OD4P183";
+	LC1_C3  : LORAX2 = "X, EC1_C, EC9_J, OD4P183";
+	LC5_C3  : LORAX2 = "X, EC9_C, EC1_K, OD4P183";
+	LC1_D4  : LORAX2 = "X, EC1_D, EC9_K, OD4P183";
+	LC6_D4  : LORAX2 = "X, EC9_D, EC1_L, OD4P183";
+	LC1_E5  : LORAX2 = "X, EC1_E, EC9_L, OD4P183";
+	LC5_E5  : LORAX2 = "X, EC9_E, EC1_G, OD4P183";
+	LC5_F6  : LORAX2 = "X, EC9_F, EC9_G, OD4P183";
+END;
+
+CHIP "ramramtest1"
+BEGIN
+
+    DEVICE = "EP1K10TC100-1";
+
+    "i1"                           : INPUT_PIN  = 40     ;
+    "i1clk"                        : INPUT_PIN  = 39     ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|xladdr0" : OUTPUT_PIN = 79     ;
+    "q1"                           : OUTPUT_PIN = 62     ;
+    "q5"                           : OUTPUT_PIN = 61     ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:132|result_node" : LOCATION   = LC6_B1 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:192|result_node" : LOCATION   = LC8_B1 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|xladdr0" : LOCATION   = LC1_A2 ;  -- ~PIN000
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|xraddr0" : LOCATION   = LC2_A2 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1" : LOCATION   = EC1_A  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_5" : LOCATION   = EC9_A  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1" : LOCATION   = EC1_B  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_5" : LOCATION   = EC9_B  ;
+
+END;
+
+INTERNAL_INFO "ramramtest1"
+BEGIN
+	DEVICE = EP1K10TC100-1;
+    LC6_B1  : LORAX = "1:MSW5R1C1,HHL28R1->OH13R1P62|";
+    LC8_B1  : LORAX = "1:MSW7R1C1,HHL35R1->OH15R1P61|";
+    EC1_A   : LORAX = "1:RB0R0,RV24,G16R1,PA18R1C0->LC6_B1|";
+    EC9_A   : LORAX = "1:RB8R0,RV0,G31R1,PA15R1C0->LC8_B1|";
+    EC1_B   : LORAX = "1:RB0R1,G1R1,PA20R1C0->LC6_B1|";
+    EC9_B   : LORAX = "1:RB8R1,G34R1,PA4R1C0->LC8_B1|";
+    LC1_A2  : LORAX = "1:MSW0R0C1,V0C1->OV1C1P79|2:HHL23R1,PA11R1C0->LC6_B1,->LC8_B1||";
+    OD3P40  : LORAX = "1:FB3->EC1_A,->EC9_A,->EC1_B,->EC9_B|2:FH3R0|3:PA5R0C1->LC2_A2|,3:LRP5R0->EC1_A|,3:MRP5R0->EC9_A|,3:LWP5R0->EC1_A|,3:MWP5R0->EC9_A||,2:FH3R1|3:LRP5R1->EC1_B|,3:MRP5R1->EC9_B|,3:LWP5R1->EC1_B|,3:MWP5R1->EC9_B|||";
+    OD5P39  : LORAX = "1:FB5->EC1_A,->EC9_A,->EC1_B,->EC9_B,->LC2_A2|2:CH1R0|3:LWP7R0->EC1_A|,3:MWP7R0->EC9_A||,2:CH1R1|3:LWP7R1->EC1_B|,3:MWP7R1->EC9_B|||";
+	LC6_B1  : LORAX2 = "X, EC1_B, EC1_A, LC1_A2";
+	LC8_B1  : LORAX2 = "X, EC9_B, EC9_A, LC1_A2";
+	LC1_A2  : LORAX2 = "LC2_A2, X, X, X";
+	LC2_A2  : LORAX2 = "OD3P40, X, X, X";
+END;
+
+CHIP "ramramtest2"
+BEGIN
+
+    DEVICE = "EP1K10TC100-1";
+
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|xladdr0" : INPUT_PIN  = 91     ;
+    "i1"                           : INPUT_PIN  = 40     ;
+    "i1clk"                        : INPUT_PIN  = 39     ;
+    "q6"                           : OUTPUT_PIN = 71     ;
+    "q7"                           : OUTPUT_PIN = 70     ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node" : LOCATION   = LC1_A1 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node" : LOCATION   = LC3_A1 ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6" : LOCATION   = EC1_A  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7" : LOCATION   = EC9_A  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6" : LOCATION   = EC1_B  ;
+    "|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7" : LOCATION   = EC9_B  ;
+
+END;
+
+INTERNAL_INFO "ramramtest2"
+BEGIN
+	DEVICE = EP1K10TC100-1;
+    LC1_A1  : LORAX = "1:MSW0R0C1,HHL23R0->OH8R0P71|";
+    LC3_A1  : LORAX = "1:MSW2R0C1,HHL4R0->OH10R0P70|";
+    EC1_A   : LORAX = "1:RB0R0,G16R0,PA18R0C0->LC1_A1|";
+    EC9_A   : LORAX = "1:RB8R0,G31R0,PA15R0C0->LC3_A1|";
+    EC1_B   : LORAX = "1:RB0R1,RV27,G1R0,PA20R0C0->LC1_A1|";
+    EC9_B   : LORAX = "1:RB8R1,RV3,G34R0,PA4R0C0->LC3_A1|";
+    OD3P40  : LORAX = "1:FB3->EC1_A,->EC9_A,->EC1_B,->EC9_B|2:FH3R0|3:LRP5R0->EC1_A|,3:MRP5R0->EC9_A|,3:LWP5R0->EC1_A|,3:MWP5R0->EC9_A||,2:FH3R1|3:LRP5R1->EC1_B|,3:MRP5R1->EC9_B|,3:LWP5R1->EC1_B|,3:MWP5R1->EC9_B|||";
+    OD5P39  : LORAX = "1:FB5->EC1_A,->EC9_A,->EC1_B,->EC9_B|2:CH1R0|3:LWP7R0->EC1_A|,3:MWP7R0->EC9_A||,2:CH1R1|3:LWP7R1->EC1_B|,3:MWP7R1->EC9_B|||";
+    OD0P91  : LORAX = "1:FB0|2:FH0R0,PA0R0C0->LC1_A1,->LC3_A1||";
+	LC1_A1  : LORAX2 = "X, EC1_B, EC1_A, OD0P91";
+	LC3_A1  : LORAX2 = "X, EC9_B, EC9_A, OD0P91";
+END;
