@@ -1,0 +1,60 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 48
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	42	0	:25	"'
+#	IeEA	!	43	0	:26	"(
+$	IeEA	!	44	0	:27	")
+%	IeEA	!	45	0	:28	"*
+&	IeEA	!	46	0	:29	"+
+'	IeEA	!	47	0	:30	",
+(	IeEA	!	48	0	:31	"-
+)	IeEA	!	49	0	:32	".
+*	IeEA	!	50	0	:33	"/
++	IeEA	!	51	0	:34	"0
+,	IeEA	!	52	0	:35	"1
+-	IeEA	!	53	0	:36	"2
+.	"?%_n	!	28	0	1	;	in0	!	in0	x
+/	"?%_n	!	28	0	1	A	in1	!	in1	w
+0	"?%_n	!	28	0	1	>	in10	!	in10	n
+1	"?%_n	!	28	0	1	@	in11	!	in11	m
+2	"?%_n	!	28	0	1	C	in2	!	in2	v
+3	"?%_n	!	28	0	1	E	in3	!	in3	u
+4	"?%_n	!	28	0	1	G	in4	!	in4	t
+5	"?%_n	!	28	0	1	I	in5	!	in5	s
+6	"?%_n	!	28	0	1	K	in6	!	in6	r
+7	"?%_n	!	28	0	1	M	in7	!	in7	q
+8	"?%_n	!	28	0	1	O	in8	!	in8	p
+9	"?%_n	!	28	0	1	Q	in9	!	in9	o
+:	IeE[	!	29	0	o0	y
+;	L7gU	!	29	0	1	:	o0~1	#%
+<	IeE[	!	30	0	o1	z
+=	IeE[	!	39	0	o10	"%
+>	L7gU	!	39	0	1	=	o10~1	"e
+?	IeE[	!	40	0	o11	"&
+@	L7gU	!	40	0	1	?	o11~1	"b
+A	L7gU	!	30	0	1	<	o1~1	#"
+B	IeE[	!	31	0	o2	{
+C	L7gU	!	31	0	1	B	o2~1	"}
+D	IeE[	!	32	0	o3	|
+E	L7gU	!	32	0	1	D	o3~1	"z
+F	IeE[	!	33	0	o4	}
+G	L7gU	!	33	0	1	F	o4~1	"w
+H	IeE[	!	34	0	o5	~
+I	L7gU	!	34	0	1	H	o5~1	"t
+J	IeE[	!	35	0	o6	"!
+K	L7gU	!	35	0	1	J	o6~1	"q
+L	IeE[	!	36	0	o7	""
+M	L7gU	!	36	0	1	L	o7~1	"n
+N	IeE[	!	37	0	o8	"#
+O	L7gU	!	37	0	1	N	o8~1	"k
+P	IeE[	!	38	0	o9	"$
+Q	L7gU	!	38	0	1	P	o9~1	"h
