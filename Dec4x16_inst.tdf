@@ -1,0 +1,38 @@
+(
+	eq0_sig,
+	eq1_sig,
+	eq2_sig,
+	eq3_sig,
+	eq4_sig,
+	eq5_sig,
+	eq6_sig,
+	eq7_sig,
+	eq8_sig,
+	eq9_sig,
+	eq10_sig,
+	eq11_sig,
+	eq12_sig,
+	eq13_sig,
+	eq14_sig,
+	eq15_sig
+) = Dec4x16	(
+	.data[] = data_sig[]
+)
+RETURNS (
+	.eq0,
+	.eq1,
+	.eq2,
+	.eq3,
+	.eq4,
+	.eq5,
+	.eq6,
+	.eq7,
+	.eq8,
+	.eq9,
+	.eq10,
+	.eq11,
+	.eq12,
+	.eq13,
+	.eq14,
+	.eq15
+);

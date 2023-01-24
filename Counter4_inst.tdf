@@ -1,0 +1,9 @@
+(
+	q_sig[]
+) = Counter4	(
+	.clock = clock_sig,
+	.sclr = sclr_sig
+)
+RETURNS (
+	.q[]
+);
