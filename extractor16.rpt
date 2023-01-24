@@ -2,7 +2,7 @@ Project Informationc:\users\admin\documents\github\_project-max-pluss\extractor1
 
 MAX+plus II Compiler Report File
 Version 10.2 07/10/2002
-Compiled: 01/24/2023 03:06:22
+Compiled: 01/24/2023 03:49:55
 
 Copyright (C) 1988-2002 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -426,14 +426,14 @@ Compilation Times
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
-   Fitter                                 00:00:00
+   Fitter                                 00:00:01
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 5,430K
+Peak memory allocated during compilation  = 4,924K
