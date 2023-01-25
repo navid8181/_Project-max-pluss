@@ -3,16 +3,16 @@ Debug for fit_fastio_pin_reassign program (iteration 1):
 I/O delay matrix:-
 
 	Comb	Reg 	SU  	Pin 	Cout	Casc
-Clk 	N/A	21	N/A	32	N/A	N/A
-Clr 	N/A	21	N/A	32	N/A	N/A
-Pre 	N/A	19	N/A	30	N/A	N/A
-Ena 	N/A	N/A	12	N/A	N/A	N/A
-Ald 	N/A	19	N/A	30	N/A	N/A
-OE  	N/A	N/A	N/A	30	N/A	N/A
+Clk 	N/A	19	N/A	44	N/A	N/A
+Clr 	N/A	10	N/A	35	N/A	N/A
+Pre 	N/A	13	N/A	38	N/A	N/A
+Ena 	N/A	N/A	8	N/A	N/A	N/A
+Ald 	N/A	13	N/A	38	N/A	N/A
+OE  	N/A	N/A	N/A	35	N/A	N/A
 Cin 	N/A	N/A	N/A	N/A	N/A	N/A
 Casc	N/A	N/A	N/A	N/A	N/A	N/A
-Pin 	8	N/A	51	N/A	N/A	N/A
-A   	N/A	N/A	9	19	N/A	N/A
+Pin 	5	N/A	33	N/A	N/A	N/A
+A   	N/A	N/A	8	35	N/A	N/A
 B   	N/A	N/A	N/A	N/A	N/A	N/A
 C   	N/A	N/A	N/A	N/A	N/A	N/A
 D   	N/A	N/A	N/A	N/A	N/A	N/A
@@ -20,33 +20,33 @@ D   	N/A	N/A	N/A	N/A	N/A	N/A
 Global clock delay matrix:-
 
 	Comb	Reg 	SU  	Pin 	Cout	Casc
-Clk :	N/A	3	15	N/A	7	N/A
-Clr :	N/A	8	N/A	N/A	12	N/A
-Pre :	N/A	8	N/A	N/A	12	N/A
-Ena :	N/A	N/A	10	N/A	N/A	N/A
-Ald :	N/A	8	N/A	N/A	12	N/A
+Clk :	N/A	14	18	N/A	18	N/A
+Clr :	N/A	16	N/A	N/A	20	N/A
+Pre :	N/A	16	N/A	N/A	20	N/A
+Ena :	N/A	N/A	N/A	N/A	N/A	N/A
+Ald :	N/A	16	N/A	N/A	20	N/A
 OE  :	N/A	N/A	N/A	N/A	N/A	N/A
-Cin :	9	N/A	9	N/A	1	11
-Casc:	4	N/A	4	N/A	N/A	6
+Cin :	9	N/A	1	N/A	1	11
+Casc:	4	N/A	N/A	N/A	N/A	6
 Pin :	N/A	N/A	N/A	N/A	N/A	N/A
-A   :	11	N/A	11	N/A	4	13
-B   :	10	N/A	10	N/A	4	12
-C   :	10	N/A	10	N/A	N/A	12
-D   :	8	N/A	8	N/A	N/A	10
+A   :	11	N/A	3	N/A	4	13
+B   :	10	N/A	2	N/A	4	12
+C   :	9	N/A	1	N/A	N/A	11
+D   :	8	N/A	0	N/A	N/A	10
 
 I/O delay matrix:-
 
 	Comb	Reg 	SU  	Pin 	Cout	Casc
-Clk 	N/A	21	N/A	32	N/A	N/A
-Clr 	N/A	21	N/A	32	N/A	N/A
-Pre 	N/A	19	N/A	30	N/A	N/A
-Ena 	N/A	N/A	12	N/A	N/A	N/A
-Ald 	N/A	19	N/A	30	N/A	N/A
-OE  	N/A	N/A	N/A	30	N/A	N/A
+Clk 	N/A	19	N/A	44	N/A	N/A
+Clr 	N/A	10	N/A	35	N/A	N/A
+Pre 	N/A	13	N/A	38	N/A	N/A
+Ena 	N/A	N/A	8	N/A	N/A	N/A
+Ald 	N/A	13	N/A	38	N/A	N/A
+OE  	N/A	N/A	N/A	35	N/A	N/A
 Cin 	N/A	N/A	N/A	N/A	N/A	N/A
 Casc	N/A	N/A	N/A	N/A	N/A	N/A
-Pin 	8	N/A	51	N/A	N/A	N/A
-A   	N/A	N/A	9	19	N/A	N/A
+Pin 	5	N/A	33	N/A	N/A	N/A
+A   	N/A	N/A	8	35	N/A	N/A
 B   	N/A	N/A	N/A	N/A	N/A	N/A
 C   	N/A	N/A	N/A	N/A	N/A	N/A
 D   	N/A	N/A	N/A	N/A	N/A	N/A
@@ -54,104 +54,1449 @@ D   	N/A	N/A	N/A	N/A	N/A	N/A
 Global clock delay matrix:-
 
 	Comb	Reg 	SU  	Pin 	Cout	Casc
-Clk :	N/A	3	15	N/A	7	N/A
-Clr :	N/A	8	N/A	N/A	12	N/A
-Pre :	N/A	8	N/A	N/A	12	N/A
-Ena :	N/A	N/A	10	N/A	N/A	N/A
-Ald :	N/A	8	N/A	N/A	12	N/A
+Clk :	N/A	14	18	N/A	18	N/A
+Clr :	N/A	16	N/A	N/A	20	N/A
+Pre :	N/A	16	N/A	N/A	20	N/A
+Ena :	N/A	N/A	N/A	N/A	N/A	N/A
+Ald :	N/A	16	N/A	N/A	20	N/A
 OE  :	N/A	N/A	N/A	N/A	N/A	N/A
-Cin :	9	N/A	9	N/A	1	11
-Casc:	4	N/A	4	N/A	N/A	6
+Cin :	9	N/A	1	N/A	1	11
+Casc:	4	N/A	N/A	N/A	N/A	6
 Pin :	N/A	N/A	N/A	N/A	N/A	N/A
-A   :	11	N/A	11	N/A	4	13
-B   :	10	N/A	10	N/A	4	12
-C   :	10	N/A	10	N/A	N/A	12
-D   :	8	N/A	8	N/A	N/A	10
+A   :	11	N/A	3	N/A	4	13
+B   :	10	N/A	2	N/A	4	12
+C   :	9	N/A	1	N/A	N/A	11
+D   :	8	N/A	0	N/A	N/A	10
 
-Threshold are: for Tsu - 3.800000ns and for Tco - 7.900000ns
+Threshold are: for Tsu - 6.700000ns and for Tco - 15.900000ns
 Global Tsu=-1(-1.000000), Tco=-1(-1.000000)
 
 
 Input/output cells:
-	i1 -> 40 : IN
-	i1clk -> 39 : IN
+	AC_Clear : IN
+	AC_INR : IN
+	AC_Load : IN
+	ALU_Cin : IN
+	ALU_S0 : IN
+	ALU_S1 : IN
+	ALU_S2 : IN
+	ALU_S3 : IN
+	BUS_Select0 : IN
+	BUS_Select1 : IN
+	BUS_Select2 : IN
+	clk -> 79 : IN
+	DR_Clear : IN
+	DR_INR : IN
+	DR_Load : IN
+	~GND~ : IN
+	IR_Load : IN
+	|mux8x1:21|mux2x1:14|O~1 : IN
+	|mux8x1:38|mux2x1:14|O~1 : IN
+	|mux8x1:44|mux2x1:14|O~1 : IN
+	Out0 : OUT
+	Out1 : OUT
+	Out2 : OUT
+	Out3 : OUT
+	Out4 : OUT
+	Out5 : OUT
+	Out6 : OUT
+	Out7 : OUT
+	Out8 : OUT
+	Out9 : OUT
+	Out10 : OUT
+	Out11 : OUT
+	Out12 : OUT
+	Out13 : OUT
+	Out14 : OUT
+	Out15 : OUT
+	PC_Clear : IN
+	PC_INR : IN
+	PC_Load : IN
 	~PIN000 : IN
-	q6 : OUT
-	q7 : OUT
+	~PIN001 : IN
+	~PIN002 : IN
+	RAM_read -> 80 : IN
+	RAM_write -> 78 : IN
+	TR_Clear : IN
+	TR_INR : IN
+	TR_Load : IN
 
 Set clique dont_touch:
 
-Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
-Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
-Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
-Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
-Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
-Cell: |GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
-Cell: i1, rdfbits: 805, fast_io bit: 0, periphery: 0,0
-Cell: i1clk, rdfbits: d, fast_io bit: 0, periphery: 0,0
+Cell: AC_Clear, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: AC_INR, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: AC_Load, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|ha:60|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|ha:61|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|mux2x1:56|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|mux2x1:56|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:38|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|ha:61|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|mux2x1:56|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|mux2x1:57|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|mux2x1:57|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:39|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|ha:60|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|ha:61|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|mux2x1:56|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|mux2x1:56|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:40|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|ha:61|:3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|mux2x1:56|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |ac:9|4bitregister:41|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: ALU_Cin, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ALU_S0, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ALU_S1, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ALU_S2, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ALU_S3, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:1|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:1|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:1|arithmeticlayer:8|mux4x1:6|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:1|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:1|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:1|mux4x1:3|:59, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:15|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:15|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:15|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:15|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:15|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:15|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:15|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:20|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:20|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:20|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:20|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:20|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:20|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:23|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:23|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:23|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:23|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:23|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:23|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:23|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|~10~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:64|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:64|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:64|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:69|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:69|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:69|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:69|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:69|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:69|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:69|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:73|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:73|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:73|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:73|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:73|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:73|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:73|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:77|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:77|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:77|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:77|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:77|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:77|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:77|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~7~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:80|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:80|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:80|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:84|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:84|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:84|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:84|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:84|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:84|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:84|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:88|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:88|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:88|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:88|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:88|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:88|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:88|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:92|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:92|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:92|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:92|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:92|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:92|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:92|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:96|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:96|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:96|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:96|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:96|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:96|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:96|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:100|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:100|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:100|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:100|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:100|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:100|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:104|arithmeticlayer:8|fulladder:12|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:104|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:104|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:104|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:104|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:104|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:104|mux4x1:3|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:108|arithmeticlayer:8|fulladder:12|:7, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:108|arithmeticlayer:8|fulladder:12|:10, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:108|arithmeticlayer:8|mux4x1:6|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:108|logiclayer:2|mux4x1:2|:42, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:108|mux4x1:3|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |alu:1|alulayer:108|mux4x1:3|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: BUS_Select0, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: BUS_Select1, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: BUS_Select2, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: clk, rdfbits: d, fast_io bit: 0, periphery: 0,0
+Cell: DR_Clear, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: DR_INR, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: DR_Load, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|ha:60|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|mux2x1:56|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:1|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|ha:61|:3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|ha:61|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|mux2x1:55|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|mux2x1:55|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|mux2x1:56|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|mux2x1:56|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:2|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|ha:60|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|mux2x1:56|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:3|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|ha:61|:3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|mux2x1:55|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|mux2x1:55|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|mux2x1:56|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|mux2x1:56|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |dr:5|4bitregister:4|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: ~GND~, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:297|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:312|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:327|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:342|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_5, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_9, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_10, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_12, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_13, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_14, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_15, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_2, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_9, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_10, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_12, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_13, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_14, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_15, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: IR_Load, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:37|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:37|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:37|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:37|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |ir:10|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:21|mux2x1:14|O~1, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:21|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:21|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:21|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:21|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:24|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:24|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:24|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:24|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:24|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:34|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:34|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:34|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:34|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:34|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:36|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:36|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:36|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:36|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:36|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:38|mux2x1:14|O~1, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:38|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:38|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:38|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:38|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:40|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:40|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:40|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:40|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:40|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:42|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:42|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:42|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:42|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:42|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:44|mux2x1:14|O~1, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:44|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:44|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:44|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:44|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:80|mux2x1:14|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:80|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:80|mux4x1:13|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:80|mux4x1:13|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:82|mux2x1:14|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:82|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:82|mux4x1:13|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:82|mux4x1:13|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:84|mux2x1:14|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:84|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:84|mux4x1:13|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:84|mux4x1:13|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:86|mux2x1:14|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:86|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:86|mux4x1:13|~42~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:86|mux4x1:13|~42~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:88|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:88|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:88|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:88|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:88|mux2x1:14|~8~5, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:88|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:90|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:90|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:90|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:90|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:90|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:92|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:92|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:92|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:92|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:92|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:94|mux2x1:14|~8~1, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:94|mux2x1:14|~8~2, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:94|mux2x1:14|~8~3, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:94|mux2x1:14|~8~4, rdfbits: 1050, fast_io bit: 0, periphery: 0,0
+Cell: |mux8x1:94|mux2x1:14|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: Out0, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out1, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out2, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out3, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out4, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out5, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out6, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out7, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out8, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out9, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out10, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out11, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out12, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out13, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out14, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: Out15, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: PC_Clear, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: PC_INR, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: PC_Load, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|ha:60|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|mux2x1:56|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:30|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|ha:61|:3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|ha:61|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|mux2x1:55|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|mux2x1:55|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|mux2x1:56|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|mux2x1:56|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:31|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|ha:61|:3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|mux2x1:56|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |pc:4|4bitregister:32|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
 Cell: ~PIN000, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: q6, rdfbits: 3, fast_io bit: 0, periphery: 0,0
-Cell: q7, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN001, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN002, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: RAM_read, rdfbits: 10005, fast_io bit: 0, periphery: 0,0
+Cell: RAM_write, rdfbits: 805, fast_io bit: 0, periphery: 0,0
+Cell: TR_Clear, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: TR_INR, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: TR_Load, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|ha:60|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|mux2x1:56|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:37|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|ha:61|:3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|ha:61|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|mux2x1:55|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|mux2x1:55|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|mux2x1:56|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|mux2x1:56|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:38|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|ha:60|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|mux2x1:55|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|mux2x1:56|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:39|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0, rdfbits: 110, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|ha:59|:4, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|ha:61|:3, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|mux2x1:54|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|mux2x1:55|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|mux2x1:55|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|mux2x1:56|:5, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|mux2x1:56|:6, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|mux2x1:57|:8, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |tr:12|4bitregister:40|:49, rdfbits: 50, fast_io bit: 0, periphery: 0,0
 
 
 Virtual pin individual set-up and clock-to-output times:
-For pin i1 delays are: tsu=-1, tco=-1;
-For pin i1clk delays are: tsu=-1, tco=-1;
+For pin AC_Clear delays are: tsu=-1, tco=-1;
+For pin AC_INR delays are: tsu=-1, tco=-1;
+For pin AC_Load delays are: tsu=-1, tco=-1;
+For pin ALU_Cin delays are: tsu=-1, tco=-1;
+For pin ALU_S0 delays are: tsu=-1, tco=-1;
+For pin ALU_S1 delays are: tsu=-1, tco=-1;
+For pin ALU_S2 delays are: tsu=-1, tco=-1;
+For pin ALU_S3 delays are: tsu=-1, tco=-1;
+For pin BUS_Select0 delays are: tsu=-1, tco=-1;
+For pin BUS_Select1 delays are: tsu=-1, tco=-1;
+For pin BUS_Select2 delays are: tsu=-1, tco=-1;
+For pin clk delays are: tsu=-1, tco=-1;
+For pin DR_Clear delays are: tsu=-1, tco=-1;
+For pin DR_INR delays are: tsu=-1, tco=-1;
+For pin DR_Load delays are: tsu=-1, tco=-1;
+For pin IR_Load delays are: tsu=-1, tco=-1;
+For pin |mux8x1:21|mux2x1:14|O~1 delays are: tsu=-1, tco=-1;
+For pin |mux8x1:38|mux2x1:14|O~1 delays are: tsu=-1, tco=-1;
+For pin |mux8x1:44|mux2x1:14|O~1 delays are: tsu=-1, tco=-1;
+For pin Out0 delays are: tsu=-1, tco=-1;
+For pin Out1 delays are: tsu=-1, tco=-1;
+For pin Out2 delays are: tsu=-1, tco=-1;
+For pin Out3 delays are: tsu=-1, tco=-1;
+For pin Out4 delays are: tsu=-1, tco=-1;
+For pin Out5 delays are: tsu=-1, tco=-1;
+For pin Out6 delays are: tsu=-1, tco=-1;
+For pin Out7 delays are: tsu=-1, tco=-1;
+For pin Out8 delays are: tsu=-1, tco=-1;
+For pin Out9 delays are: tsu=-1, tco=-1;
+For pin Out10 delays are: tsu=-1, tco=-1;
+For pin Out11 delays are: tsu=-1, tco=-1;
+For pin Out12 delays are: tsu=-1, tco=-1;
+For pin Out13 delays are: tsu=-1, tco=-1;
+For pin Out14 delays are: tsu=-1, tco=-1;
+For pin Out15 delays are: tsu=-1, tco=-1;
+For pin PC_Clear delays are: tsu=-1, tco=-1;
+For pin PC_INR delays are: tsu=-1, tco=-1;
+For pin PC_Load delays are: tsu=-1, tco=-1;
 For pin ~PIN000 delays are: tsu=-1, tco=-1;
-For pin q6 delays are: tsu=-1, tco=-1;
-For pin q7 delays are: tsu=-1, tco=-1;
+For pin ~PIN001 delays are: tsu=-1, tco=-1;
+For pin ~PIN002 delays are: tsu=-1, tco=-1;
+For pin RAM_read delays are: tsu=-1, tco=-1;
+For pin RAM_write delays are: tsu=-1, tco=-1;
+For pin TR_Clear delays are: tsu=-1, tco=-1;
+For pin TR_INR delays are: tsu=-1, tco=-1;
+For pin TR_Load delays are: tsu=-1, tco=-1;
 
 
 Cells driven by pins
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6 is driven by i1
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7 is driven by i1
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6 is driven by i1
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7 is driven by i1
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6 is driven by i1clk
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7 is driven by i1clk
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6 is driven by i1clk
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7 is driven by i1clk
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node is driven by ~PIN000
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node is driven by ~PIN000
+	|ac:9|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:41|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:41|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:41|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:41|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by AC_Clear
+	|ac:9|4bitregister:38|ha:60|:4 is driven by AC_INR
+	|ac:9|4bitregister:38|mux2x1:54|:8 is driven by AC_INR
+	|ac:9|4bitregister:38|mux2x1:55|:8 is driven by AC_INR
+	|ac:9|4bitregister:38|mux2x1:56|:5 is driven by AC_INR
+	|ac:9|4bitregister:38|mux2x1:56|:6 is driven by AC_INR
+	|ac:9|4bitregister:38|mux2x1:57|:8 is driven by AC_INR
+	|ac:9|4bitregister:38|:49 is driven by AC_INR
+	|ac:9|4bitregister:38|:49 is driven by AC_Load
+	|ac:9|4bitregister:39|:49 is driven by AC_Load
+	|ac:9|4bitregister:40|:49 is driven by AC_Load
+	|ac:9|4bitregister:41|:49 is driven by AC_Load
+	|alu:1|alulayer:1|arithmeticlayer:8|fulladder:12|:10 is driven by ALU_Cin
+	|alu:1|alulayer:1|mux4x1:3|:59 is driven by ALU_Cin
+	|alu:1|alulayer:1|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:1|arithmeticlayer:8|fulladder:12|:10 is driven by ALU_S0
+	|alu:1|alulayer:1|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:15|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:15|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:15|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:20|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:20|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:20|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:23|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:23|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:23|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|~10~1 is driven by ALU_S0
+	|alu:1|alulayer:64|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:69|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:69|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:69|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:73|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:73|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:73|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:77|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:77|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:77|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~7~1 is driven by ALU_S0
+	|alu:1|alulayer:80|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:84|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:84|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:84|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:88|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:88|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:88|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:92|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:92|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:92|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:96|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:96|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:96|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:100|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:100|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:100|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:104|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S0
+	|alu:1|alulayer:104|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:104|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:108|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S0
+	|alu:1|alulayer:108|logiclayer:2|mux4x1:2|:42 is driven by ALU_S0
+	|alu:1|alulayer:1|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:1|arithmeticlayer:8|mux4x1:6|~42~1 is driven by ALU_S1
+	|alu:1|alulayer:1|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:15|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:15|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:15|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:20|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:20|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:20|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:23|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:23|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:23|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|~10~1 is driven by ALU_S1
+	|alu:1|alulayer:64|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:69|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:69|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:69|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:73|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:73|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:73|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:77|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:77|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:77|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~7~1 is driven by ALU_S1
+	|alu:1|alulayer:80|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:84|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:84|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:84|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:88|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:88|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:88|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:92|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:92|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:92|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:96|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:96|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:96|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:100|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:100|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:100|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:104|arithmeticlayer:8|fulladder:12|:6 is driven by ALU_S1
+	|alu:1|alulayer:104|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:104|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|alu:1|alulayer:108|arithmeticlayer:8|mux4x1:6|:42 is driven by ALU_S1
+	|alu:1|alulayer:108|logiclayer:2|mux4x1:2|:42 is driven by ALU_S1
+	|ac:9|4bitregister:38|mux2x1:56|:5 is driven by ALU_S2
+	|ac:9|4bitregister:39|mux2x1:57|:5 is driven by ALU_S2
+	|ac:9|4bitregister:40|mux2x1:56|:5 is driven by ALU_S2
+	|alu:1|alulayer:1|mux4x1:3|~42~1 is driven by ALU_S2
+	|alu:1|alulayer:1|mux4x1:3|:59 is driven by ALU_S2
+	|alu:1|alulayer:15|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:23|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:69|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:73|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:77|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:80|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:84|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:88|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:92|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:96|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:104|mux4x1:3|:42 is driven by ALU_S2
+	|alu:1|alulayer:108|mux4x1:3|~42~1 is driven by ALU_S2
+	|alu:1|alulayer:108|mux4x1:3|~42~2 is driven by ALU_S2
+	|alu:1|alulayer:1|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:1|mux4x1:3|:59 is driven by ALU_S3
+	|alu:1|alulayer:15|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:15|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:20|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:20|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:23|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:23|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:64|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:64|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:69|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:69|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:73|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:73|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:77|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:77|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:80|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:80|mux4x1:3|:42 is driven by ALU_S3
+	|alu:1|alulayer:84|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:84|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:88|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:88|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:92|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:92|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:96|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:96|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:100|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:100|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:104|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:104|mux4x1:3|~42~2 is driven by ALU_S3
+	|alu:1|alulayer:108|mux4x1:3|~42~1 is driven by ALU_S3
+	|alu:1|alulayer:108|mux4x1:3|~42~2 is driven by ALU_S3
+	|mux8x1:21|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:21|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:21|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:24|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:24|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:24|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:34|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:34|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:34|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:36|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:36|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:36|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:38|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:38|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:38|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:40|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:40|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:40|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:42|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:42|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:42|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:44|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:44|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:44|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:80|mux2x1:14|:5 is driven by BUS_Select0
+	|mux8x1:80|mux4x1:13|~42~1 is driven by BUS_Select0
+	|mux8x1:80|mux4x1:13|~42~2 is driven by BUS_Select0
+	|mux8x1:82|mux2x1:14|:5 is driven by BUS_Select0
+	|mux8x1:82|mux4x1:13|~42~1 is driven by BUS_Select0
+	|mux8x1:82|mux4x1:13|~42~2 is driven by BUS_Select0
+	|mux8x1:84|mux2x1:14|:5 is driven by BUS_Select0
+	|mux8x1:84|mux4x1:13|~42~1 is driven by BUS_Select0
+	|mux8x1:84|mux4x1:13|~42~2 is driven by BUS_Select0
+	|mux8x1:86|mux2x1:14|:5 is driven by BUS_Select0
+	|mux8x1:86|mux4x1:13|~42~1 is driven by BUS_Select0
+	|mux8x1:86|mux4x1:13|~42~2 is driven by BUS_Select0
+	|mux8x1:88|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:88|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:88|mux2x1:14|~8~5 is driven by BUS_Select0
+	|mux8x1:90|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:90|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:90|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:92|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:92|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:92|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:94|mux2x1:14|~8~2 is driven by BUS_Select0
+	|mux8x1:94|mux2x1:14|~8~3 is driven by BUS_Select0
+	|mux8x1:94|mux2x1:14|~8~4 is driven by BUS_Select0
+	|mux8x1:21|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:24|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:34|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:36|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:38|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:40|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:42|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:44|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:80|mux2x1:14|:5 is driven by BUS_Select1
+	|mux8x1:80|mux4x1:13|~42~1 is driven by BUS_Select1
+	|mux8x1:80|mux4x1:13|~42~2 is driven by BUS_Select1
+	|mux8x1:82|mux2x1:14|:5 is driven by BUS_Select1
+	|mux8x1:82|mux4x1:13|~42~1 is driven by BUS_Select1
+	|mux8x1:82|mux4x1:13|~42~2 is driven by BUS_Select1
+	|mux8x1:84|mux2x1:14|:5 is driven by BUS_Select1
+	|mux8x1:84|mux4x1:13|~42~1 is driven by BUS_Select1
+	|mux8x1:84|mux4x1:13|~42~2 is driven by BUS_Select1
+	|mux8x1:86|mux2x1:14|:5 is driven by BUS_Select1
+	|mux8x1:86|mux4x1:13|~42~1 is driven by BUS_Select1
+	|mux8x1:86|mux4x1:13|~42~2 is driven by BUS_Select1
+	|mux8x1:88|mux2x1:14|~8~1 is driven by BUS_Select1
+	|mux8x1:88|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:90|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:92|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:94|mux2x1:14|:8 is driven by BUS_Select1
+	|mux8x1:21|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:21|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:24|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:24|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:34|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:34|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:36|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:36|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:38|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:38|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:40|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:40|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:42|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:42|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:44|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:44|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:80|mux2x1:14|:5 is driven by BUS_Select2
+	|mux8x1:80|mux2x1:14|:8 is driven by BUS_Select2
+	|mux8x1:82|mux2x1:14|:5 is driven by BUS_Select2
+	|mux8x1:82|mux2x1:14|:8 is driven by BUS_Select2
+	|mux8x1:84|mux2x1:14|:5 is driven by BUS_Select2
+	|mux8x1:84|mux2x1:14|:8 is driven by BUS_Select2
+	|mux8x1:86|mux2x1:14|:5 is driven by BUS_Select2
+	|mux8x1:86|mux2x1:14|:8 is driven by BUS_Select2
+	|mux8x1:88|mux2x1:14|~8~1 is driven by BUS_Select2
+	|mux8x1:88|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:88|mux2x1:14|~8~4 is driven by BUS_Select2
+	|mux8x1:90|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:90|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:92|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:92|mux2x1:14|~8~3 is driven by BUS_Select2
+	|mux8x1:94|mux2x1:14|~8~2 is driven by BUS_Select2
+	|mux8x1:94|mux2x1:14|~8~3 is driven by BUS_Select2
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_5 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_9 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_10 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_12 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_13 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_14 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_15 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_2 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_9 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_10 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_12 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_13 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_14 is driven by clk
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_15 is driven by clk
+	|dr:5|4bitregister:1|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:1|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:1|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:1|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:2|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:2|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:2|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:2|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:3|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:3|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:3|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:3|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:4|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:4|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:4|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:4|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by DR_Clear
+	|dr:5|4bitregister:1|ha:59|:4 is driven by DR_INR
+	|dr:5|4bitregister:1|ha:60|:4 is driven by DR_INR
+	|dr:5|4bitregister:1|mux2x1:54|:8 is driven by DR_INR
+	|dr:5|4bitregister:1|mux2x1:55|:8 is driven by DR_INR
+	|dr:5|4bitregister:1|mux2x1:56|:8 is driven by DR_INR
+	|dr:5|4bitregister:1|mux2x1:57|:8 is driven by DR_INR
+	|dr:5|4bitregister:1|:49 is driven by DR_INR
+	|dr:5|4bitregister:1|:49 is driven by DR_Load
+	|dr:5|4bitregister:2|:49 is driven by DR_Load
+	|dr:5|4bitregister:3|:49 is driven by DR_Load
+	|dr:5|4bitregister:4|:49 is driven by DR_Load
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_5 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_9 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_10 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_12 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_13 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_14 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_15 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_2 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_9 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_10 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_12 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_13 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_14 is driven by ~GND~
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_15 is driven by ~GND~
+	|ir:10|4bitregister:37|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:37|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:37|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:37|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|ir:10|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by IR_Load
+	|mux8x1:21|mux2x1:14|~8~2 is driven by |mux8x1:21|mux2x1:14|O~1
+	|mux8x1:38|mux2x1:14|~8~2 is driven by |mux8x1:38|mux2x1:14|O~1
+	|mux8x1:44|mux2x1:14|~8~2 is driven by |mux8x1:44|mux2x1:14|O~1
+	|pc:4|4bitregister:30|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:30|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:30|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:30|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:31|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:31|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:31|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:31|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:32|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:32|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:32|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:32|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by PC_Clear
+	|pc:4|4bitregister:30|ha:59|:4 is driven by PC_INR
+	|pc:4|4bitregister:30|ha:60|:4 is driven by PC_INR
+	|pc:4|4bitregister:30|mux2x1:54|:8 is driven by PC_INR
+	|pc:4|4bitregister:30|mux2x1:55|:8 is driven by PC_INR
+	|pc:4|4bitregister:30|mux2x1:56|:8 is driven by PC_INR
+	|pc:4|4bitregister:30|mux2x1:57|:8 is driven by PC_INR
+	|pc:4|4bitregister:30|:49 is driven by PC_INR
+	|pc:4|4bitregister:30|:49 is driven by PC_Load
+	|pc:4|4bitregister:31|:49 is driven by PC_Load
+	|pc:4|4bitregister:32|:49 is driven by PC_Load
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:297|result_node is driven by ~PIN000
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:312|result_node is driven by ~PIN000
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:327|result_node is driven by ~PIN000
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:342|result_node is driven by ~PIN000
+	|mux8x1:24|mux2x1:14|~8~1 is driven by ~PIN000
+	|mux8x1:34|mux2x1:14|~8~1 is driven by ~PIN000
+	|mux8x1:36|mux2x1:14|~8~1 is driven by ~PIN000
+	|mux8x1:40|mux2x1:14|~8~1 is driven by ~PIN000
+	|mux8x1:42|mux2x1:14|~8~1 is driven by ~PIN000
+	|mux8x1:88|mux2x1:14|~8~2 is driven by ~PIN000
+	|mux8x1:90|mux2x1:14|~8~1 is driven by ~PIN000
+	|mux8x1:92|mux2x1:14|~8~1 is driven by ~PIN000
+	|mux8x1:94|mux2x1:14|~8~1 is driven by ~PIN000
+	|mux8x1:36|mux2x1:14|~8~1 is driven by ~PIN001
+	|mux8x1:42|mux2x1:14|~8~1 is driven by ~PIN002
+	|tr:12|4bitregister:37|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:37|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:37|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:37|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0 is driven by TR_Clear
+	|tr:12|4bitregister:37|ha:59|:4 is driven by TR_INR
+	|tr:12|4bitregister:37|ha:60|:4 is driven by TR_INR
+	|tr:12|4bitregister:37|mux2x1:54|:8 is driven by TR_INR
+	|tr:12|4bitregister:37|mux2x1:55|:8 is driven by TR_INR
+	|tr:12|4bitregister:37|mux2x1:56|:8 is driven by TR_INR
+	|tr:12|4bitregister:37|mux2x1:57|:8 is driven by TR_INR
+	|tr:12|4bitregister:37|:49 is driven by TR_INR
+	|tr:12|4bitregister:37|:49 is driven by TR_Load
+	|tr:12|4bitregister:38|:49 is driven by TR_Load
+	|tr:12|4bitregister:39|:49 is driven by TR_Load
+	|tr:12|4bitregister:40|:49 is driven by TR_Load
 
 
 Cells driving pins
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node drives q6
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node drives q7
+	|mux8x1:21|mux2x1:14|:8 drives Out0
+	|mux8x1:24|mux2x1:14|:8 drives Out1
+	|mux8x1:36|mux2x1:14|:8 drives Out2
+	|mux8x1:34|mux2x1:14|:8 drives Out3
+	|mux8x1:44|mux2x1:14|:8 drives Out4
+	|mux8x1:42|mux2x1:14|:8 drives Out5
+	|mux8x1:40|mux2x1:14|:8 drives Out6
+	|mux8x1:38|mux2x1:14|:8 drives Out7
+	|mux8x1:94|mux2x1:14|:8 drives Out8
+	|mux8x1:92|mux2x1:14|:8 drives Out9
+	|mux8x1:90|mux2x1:14|:8 drives Out10
+	|mux8x1:88|mux2x1:14|:8 drives Out11
+	|mux8x1:86|mux2x1:14|:8 drives Out12
+	|mux8x1:84|mux2x1:14|:8 drives Out13
+	|mux8x1:82|mux2x1:14|:8 drives Out14
+	|mux8x1:80|mux2x1:14|:8 drives Out15
 
 
 FAST I/O assignement after cleaning up:
-i1: fast_io=0
-i1clk: fast_io=0
+AC_Clear: fast_io=0
+AC_INR: fast_io=0
+AC_Load: fast_io=0
+ALU_Cin: fast_io=0
+ALU_S0: fast_io=0
+ALU_S1: fast_io=0
+ALU_S2: fast_io=0
+ALU_S3: fast_io=0
+BUS_Select0: fast_io=0
+BUS_Select1: fast_io=0
+BUS_Select2: fast_io=0
+clk: fast_io=0
+DR_Clear: fast_io=0
+DR_INR: fast_io=0
+DR_Load: fast_io=0
+~GND~: fast_io=0
+IR_Load: fast_io=0
+|mux8x1:21|mux2x1:14|O~1: fast_io=0
+|mux8x1:38|mux2x1:14|O~1: fast_io=0
+|mux8x1:44|mux2x1:14|O~1: fast_io=0
+Out0: fast_io=0
+Out1: fast_io=0
+Out2: fast_io=0
+Out3: fast_io=0
+Out4: fast_io=0
+Out5: fast_io=0
+Out6: fast_io=0
+Out7: fast_io=0
+Out8: fast_io=0
+Out9: fast_io=0
+Out10: fast_io=0
+Out11: fast_io=0
+Out12: fast_io=0
+Out13: fast_io=0
+Out14: fast_io=0
+Out15: fast_io=0
+PC_Clear: fast_io=0
+PC_INR: fast_io=0
+PC_Load: fast_io=0
 ~PIN000: fast_io=0
-q6: fast_io=0
-q7: fast_io=0
+~PIN001: fast_io=0
+~PIN002: fast_io=0
+RAM_read: fast_io=0
+RAM_write: fast_io=0
+TR_Clear: fast_io=0
+TR_INR: fast_io=0
+TR_Load: fast_io=0
 
 
 Layer-by-layer logic: fast_io=0
 
 Layer 0
-	i1, RDF bits: 805, lab#=0
-	i1clk, RDF bits: d, lab#=0
+	AC_Clear, RDF bits: 5, lab#=0
+	AC_INR, RDF bits: 5, lab#=0
+	AC_Load, RDF bits: 5, lab#=0
+	ALU_Cin, RDF bits: 5, lab#=0
+	ALU_S0, RDF bits: 5, lab#=0
+	ALU_S1, RDF bits: 5, lab#=0
+	ALU_S2, RDF bits: 5, lab#=0
+	ALU_S3, RDF bits: 5, lab#=0
+	BUS_Select0, RDF bits: 5, lab#=0
+	BUS_Select1, RDF bits: 5, lab#=0
+	BUS_Select2, RDF bits: 5, lab#=0
+	clk, RDF bits: d, lab#=0
+	DR_Clear, RDF bits: 5, lab#=0
+	DR_INR, RDF bits: 5, lab#=0
+	DR_Load, RDF bits: 5, lab#=0
+	~GND~, RDF bits: 5, lab#=0
+	IR_Load, RDF bits: 5, lab#=0
+	|mux8x1:21|mux2x1:14|O~1, RDF bits: 5, lab#=0
+	|mux8x1:38|mux2x1:14|O~1, RDF bits: 5, lab#=0
+	|mux8x1:44|mux2x1:14|O~1, RDF bits: 5, lab#=0
+	Out0, RDF bits: 3, lab#=0
+	Out1, RDF bits: 3, lab#=0
+	Out2, RDF bits: 3, lab#=0
+	Out3, RDF bits: 3, lab#=0
+	Out4, RDF bits: 3, lab#=0
+	Out5, RDF bits: 3, lab#=0
+	Out6, RDF bits: 3, lab#=0
+	Out7, RDF bits: 3, lab#=0
+	Out8, RDF bits: 3, lab#=0
+	Out9, RDF bits: 3, lab#=0
+	Out10, RDF bits: 3, lab#=0
+	Out11, RDF bits: 3, lab#=0
+	Out12, RDF bits: 3, lab#=0
+	Out13, RDF bits: 3, lab#=0
+	Out14, RDF bits: 3, lab#=0
+	Out15, RDF bits: 3, lab#=0
+	PC_Clear, RDF bits: 5, lab#=0
+	PC_INR, RDF bits: 5, lab#=0
+	PC_Load, RDF bits: 5, lab#=0
 	~PIN000, RDF bits: 5, lab#=0
-	q6, RDF bits: 3, lab#=0
-	q7, RDF bits: 3, lab#=0
+	~PIN001, RDF bits: 5, lab#=0
+	~PIN002, RDF bits: 5, lab#=0
+	RAM_read, RDF bits: 10005, lab#=0
+	RAM_write, RDF bits: 805, lab#=0
+	TR_Clear, RDF bits: 5, lab#=0
+	TR_INR, RDF bits: 5, lab#=0
+	TR_Load, RDF bits: 5, lab#=0
 
 Layer 1
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:207|result_node, RDF bits: 50, lab#=0
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:222|result_node, RDF bits: 50, lab#=0
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6, RDF bits: 8000, lab#=0
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_7, RDF bits: 8000, lab#=0
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6, RDF bits: 8000, lab#=0
-	|GoodRam:73|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_7, RDF bits: 8000, lab#=0
+	|ac:9|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:38|ha:60|:4, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:38|mux2x1:54|:8, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:38|mux2x1:55|:8, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:38|mux2x1:56|:5, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:38|mux2x1:56|:6, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:38|mux2x1:57|:8, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:38|:49, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:39|mux2x1:57|:5, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:39|:49, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:40|mux2x1:56|:5, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:40|:49, RDF bits: 50, lab#=0
+	|ac:9|4bitregister:41|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:41|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:41|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:41|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ac:9|4bitregister:41|:49, RDF bits: 50, lab#=0
+	|alu:1|alulayer:1|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:1|arithmeticlayer:8|fulladder:12|:10, RDF bits: 50, lab#=0
+	|alu:1|alulayer:1|arithmeticlayer:8|mux4x1:6|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:1|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:1|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:1|mux4x1:3|:59, RDF bits: 50, lab#=0
+	|alu:1|alulayer:15|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:15|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:15|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:15|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:15|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:15|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:20|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:20|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:20|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:20|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:20|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:23|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:23|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:23|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:23|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:23|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:23|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:64|arithmeticlayer:8|fulladder:12|~10~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:64|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:64|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:64|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:69|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:69|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:69|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:69|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:69|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:69|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:73|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:73|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:73|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:73|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:73|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:73|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:77|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:77|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:77|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:77|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:77|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:77|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~7~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:80|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:80|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:80|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:84|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:84|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:84|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:84|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:84|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:84|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:88|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:88|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:88|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:88|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:88|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:88|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:92|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:92|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:92|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:92|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:92|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:92|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:96|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:96|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:96|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:96|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:96|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:96|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:100|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:100|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:100|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:100|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:100|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:104|arithmeticlayer:8|fulladder:12|:6, RDF bits: 50, lab#=0
+	|alu:1|alulayer:104|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:104|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:104|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:104|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:104|mux4x1:3|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:108|arithmeticlayer:8|mux4x1:6|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:108|logiclayer:2|mux4x1:2|:42, RDF bits: 50, lab#=0
+	|alu:1|alulayer:108|mux4x1:3|~42~1, RDF bits: 1050, lab#=0
+	|alu:1|alulayer:108|mux4x1:3|~42~2, RDF bits: 1050, lab#=0
+	|dr:5|4bitregister:1|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:1|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:1|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:1|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:1|ha:59|:4, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:1|ha:60|:4, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:1|mux2x1:54|:8, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:1|mux2x1:55|:8, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:1|mux2x1:56|:8, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:1|mux2x1:57|:8, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:1|:49, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:2|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:2|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:2|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:2|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:2|:49, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:3|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:3|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:3|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:3|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:3|:49, RDF bits: 50, lab#=0
+	|dr:5|4bitregister:4|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:4|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:4|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:4|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|dr:5|4bitregister:4|:49, RDF bits: 50, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:297|result_node, RDF bits: 50, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:312|result_node, RDF bits: 50, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:327|result_node, RDF bits: 50, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:342|result_node, RDF bits: 50, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_5, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_6, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_9, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_10, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_12, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_13, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_14, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_15, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_2, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_6, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_9, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_10, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_12, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_13, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_14, RDF bits: 8000, lab#=0
+	|GoodRam:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_15, RDF bits: 8000, lab#=0
+	|ir:10|4bitregister:37|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:37|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:37|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:37|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|ir:10|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|mux8x1:21|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:21|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:21|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:21|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:24|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:24|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:24|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:24|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:24|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:34|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:34|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:34|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:34|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:34|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:36|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:36|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:36|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:36|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:36|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:38|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:38|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:38|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:38|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:40|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:40|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:40|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:40|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:40|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:42|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:42|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:42|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:42|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:42|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:44|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:44|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:44|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:44|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:80|mux2x1:14|:5, RDF bits: 50, lab#=0
+	|mux8x1:80|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:80|mux4x1:13|~42~1, RDF bits: 1050, lab#=0
+	|mux8x1:80|mux4x1:13|~42~2, RDF bits: 1050, lab#=0
+	|mux8x1:82|mux2x1:14|:5, RDF bits: 50, lab#=0
+	|mux8x1:82|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:82|mux4x1:13|~42~1, RDF bits: 1050, lab#=0
+	|mux8x1:82|mux4x1:13|~42~2, RDF bits: 1050, lab#=0
+	|mux8x1:84|mux2x1:14|:5, RDF bits: 50, lab#=0
+	|mux8x1:84|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:84|mux4x1:13|~42~1, RDF bits: 1050, lab#=0
+	|mux8x1:84|mux4x1:13|~42~2, RDF bits: 1050, lab#=0
+	|mux8x1:86|mux2x1:14|:5, RDF bits: 50, lab#=0
+	|mux8x1:86|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:86|mux4x1:13|~42~1, RDF bits: 1050, lab#=0
+	|mux8x1:86|mux4x1:13|~42~2, RDF bits: 1050, lab#=0
+	|mux8x1:88|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:88|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:88|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:88|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:88|mux2x1:14|~8~5, RDF bits: 1050, lab#=0
+	|mux8x1:88|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:90|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:90|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:90|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:90|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:90|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:92|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:92|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:92|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:92|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:92|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|mux8x1:94|mux2x1:14|~8~1, RDF bits: 1050, lab#=0
+	|mux8x1:94|mux2x1:14|~8~2, RDF bits: 1050, lab#=0
+	|mux8x1:94|mux2x1:14|~8~3, RDF bits: 1050, lab#=0
+	|mux8x1:94|mux2x1:14|~8~4, RDF bits: 1050, lab#=0
+	|mux8x1:94|mux2x1:14|:8, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:30|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:30|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:30|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:30|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:30|ha:59|:4, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:30|ha:60|:4, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:30|mux2x1:54|:8, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:30|mux2x1:55|:8, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:30|mux2x1:56|:8, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:30|mux2x1:57|:8, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:30|:49, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:31|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:31|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:31|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:31|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:31|:49, RDF bits: 50, lab#=0
+	|pc:4|4bitregister:32|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:32|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:32|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:32|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|pc:4|4bitregister:32|:49, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:37|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:37|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:37|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:37|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:37|ha:59|:4, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:37|ha:60|:4, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:37|mux2x1:54|:8, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:37|mux2x1:55|:8, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:37|mux2x1:56|:8, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:37|mux2x1:57|:8, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:37|:49, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:38|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:38|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:38|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:38|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:38|:49, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:39|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:39|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:39|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:39|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:39|:49, RDF bits: 50, lab#=0
+	|tr:12|4bitregister:40|D:50|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:40|D:51|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:40|D:52|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:40|D:53|lpm_ff:lpm_ff_component|dffs0, RDF bits: 110, lab#=0
+	|tr:12|4bitregister:40|:49, RDF bits: 50, lab#=0
 
 
 Physical pins available:
 row: 0, col: -1 RDF: 800003c7
 row: 0, col: -1 RDF: 800003c7
 row: 0, col: -1 RDF: 800003c7
-row: 0, col: -1 RDF: 800003c7
-row: 1, col: -1 RDF: 800003c7
 row: 1, col: -1 RDF: 800003c7
 row: 1, col: -1 RDF: 800003c7
 row: 1, col: -1 RDF: 800003c7
@@ -160,94 +1505,442 @@ row: 2, col: -1 RDF: 800003c7
 row: 2, col: -1 RDF: 800003c7
 row: 2, col: -1 RDF: 800003c7
 row: 2, col: -1 RDF: 800003c7
+row: 3, col: -1 RDF: 800003c7
+row: 3, col: -1 RDF: 800003c7
+row: 3, col: -1 RDF: 800003c7
+row: 4, col: -1 RDF: 800003c7
+row: 4, col: -1 RDF: 800003c7
+row: 4, col: -1 RDF: 800003c7
+row: 5, col: -1 RDF: 800003c7
+row: 5, col: -1 RDF: 800003c7
+row: 5, col: -1 RDF: 800003c7
+row: 6, col: -1 RDF: 800003c7
+row: 6, col: -1 RDF: 800003c7
+row: 7, col: -1 RDF: 800003c7
+row: 7, col: -1 RDF: 800003c7
+row: 8, col: -1 RDF: 800003c7
+row: 9, col: -1 RDF: 800003c7
+row: 10, col: -1 RDF: 800003c7
+row: 10, col: -1 RDF: 800003c7
+row: 11, col: -1 RDF: 800003c7
+row: 11, col: -1 RDF: 800003c7
+row: -1, col: 0 RDF: 800003c7
 row: -1, col: 1 RDF: 800003c7
+row: -1, col: 2 RDF: 800003c7
+row: -1, col: 3 RDF: 800003c7
+row: -1, col: 4 RDF: 800003c7
 row: -1, col: 5 RDF: 800003c7
 row: -1, col: 6 RDF: 800003c7
+row: -1, col: 7 RDF: 800003c7
 row: -1, col: 8 RDF: 800003c7
-row: -1, col: 9 RDF: 800003c7
-row: -1, col: 10 RDF: 800003c7
-row: -1, col: 11 RDF: 800003c7
-row: -1, col: -1 RDF: 4601080d
-row: -1, col: -1 RDF: 4000d
-row: -1, col: -1 RDF: 4601080d
+row: -1, col: 12 RDF: 800003c7
 row: -1, col: 13 RDF: 800003c7
 row: -1, col: 14 RDF: 800003c7
 row: -1, col: 15 RDF: 800003c7
-row: -1, col: 16 RDF: 800003c7
 row: -1, col: 17 RDF: 800003c7
-47.	29 (LOCK)	row: -1, col: 18 RDF: 800003c7
-row: -1, col: 19 RDF: 800003c7
+row: -1, col: 18 RDF: 800003c7
 row: -1, col: 20 RDF: 800003c7
 row: -1, col: 22 RDF: 800003c7
-row: 2, col: -1 RDF: 800003c7
-row: 2, col: -1 RDF: 800003c7
-row: 2, col: -1 RDF: 800003c7
+row: -1, col: 23 RDF: 800003c7
+row: -1, col: 24 RDF: 800003c7
+row: -1, col: -1 RDF: 4601080d
+row: -1, col: -1 RDF: 4000d
+row: -1, col: -1 RDF: 4601080d
+row: -1, col: 26 RDF: 800003c7
+row: -1, col: 27 RDF: 800003c7
+row: -1, col: 28 RDF: 800003c7
+row: -1, col: 29 RDF: 800003c7
+row: -1, col: 30 RDF: 800003c7
+row: -1, col: 31 RDF: 800003c7
+row: -1, col: 32 RDF: 800003c7
+row: -1, col: 32 RDF: 800003c7
+row: -1, col: 33 RDF: 800003c7
+row: -1, col: 34 RDF: 800003c7
+row: -1, col: 34 RDF: 800003c7
+94.	62 (LOCK)	row: -1, col: 35 RDF: 800003c7
+row: -1, col: 39 RDF: 800003c7
+row: -1, col: 39 RDF: 800003c7
+row: -1, col: 41 RDF: 800003c7
+row: -1, col: 42 RDF: 800003c7
+row: -1, col: 44 RDF: 800003c7
+row: -1, col: 47 RDF: 800003c7
+row: -1, col: 50 RDF: 800003c7
+row: -1, col: 51 RDF: 800003c7
+row: 11, col: -1 RDF: 800003c7
+row: 11, col: -1 RDF: 800003c7
+row: 11, col: -1 RDF: 800003c7
+row: 10, col: -1 RDF: 800003c7
+row: 10, col: -1 RDF: 800003c7
+row: 9, col: -1 RDF: 800003c7
+row: 9, col: -1 RDF: 800003c7
+row: 8, col: -1 RDF: 800003c7
+row: 8, col: -1 RDF: 800003c7
+row: 7, col: -1 RDF: 800003c7
+row: 7, col: -1 RDF: 800003c7
+row: 7, col: -1 RDF: 800003c7
+row: 6, col: -1 RDF: 800003c7
+row: 6, col: -1 RDF: 800003c7
+row: 5, col: -1 RDF: 800003c7
+row: 5, col: -1 RDF: 800003c7
+row: 4, col: -1 RDF: 800003c7
+row: 4, col: -1 RDF: 800003c7
+137.	19 (INIT_DONE)	row: 3, col: -1 RDF: 800003c7
+row: 3, col: -1 RDF: 800003c7
+row: 3, col: -1 RDF: 800003c7
+140.	16 (RDYnBUSY)	row: 3, col: -1 RDF: 800003c7
 row: 2, col: -1 RDF: 800003c7
 row: 2, col: -1 RDF: 800003c7
 row: 1, col: -1 RDF: 800003c7
 row: 1, col: -1 RDF: 800003c7
 row: 1, col: -1 RDF: 800003c7
-row: 1, col: -1 RDF: 800003c7
-66.	10 (INIT_DONE)	row: 0, col: -1 RDF: 800003c7
+146.	10 (CLKUSR)	row: 0, col: -1 RDF: 800003c7
 row: 0, col: -1 RDF: 800003c7
-68.	8 (RDYnBUSY)	row: 0, col: -1 RDF: 800003c7
 row: 0, col: -1 RDF: 800003c7
 row: 0, col: -1 RDF: 800003c7
-71.	5 (CLKUSR)	row: 0, col: -1 RDF: 800003c7
-77.	99 (nCS)	row: -1, col: 23 RDF: 800003c7
-78.	98 (CS)	row: -1, col: 23 RDF: 800003c7
-79.	97 (nWS)	row: -1, col: 22 RDF: 800003c7
-80.	96 (nRS)	row: -1, col: 21 RDF: 800003c7
-row: -1, col: 18 RDF: 800003c7
-83.	93 (DEV_OE)	row: -1, col: 12 RDF: 800003c7
+156.	208 (nCS)	row: -1, col: 51 RDF: 800003c7
+157.	207 (CS)	row: -1, col: 50 RDF: 800003c7
+158.	206 (nWS)	row: -1, col: 49 RDF: 800003c7
+row: -1, col: 49 RDF: 800003c7
+160.	204 (nRS)	row: -1, col: 48 RDF: 800003c7
+row: -1, col: 47 RDF: 800003c7
+row: -1, col: 46 RDF: 800003c7
+row: -1, col: 45 RDF: 800003c7
+row: -1, col: 44 RDF: 800003c7
+row: -1, col: 43 RDF: 800003c7
+row: -1, col: 42 RDF: 800003c7
+row: -1, col: 40 RDF: 800003c7
+row: -1, col: 38 RDF: 800003c7
+row: -1, col: 37 RDF: 800003c7
+row: -1, col: 36 RDF: 800003c7
+row: -1, col: 34 RDF: 800003c7
+row: -1, col: 32 RDF: 800003c7
+row: -1, col: 29 RDF: 800003c7
+row: -1, col: 27 RDF: 800003c7
+178.	186 (DEV_OE)	row: -1, col: 26 RDF: 800003c7
 row: -1, col: -1 RDF: 4601080d
 row: -1, col: -1 RDF: d
 row: -1, col: -1 RDF: 4601080d
-89.	87 (DEV_CLRn)	row: -1, col: 11 RDF: 800003c7
-row: -1, col: 8 RDF: 800003c7
-row: -1, col: 7 RDF: 800003c7
-92.	84 (DATA7)	row: -1, col: 4 RDF: 800003c7
-94.	82 (DATA6)	row: -1, col: 3 RDF: 800003c7
-95.	81 (DATA5)	row: -1, col: 2 RDF: 800003c7
-96.	80 (DATA4)	row: -1, col: 2 RDF: 800003c7
-97.	79 (DATA3)	row: -1, col: 1 RDF: 800003c7
-98.	78 (DATA2)	row: -1, col: 0 RDF: 800003c7
-99.	77 (DATA1)	row: -1, col: 0 RDF: 800003c7
+184.	180 (DEV_CLRn)	row: -1, col: 25 RDF: 800003c7
+row: -1, col: 24 RDF: 800003c7
+row: -1, col: 23 RDF: 800003c7
+row: -1, col: 22 RDF: 800003c7
+row: -1, col: 21 RDF: 800003c7
+row: -1, col: 21 RDF: 800003c7
+row: -1, col: 20 RDF: 800003c7
+row: -1, col: 19 RDF: 800003c7
+row: -1, col: 18 RDF: 800003c7
+row: -1, col: 17 RDF: 800003c7
+row: -1, col: 16 RDF: 800003c7
+row: -1, col: 15 RDF: 800003c7
+198.	166 (DATA7)	row: -1, col: 14 RDF: 800003c7
+200.	164 (DATA6)	row: -1, col: 13 RDF: 800003c7
+row: -1, col: 13 RDF: 800003c7
+202.	162 (DATA5)	row: -1, col: 12 RDF: 800003c7
+203.	161 (DATA4)	row: -1, col: 11 RDF: 800003c7
+row: -1, col: 11 RDF: 800003c7
+205.	159 (DATA3)	row: -1, col: 10 RDF: 800003c7
+206.	158 (DATA2)	row: -1, col: 9 RDF: 800003c7
+207.	157 (DATA1)	row: -1, col: 8 RDF: 800003c7
 
 Sorted pins:
 
-Pin ~PIN000: Link strength=192, fast_io=0, group No.=0
-Pin i1: Link strength=160, fast_io=0, group No.=0
-Pin i1clk: Link strength=160, fast_io=0, group No.=0
-Pin q6: Link strength=144, fast_io=0, group No.=0
-Pin q7: Link strength=144, fast_io=0, group No.=0
+Pin RAM_write: Link strength=0, fast_io=0, group No.=43
+Pin RAM_read: Link strength=0, fast_io=0, group No.=42
+Pin BUS_Select1: Link strength=1616, fast_io=0, group No.=0
+Pin BUS_Select2: Link strength=1432, fast_io=0, group No.=0
+Pin BUS_Select0: Link strength=1328, fast_io=0, group No.=0
+Pin IR_Load: Link strength=876, fast_io=0, group No.=0
+Pin clk: Link strength=838, fast_io=0, group No.=0
+Pin ~GND~: Link strength=838, fast_io=0, group No.=0
+Pin DR_Clear: Link strength=756, fast_io=0, group No.=0
+Pin Out2: Link strength=726, fast_io=0, group No.=0
+Pin Out1: Link strength=714, fast_io=0, group No.=0
+Pin Out3: Link strength=710, fast_io=0, group No.=0
+Pin AC_Clear: Link strength=706, fast_io=0, group No.=0
+Pin Out0: Link strength=684, fast_io=0, group No.=0
+Pin Out5: Link strength=666, fast_io=0, group No.=0
+Pin Out6: Link strength=654, fast_io=0, group No.=0
+Pin ~PIN000: Link strength=654, fast_io=0, group No.=0
+Pin Out9: Link strength=634, fast_io=0, group No.=0
+Pin Out10: Link strength=634, fast_io=0, group No.=0
+Pin Out8: Link strength=630, fast_io=0, group No.=0
+Pin Out11: Link strength=630, fast_io=0, group No.=0
+Pin DR_INR: Link strength=628, fast_io=0, group No.=0
+Pin Out7: Link strength=626, fast_io=0, group No.=0
+Pin |mux8x1:21|mux2x1:14|O~1: Link strength=624, fast_io=0, group No.=0
+Pin Out4: Link strength=622, fast_io=0, group No.=0
+Pin ALU_S0: Link strength=608, fast_io=0, group No.=0
+Pin |mux8x1:38|mux2x1:14|O~1: Link strength=592, fast_io=0, group No.=0
+Pin |mux8x1:44|mux2x1:14|O~1: Link strength=592, fast_io=0, group No.=0
+Pin ALU_S1: Link strength=576, fast_io=0, group No.=0
+Pin Out12: Link strength=576, fast_io=0, group No.=0
+Pin Out13: Link strength=576, fast_io=0, group No.=0
+Pin Out14: Link strength=576, fast_io=0, group No.=0
+Pin Out15: Link strength=576, fast_io=0, group No.=0
+Pin TR_Clear: Link strength=574, fast_io=0, group No.=0
+Pin TR_INR: Link strength=562, fast_io=0, group No.=0
+Pin ALU_S3: Link strength=548, fast_io=0, group No.=0
+Pin PC_INR: Link strength=548, fast_io=0, group No.=0
+Pin ALU_S2: Link strength=510, fast_io=0, group No.=0
+Pin PC_Clear: Link strength=470, fast_io=0, group No.=0
+Pin ALU_Cin: Link strength=458, fast_io=0, group No.=0
+Pin ~PIN001: Link strength=440, fast_io=0, group No.=0
+Pin DR_Load: Link strength=432, fast_io=0, group No.=0
+Pin ~PIN002: Link strength=428, fast_io=0, group No.=0
+Pin AC_Load: Link strength=418, fast_io=0, group No.=0
+Pin AC_INR: Link strength=412, fast_io=0, group No.=0
+Pin TR_Load: Link strength=294, fast_io=0, group No.=0
+Pin PC_Load: Link strength=270, fast_io=0, group No.=0
 
 Output pin initial assignments:
 
-Initially output pin q6 is assigned to pin 71(index:5)
-Initially output pin q7 is assigned to pin 70(index:6)
+Initially output pin Out2 is assigned to pin 150(index:6)
+Initially output pin Out1 is assigned to pin 149(index:7)
+Initially output pin Out3 is assigned to pin 148(index:8)
+Initially output pin Out0 is assigned to pin 147(index:9)
+Initially output pin Out5 is assigned to pin 144(index:12)
+Initially output pin Out6 is assigned to pin 143(index:13)
+Initially output pin Out9 is assigned to pin 142(index:14)
+Initially output pin Out10 is assigned to pin 141(index:15)
+Initially output pin Out8 is assigned to pin 140(index:16)
+Initially output pin Out11 is assigned to pin 139(index:17)
+Initially output pin Out7 is assigned to pin 136(index:20)
+Initially output pin Out4 is assigned to pin 135(index:21)
+Initially output pin Out12 is assigned to pin 134(index:22)
+Initially output pin Out13 is assigned to pin 133(index:23)
+Initially output pin Out14 is assigned to pin 132(index:24)
+Initially output pin Out15 is assigned to pin 131(index:25)
 
 All the rest pin assignments:
 
-Initially pin ~PIN000 is assigned to pin 69(index:7, cost:13441)
-Initially pin q6 is assigned to pin 71(index:5, cost:8641)
-Initially pin q7 is assigned to pin 70(index:6, cost:8641)
-Initially pin ~PIN000 is assigned to pin 69(index:7, cost:13441)
-Initially pin q6 is assigned to pin 71(index:5, cost:8641)
-Initially pin q7 is assigned to pin 70(index:6, cost:8641)
-Pin 69 is being cleared (used to be vpin ~PIN000)
-Pin 71 is being cleared (used to be vpin q6)
-Pin 70 is being cleared (used to be vpin q7)
+Initially pin BUS_Select1 is assigned to pin 104(index:52, cost:109281)
+Initially pin BUS_Select2 is assigned to pin 103(index:53, cost:107041)
+Initially pin BUS_Select0 is assigned to pin 102(index:54, cost:105921)
+Initially pin IR_Load is assigned to pin 101(index:55, cost:105761)
+Initially pin ~GND~ is assigned to pin 100(index:56, cost:105521)
+Initially pin DR_Clear is assigned to pin 99(index:57, cost:103201)
+Initially pin Out2 is assigned to pin 150(index:6, cost:12641)
+Initially pin Out1 is assigned to pin 149(index:7, cost:12641)
+Initially pin Out3 is assigned to pin 148(index:8, cost:12641)
+Initially pin AC_Clear is assigned to pin 97(index:59, cost:103241)
+Initially pin Out0 is assigned to pin 147(index:9, cost:13281)
+Initially pin Out5 is assigned to pin 144(index:12, cost:13761)
+Initially pin Out6 is assigned to pin 143(index:13, cost:13761)
+Initially pin ~PIN000 is assigned to pin 96(index:60, cost:103461)
+Initially pin Out9 is assigned to pin 142(index:14, cost:13921)
+Initially pin Out10 is assigned to pin 141(index:15, cost:13921)
+Initially pin Out8 is assigned to pin 140(index:16, cost:13921)
+Initially pin Out11 is assigned to pin 139(index:17, cost:13921)
+Initially pin DR_INR is assigned to pin 95(index:61, cost:103281)
+Initially pin Out7 is assigned to pin 136(index:20, cost:13521)
+Initially pin |mux8x1:21|mux2x1:14|O~1 is assigned to pin 128(index:28, cost:11841)
+Initially pin Out4 is assigned to pin 135(index:21, cost:11921)
+Initially pin ALU_S0 is assigned to pin 157(index:207, cost:102301)
+Initially pin |mux8x1:38|mux2x1:14|O~1 is assigned to pin 127(index:29, cost:10641)
+Initially pin |mux8x1:44|mux2x1:14|O~1 is assigned to pin 126(index:30, cost:12241)
+Initially pin ALU_S1 is assigned to pin 94(index:62, cost:102861)
+Initially pin Out12 is assigned to pin 125(index:31, cost:12521)
+Initially pin Out13 is assigned to pin 134(index:22, cost:11081)
+Initially pin Out14 is assigned to pin 132(index:24, cost:12521)
+Initially pin Out15 is assigned to pin 131(index:25, cost:12521)
+Initially pin TR_Clear is assigned to pin 162(index:202, cost:103721)
+Initially pin TR_INR is assigned to pin 93(index:63, cost:103681)
+Initially pin ALU_S3 is assigned to pin 164(index:200, cost:102521)
+Initially pin PC_INR is assigned to pin 163(index:201, cost:103681)
+Initially pin ALU_S2 is assigned to pin 92(index:64, cost:102261)
+Initially pin PC_Clear is assigned to pin 166(index:198, cost:103401)
+Initially pin ALU_Cin is assigned to pin 133(index:23, cost:5861)
+Initially pin ~PIN001 is assigned to pin 122(index:34, cost:7621)
+Initially pin DR_Load is assigned to pin 121(index:35, cost:10421)
+Initially pin ~PIN002 is assigned to pin 120(index:36, cost:8461)
+Initially pin AC_Load is assigned to pin 119(index:37, cost:8521)
+Initially pin AC_INR is assigned to pin 90(index:66, cost:102931)
+Initially pin TR_Load is assigned to pin 116(index:40, cost:6861)
+Initially pin PC_Load is assigned to pin 115(index:41, cost:6301)
+Initially pin BUS_Select1 is assigned to pin 167(index:197, cost:113721)
+Initially pin BUS_Select2 is assigned to pin 104(index:52, cost:112121)
+Initially pin BUS_Select0 is assigned to pin 103(index:53, cost:110961)
+Initially pin IR_Load is assigned to pin 102(index:54, cost:107481)
+Initially pin ~GND~ is assigned to pin 101(index:55, cost:107241)
+Initially pin DR_Clear is assigned to pin 100(index:56, cost:106041)
+Initially pin Out2 is assigned to pin 150(index:6, cost:17761)
+Initially pin Out1 is assigned to pin 149(index:7, cost:17281)
+Initially pin Out3 is assigned to pin 148(index:8, cost:17241)
+Initially pin AC_Clear is assigned to pin 99(index:57, cost:105421)
+Initially pin Out0 is assigned to pin 147(index:9, cost:18841)
+Initially pin Out5 is assigned to pin 144(index:12, cost:18121)
+Initially pin Out6 is assigned to pin 143(index:13, cost:17641)
+Initially pin ~PIN000 is assigned to pin 97(index:59, cost:105431)
+Initially pin Out9 is assigned to pin 142(index:14, cost:17441)
+Initially pin Out10 is assigned to pin 141(index:15, cost:17441)
+Initially pin Out8 is assigned to pin 140(index:16, cost:17401)
+Initially pin Out11 is assigned to pin 139(index:17, cost:17401)
+Initially pin DR_INR is assigned to pin 95(index:61, cost:105141)
+Initially pin Out7 is assigned to pin 136(index:20, cost:18081)
+Initially pin |mux8x1:21|mux2x1:14|O~1 is assigned to pin 128(index:28, cost:16201)
+Initially pin Out4 is assigned to pin 135(index:21, cost:15761)
+Initially pin ALU_S0 is assigned to pin 157(index:207, cost:104611)
+Initially pin |mux8x1:38|mux2x1:14|O~1 is assigned to pin 127(index:29, cost:15761)
+Initially pin |mux8x1:44|mux2x1:14|O~1 is assigned to pin 126(index:30, cost:15761)
+Initially pin ALU_S1 is assigned to pin 94(index:62, cost:104251)
+Initially pin Out12 is assigned to pin 125(index:31, cost:14821)
+Initially pin Out13 is assigned to pin 134(index:22, cost:13501)
+Initially pin Out14 is assigned to pin 132(index:24, cost:14821)
+Initially pin Out15 is assigned to pin 131(index:25, cost:14821)
+Initially pin TR_Clear is assigned to pin 162(index:202, cost:104641)
+Initially pin TR_INR is assigned to pin 93(index:63, cost:104761)
+Initially pin ALU_S3 is assigned to pin 164(index:200, cost:104071)
+Initially pin PC_INR is assigned to pin 163(index:201, cost:104661)
+Initially pin ALU_S2 is assigned to pin 92(index:64, cost:103561)
+Initially pin PC_Clear is assigned to pin 166(index:198, cost:103881)
+Initially pin ALU_Cin is assigned to pin 133(index:23, cost:7461)
+Initially pin ~PIN001 is assigned to pin 122(index:34, cost:9321)
+Initially pin DR_Load is assigned to pin 121(index:35, cost:10981)
+Initially pin ~PIN002 is assigned to pin 120(index:36, cost:8841)
+Initially pin AC_Load is assigned to pin 119(index:37, cost:9401)
+Initially pin AC_INR is assigned to pin 90(index:66, cost:103011)
+Initially pin TR_Load is assigned to pin 116(index:40, cost:7021)
+Initially pin PC_Load is assigned to pin 115(index:41, cost:6301)
+Initially pin BUS_Select1 is assigned to pin 167(index:197, cost:113721)
+Initially pin BUS_Select2 is assigned to pin 104(index:52, cost:112121)
+Initially pin BUS_Select0 is assigned to pin 103(index:53, cost:110961)
+Initially pin IR_Load is assigned to pin 102(index:54, cost:107481)
+Initially pin ~GND~ is assigned to pin 101(index:55, cost:107241)
+Initially pin DR_Clear is assigned to pin 100(index:56, cost:106041)
+Initially pin Out2 is assigned to pin 150(index:6, cost:17761)
+Initially pin Out1 is assigned to pin 149(index:7, cost:17281)
+Initially pin Out3 is assigned to pin 148(index:8, cost:17241)
+Initially pin AC_Clear is assigned to pin 99(index:57, cost:105421)
+Initially pin Out0 is assigned to pin 147(index:9, cost:18841)
+Initially pin Out5 is assigned to pin 144(index:12, cost:18121)
+Initially pin Out6 is assigned to pin 143(index:13, cost:17641)
+Initially pin ~PIN000 is assigned to pin 97(index:59, cost:105431)
+Initially pin Out9 is assigned to pin 142(index:14, cost:17441)
+Initially pin Out10 is assigned to pin 141(index:15, cost:17441)
+Initially pin Out8 is assigned to pin 140(index:16, cost:17401)
+Initially pin Out11 is assigned to pin 139(index:17, cost:17401)
+Initially pin DR_INR is assigned to pin 95(index:61, cost:105141)
+Initially pin Out7 is assigned to pin 136(index:20, cost:18081)
+Initially pin |mux8x1:21|mux2x1:14|O~1 is assigned to pin 128(index:28, cost:16201)
+Initially pin Out4 is assigned to pin 135(index:21, cost:15761)
+Initially pin ALU_S0 is assigned to pin 157(index:207, cost:104611)
+Initially pin |mux8x1:38|mux2x1:14|O~1 is assigned to pin 127(index:29, cost:15761)
+Initially pin |mux8x1:44|mux2x1:14|O~1 is assigned to pin 126(index:30, cost:15761)
+Initially pin ALU_S1 is assigned to pin 94(index:62, cost:104251)
+Initially pin Out12 is assigned to pin 125(index:31, cost:14821)
+Initially pin Out13 is assigned to pin 134(index:22, cost:13501)
+Initially pin Out14 is assigned to pin 132(index:24, cost:14821)
+Initially pin Out15 is assigned to pin 131(index:25, cost:14821)
+Initially pin TR_Clear is assigned to pin 162(index:202, cost:104641)
+Initially pin TR_INR is assigned to pin 93(index:63, cost:104761)
+Initially pin ALU_S3 is assigned to pin 164(index:200, cost:104071)
+Initially pin PC_INR is assigned to pin 163(index:201, cost:104661)
+Initially pin ALU_S2 is assigned to pin 92(index:64, cost:103561)
+Initially pin PC_Clear is assigned to pin 166(index:198, cost:103881)
+Initially pin ALU_Cin is assigned to pin 133(index:23, cost:7461)
+Initially pin ~PIN001 is assigned to pin 122(index:34, cost:9321)
+Initially pin DR_Load is assigned to pin 121(index:35, cost:10981)
+Initially pin ~PIN002 is assigned to pin 120(index:36, cost:8841)
+Initially pin AC_Load is assigned to pin 119(index:37, cost:9401)
+Initially pin AC_INR is assigned to pin 90(index:66, cost:103011)
+Initially pin TR_Load is assigned to pin 116(index:40, cost:7021)
+Initially pin PC_Load is assigned to pin 115(index:41, cost:6301)
+Pin 99 is being cleared (used to be vpin AC_Clear)
+Pin 90 is being cleared (used to be vpin AC_INR)
+Pin 119 is being cleared (used to be vpin AC_Load)
+Pin 133 is being cleared (used to be vpin ALU_Cin)
+Pin 157 is being cleared (used to be vpin ALU_S0)
+Pin 94 is being cleared (used to be vpin ALU_S1)
+Pin 92 is being cleared (used to be vpin ALU_S2)
+Pin 164 is being cleared (used to be vpin ALU_S3)
+Pin 103 is being cleared (used to be vpin BUS_Select0)
+Pin 167 is being cleared (used to be vpin BUS_Select1)
+Pin 104 is being cleared (used to be vpin BUS_Select2)
+Pin 100 is being cleared (used to be vpin DR_Clear)
+Pin 95 is being cleared (used to be vpin DR_INR)
+Pin 121 is being cleared (used to be vpin DR_Load)
+Pin 101 is being cleared (used to be vpin ~GND~)
+Pin 102 is being cleared (used to be vpin IR_Load)
+Pin 128 is being cleared (used to be vpin |mux8x1:21|mux2x1:14|O~1)
+Pin 127 is being cleared (used to be vpin |mux8x1:38|mux2x1:14|O~1)
+Pin 126 is being cleared (used to be vpin |mux8x1:44|mux2x1:14|O~1)
+Pin 147 is being cleared (used to be vpin Out0)
+Pin 149 is being cleared (used to be vpin Out1)
+Pin 150 is being cleared (used to be vpin Out2)
+Pin 148 is being cleared (used to be vpin Out3)
+Pin 135 is being cleared (used to be vpin Out4)
+Pin 144 is being cleared (used to be vpin Out5)
+Pin 143 is being cleared (used to be vpin Out6)
+Pin 136 is being cleared (used to be vpin Out7)
+Pin 140 is being cleared (used to be vpin Out8)
+Pin 142 is being cleared (used to be vpin Out9)
+Pin 141 is being cleared (used to be vpin Out10)
+Pin 139 is being cleared (used to be vpin Out11)
+Pin 125 is being cleared (used to be vpin Out12)
+Pin 134 is being cleared (used to be vpin Out13)
+Pin 132 is being cleared (used to be vpin Out14)
+Pin 131 is being cleared (used to be vpin Out15)
+Pin 166 is being cleared (used to be vpin PC_Clear)
+Pin 163 is being cleared (used to be vpin PC_INR)
+Pin 115 is being cleared (used to be vpin PC_Load)
+Pin 97 is being cleared (used to be vpin ~PIN000)
+Pin 122 is being cleared (used to be vpin ~PIN001)
+Pin 120 is being cleared (used to be vpin ~PIN002)
+Pin 162 is being cleared (used to be vpin TR_Clear)
+Pin 93 is being cleared (used to be vpin TR_INR)
+Pin 116 is being cleared (used to be vpin TR_Load)
 
 
 Layer-by-layer logic: fast_io=1
 
 Layer 0
-	i1, RDF bits: 805, lab#=0
-	i1clk, RDF bits: d, lab#=0
+	AC_Clear, RDF bits: 5, lab#=0
+	AC_INR, RDF bits: 5, lab#=0
+	AC_Load, RDF bits: 5, lab#=0
+	ALU_Cin, RDF bits: 5, lab#=0
+	ALU_S0, RDF bits: 5, lab#=0
+	ALU_S1, RDF bits: 5, lab#=0
+	ALU_S2, RDF bits: 5, lab#=0
+	ALU_S3, RDF bits: 5, lab#=0
+	BUS_Select0, RDF bits: 5, lab#=0
+	BUS_Select1, RDF bits: 5, lab#=0
+	BUS_Select2, RDF bits: 5, lab#=0
+	clk, RDF bits: d, lab#=0
+	DR_Clear, RDF bits: 5, lab#=0
+	DR_INR, RDF bits: 5, lab#=0
+	DR_Load, RDF bits: 5, lab#=0
+	~GND~, RDF bits: 5, lab#=0
+	IR_Load, RDF bits: 5, lab#=0
+	|mux8x1:21|mux2x1:14|O~1, RDF bits: 5, lab#=0
+	|mux8x1:38|mux2x1:14|O~1, RDF bits: 5, lab#=0
+	|mux8x1:44|mux2x1:14|O~1, RDF bits: 5, lab#=0
+	Out0, RDF bits: 3, lab#=0
+	Out1, RDF bits: 3, lab#=0
+	Out2, RDF bits: 3, lab#=0
+	Out3, RDF bits: 3, lab#=0
+	Out4, RDF bits: 3, lab#=0
+	Out5, RDF bits: 3, lab#=0
+	Out6, RDF bits: 3, lab#=0
+	Out7, RDF bits: 3, lab#=0
+	Out8, RDF bits: 3, lab#=0
+	Out9, RDF bits: 3, lab#=0
+	Out10, RDF bits: 3, lab#=0
+	Out11, RDF bits: 3, lab#=0
+	Out12, RDF bits: 3, lab#=0
+	Out13, RDF bits: 3, lab#=0
+	Out14, RDF bits: 3, lab#=0
+	Out15, RDF bits: 3, lab#=0
+	PC_Clear, RDF bits: 5, lab#=0
+	PC_INR, RDF bits: 5, lab#=0
+	PC_Load, RDF bits: 5, lab#=0
 	~PIN000, RDF bits: 5, lab#=0
-	q6, RDF bits: 3, lab#=0
-	q7, RDF bits: 3, lab#=0
+	~PIN001, RDF bits: 5, lab#=0
+	~PIN002, RDF bits: 5, lab#=0
+	RAM_read, RDF bits: 10005, lab#=0
+	RAM_write, RDF bits: 805, lab#=0
+	TR_Clear, RDF bits: 5, lab#=0
+	TR_INR, RDF bits: 5, lab#=0
+	TR_Load, RDF bits: 5, lab#=0
 
 Layer 1
 
