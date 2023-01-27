@@ -24,25 +24,11 @@ HIF003
 --
 FILES
 {
-	arithmeticlayer.gdf
+	lpm_constant.tdf
 	{
-		arithmeticlayer [] []
+		lpm_constant [LPM_CVALUE,LPM_WIDTH,USE_LPM_FOR_AHDL_OPERATORS] []
 		{
-			1 [] [];
-		}
-	}
-	fulladder.gdf
-	{
-		fulladder [] []
-		{
-			2 [] [];
-		}
-	}
-	mux4x1.gdf
-	{
-		mux4x1 [] []
-		{
-			3 [] [];
+			5 [LPM_CVALUE=0,LPM_WIDTH=1,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
 		}
 	}
 	zero.tdf
@@ -52,11 +38,25 @@ FILES
 			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
 		}
 	}
-	lpm_constant.tdf
+	mux4x1.gdf
 	{
-		lpm_constant [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_CVALUE] []
+		mux4x1 [] []
 		{
-			5 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=1,LPM_CVALUE=0] [result0];
+			3 [] [];
+		}
+	}
+	fulladder.gdf
+	{
+		fulladder [] []
+		{
+			2 [] [];
+		}
+	}
+	arithmeticlayer.gdf
+	{
+		arithmeticlayer [] []
+		{
+			1 [] [];
 		}
 	}
 	testaritmetic.gdf
@@ -73,12 +73,12 @@ TREE
 	{
 		arithmeticlayer::(0,0):(1): arithmeticlayer.gdf
 		{
-			fulladder:2:(0,0):(12): fulladder.gdf;
-			mux4x1:3:(0,0):(6): mux4x1.gdf;
 			zero:4:(0,0):(3): zero.tdf
 			{
 				lpm_constant:5:(48,2):(28,lpm_constant_component): lpm_constant.tdf;
 			}
+			mux4x1:3:(0,0):(6): mux4x1.gdf;
+			fulladder:2:(0,0):(12): fulladder.gdf;
 		}
 	}
 }

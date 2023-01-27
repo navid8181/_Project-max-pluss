@@ -87,21 +87,232 @@ TREE
 	{
 		zero::(0,0):(114): zero.tdf;
 		zero::(0,0):(113): zero.tdf;
-		alulayer::(0,0):(108): alulayer.gdf;
-		alulayer::(0,0):(104): alulayer.gdf;
-		alulayer::(0,0):(100): alulayer.gdf;
-		alulayer::(0,0):(96): alulayer.gdf;
-		alulayer::(0,0):(92): alulayer.gdf;
-		alulayer::(0,0):(88): alulayer.gdf;
-		alulayer::(0,0):(84): alulayer.gdf;
-		alulayer::(0,0):(80): alulayer.gdf;
-		alulayer::(0,0):(77): alulayer.gdf;
-		alulayer::(0,0):(73): alulayer.gdf;
-		alulayer::(0,0):(69): alulayer.gdf;
-		alulayer::(0,0):(64): alulayer.gdf;
-		alulayer::(0,0):(23): alulayer.gdf;
-		alulayer::(0,0):(20): alulayer.gdf;
-		alulayer::(0,0):(15): alulayer.gdf;
-		alulayer::(0,0):(1): alulayer.gdf;
+		alulayer::(0,0):(108): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(104): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(100): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(96): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(92): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(88): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(84): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(80): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(77): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(73): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(69): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(64): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(23): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(20): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(15): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(1): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf
+				{
+					lpm_constant::(48,2):(28,lpm_constant_component): lpm_constant.tdf;
+				}
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
 	}
 }

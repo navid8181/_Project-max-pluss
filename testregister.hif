@@ -24,18 +24,11 @@ HIF003
 --
 FILES
 {
-	d.tdf
+	lpm_ff.tdf
 	{
-		d [USE_LPM_FOR_AHDL_OPERATORS] [lpm_ff.inc]
+		lpm_ff [DEVICE_FAMILY,LPM_FFTYPE=DFF,LPM_SVALUE=0,LPM_AVALUE=0,LPM_WIDTH,USE_LPM_FOR_AHDL_OPERATORS] [lpm_constant.inc,aglobal.inc]
 		{
-			3 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [sclr,data,clock,enable,q];
-		}
-	}
-	mux2x1.gdf
-	{
-		mux2x1 [] []
-		{
-			2 [] [];
+			4 [DEVICE_FAMILY=ACEX1K,LPM_FFTYPE=DFF,LPM_SVALUE=0,LPM_AVALUE=0,LPM_WIDTH=1,USE_LPM_FOR_AHDL_OPERATORS=OFF] [q0,data0,clock,enable,sclr];
 		}
 	}
 	ha.gdf
@@ -45,11 +38,18 @@ FILES
 			1 [] [];
 		}
 	}
-	lpm_ff.tdf
+	mux2x1.gdf
 	{
-		lpm_ff [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_AVALUE=0,LPM_SVALUE=0,LPM_FFTYPE=DFF,DEVICE_FAMILY] [aglobal.inc,lpm_constant.inc]
+		mux2x1 [] []
 		{
-			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=1,LPM_AVALUE=0,LPM_SVALUE=0,LPM_FFTYPE=DFF,DEVICE_FAMILY=ACEX1K] [sclr,enable,clock,data0,q0];
+			2 [] [];
+		}
+	}
+	d.tdf
+	{
+		d [USE_LPM_FOR_AHDL_OPERATORS] [lpm_ff.inc]
+		{
+			3 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [q,enable,clock,data,sclr];
 		}
 	}
 	testregister.gdf
@@ -64,19 +64,7 @@ TREE
 {
 	testregister::(0,0):(0): testregister.gdf
 	{
-		ha:1:(0,0):(10): ha.gdf;
-		ha:1:(0,0):(13): ha.gdf;
-		ha:1:(0,0):(12): ha.gdf;
-		ha:1:(0,0):(11): ha.gdf;
-		mux2x1:2:(0,0):(6): mux2x1.gdf;
-		mux2x1:2:(0,0):(7): mux2x1.gdf;
-		mux2x1:2:(0,0):(8): mux2x1.gdf;
-		mux2x1:2:(0,0):(9): mux2x1.gdf;
-		d:3:(0,0):(2): d.tdf
-		{
-			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
-		}
-		d:3:(0,0):(3): d.tdf
+		d:3:(0,0):(5): d.tdf
 		{
 			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
 		}
@@ -84,9 +72,21 @@ TREE
 		{
 			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
 		}
-		d:3:(0,0):(5): d.tdf
+		d:3:(0,0):(3): d.tdf
 		{
 			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
 		}
+		d:3:(0,0):(2): d.tdf
+		{
+			lpm_ff:4:(52,2):(32,lpm_ff_component): lpm_ff.tdf;
+		}
+		mux2x1:2:(0,0):(9): mux2x1.gdf;
+		mux2x1:2:(0,0):(8): mux2x1.gdf;
+		mux2x1:2:(0,0):(7): mux2x1.gdf;
+		mux2x1:2:(0,0):(6): mux2x1.gdf;
+		ha:1:(0,0):(11): ha.gdf;
+		ha:1:(0,0):(12): ha.gdf;
+		ha:1:(0,0):(13): ha.gdf;
+		ha:1:(0,0):(10): ha.gdf;
 	}
 }
