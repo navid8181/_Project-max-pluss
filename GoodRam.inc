@@ -26,7 +26,6 @@ FUNCTION GoodRam
 	wraddress[11..0],
 	rdaddress[11..0],
 	wren,
-	rden,
 	clock
 )
 

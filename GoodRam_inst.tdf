@@ -5,7 +5,6 @@
 	.wraddress[] = wraddress_sig[],
 	.rdaddress[] = rdaddress_sig[],
 	.wren = wren_sig,
-	.rden = rden_sig,
 	.clock = clock_sig
 )
 RETURNS (

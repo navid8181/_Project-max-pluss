@@ -41,14 +41,14 @@ module Basic_RAM (
 	wren,
 	q);
 
-	input	[3:0]  data;
-	input	[3:0]  wraddress;
-	input	[3:0]  rdaddress;
+	input	[15:0]  data;
+	input	[11:0]  wraddress;
+	input	[11:0]  rdaddress;
 	input	  wren;
-	output	[3:0]  q;
+	output	[15:0]  q;
 
-	wire [3:0] sub_wire0;
-	wire [3:0] q = sub_wire0[3:0];
+	wire [15:0] sub_wire0;
+	wire [15:0] q = sub_wire0[15:0];
 
 	lpm_ram_dp	lpm_ram_dp_component (
 				.wren (wren),
@@ -57,8 +57,8 @@ module Basic_RAM (
 				.wraddress (wraddress),
 				.q (sub_wire0));
 	defparam
-		lpm_ram_dp_component.lpm_width = 4,
-		lpm_ram_dp_component.lpm_widthad = 4,
+		lpm_ram_dp_component.lpm_width = 16,
+		lpm_ram_dp_component.lpm_widthad = 12,
 		lpm_ram_dp_component.lpm_indata = "UNREGISTERED",
 		lpm_ram_dp_component.lpm_wraddress_control = "UNREGISTERED",
 		lpm_ram_dp_component.lpm_rdaddress_control = "UNREGISTERED",
@@ -71,8 +71,8 @@ endmodule
 // ============================================================
 // CNX file retrieval info
 // ============================================================
-// Retrieval info: PRIVATE: WidthData NUMERIC "4"
-// Retrieval info: PRIVATE: WidthAddr NUMERIC "4"
+// Retrieval info: PRIVATE: WidthData NUMERIC "16"
+// Retrieval info: PRIVATE: WidthAddr NUMERIC "12"
 // Retrieval info: PRIVATE: Clock NUMERIC "0"
 // Retrieval info: PRIVATE: rden NUMERIC "0"
 // Retrieval info: PRIVATE: REGdata NUMERIC "0"
@@ -91,20 +91,20 @@ endmodule
 // Retrieval info: PRIVATE: BlankMemory NUMERIC "1"
 // Retrieval info: PRIVATE: MIFfilename STRING ""
 // Retrieval info: PRIVATE: UseLCs NUMERIC "0"
-// Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
-// Retrieval info: CONSTANT: LPM_WIDTHAD NUMERIC "4"
+// Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "16"
+// Retrieval info: CONSTANT: LPM_WIDTHAD NUMERIC "12"
 // Retrieval info: CONSTANT: LPM_INDATA STRING "UNREGISTERED"
 // Retrieval info: CONSTANT: LPM_WRADDRESS_CONTROL STRING "UNREGISTERED"
 // Retrieval info: CONSTANT: LPM_RDADDRESS_CONTROL STRING "UNREGISTERED"
 // Retrieval info: CONSTANT: LPM_OUTDATA STRING "UNREGISTERED"
 // Retrieval info: CONSTANT: LPM_HINT STRING "USE_EAB=ON"
-// Retrieval info: USED_PORT: data 0 0 4 0 INPUT NODEFVAL data[3..0]
-// Retrieval info: USED_PORT: q 0 0 4 0 OUTPUT NODEFVAL q[3..0]
-// Retrieval info: USED_PORT: wraddress 0 0 4 0 INPUT NODEFVAL wraddress[3..0]
-// Retrieval info: USED_PORT: rdaddress 0 0 4 0 INPUT NODEFVAL rdaddress[3..0]
+// Retrieval info: USED_PORT: data 0 0 16 0 INPUT NODEFVAL data[15..0]
+// Retrieval info: USED_PORT: q 0 0 16 0 OUTPUT NODEFVAL q[15..0]
+// Retrieval info: USED_PORT: wraddress 0 0 12 0 INPUT NODEFVAL wraddress[11..0]
+// Retrieval info: USED_PORT: rdaddress 0 0 12 0 INPUT NODEFVAL rdaddress[11..0]
 // Retrieval info: USED_PORT: wren 0 0 0 0 INPUT VCC wren
-// Retrieval info: CONNECT: @data 0 0 4 0 data 0 0 4 0
-// Retrieval info: CONNECT: q 0 0 4 0 @q 0 0 4 0
-// Retrieval info: CONNECT: @wraddress 0 0 4 0 wraddress 0 0 4 0
-// Retrieval info: CONNECT: @rdaddress 0 0 4 0 rdaddress 0 0 4 0
+// Retrieval info: CONNECT: @data 0 0 16 0 data 0 0 16 0
+// Retrieval info: CONNECT: q 0 0 16 0 @q 0 0 16 0
+// Retrieval info: CONNECT: @wraddress 0 0 12 0 wraddress 0 0 12 0
+// Retrieval info: CONNECT: @rdaddress 0 0 12 0 rdaddress 0 0 12 0
 // Retrieval info: CONNECT: @wren 0 0 0 0 wren 0 0 0 0
