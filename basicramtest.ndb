@@ -1,0 +1,75 @@
+NDB006
+The number of symbol table entries is: 6
+The length of the symbol table is: 145
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|Tiny_Basic_Ram:3|
+A	|Tiny_Basic_Ram:3|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|
+"$	|compressor4:5|
+"4	|compressor4:19|
+"E	|extractor4:9|
+
+The number of name info structs is : 58
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:15	"J
+#	Ky&|	!	4	X	Y	Z	[	adr0	n
+$	Ky&|	!	4	X	Y	Z	[	adr1	o
+%	Ky&|	!	4	X	Y	Z	[	adr2	p
+&	Ky&|	!	4	X	Y	Z	[	adr3	q
+'	Ky&|	!	1	X	i0	m
+(	Ky&|	!	1	Y	i1	r
+)	Ky&|	!	1	Z	i2	t
+*	Ky&|	!	1	[	i3	s
++	IGdq	!	O0	w
+,	IGdq	!	O1	v
+-	IGdq	!	O2	x
+.	IGdq	!	O3	u
+/	IeEA	"4	31	0	:10	$\
+0	IeEA	"4	31	0	:11	$]
+1	IeEA	"4	31	0	:12	$^
+2	IeEA	"4	32	0	:13	$_
+3	IeEA	"4	32	0	:14	$`
+4	IeEA	"4	32	0	:15	$a
+5	IeEA	"4	32	0	:16	$b
+6	IeEA	"4	33	0	:17	$c
+7	IeEA	"4	33	0	:18	$d
+8	IeEA	"4	33	0	:19	$e
+9	IeEA	"4	33	0	:20	$f
+:	IeEA	"4	34	0	:21	$g
+;	IeEA	"4	34	0	:22	$h
+<	IeEA	"4	34	0	:23	$i
+=	IeEA	"4	34	0	:24	$j
+>	IeEA	"4	31	0	:9	$[
+?	IeEA	"$	31	0	:10	$>
+@	IeEA	"$	31	0	:11	$?
+A	IeEA	"$	31	0	:12	$@
+B	IeEA	"$	32	0	:13	$A
+C	IeEA	"$	32	0	:14	$B
+D	IeEA	"$	32	0	:15	$C
+E	IeEA	"$	32	0	:16	$D
+F	IeEA	"$	33	0	:17	$E
+G	IeEA	"$	33	0	:18	$F
+H	IeEA	"$	33	0	:19	$G
+I	IeEA	"$	33	0	:20	$H
+J	IeEA	"$	34	0	:21	$I
+K	IeEA	"$	34	0	:22	$J
+L	IeEA	"$	34	0	:23	$K
+M	IeEA	"$	34	0	:24	$L
+N	IeEA	"$	31	0	:9	$=
+O	IeEA	"E	33	0	:10	$y
+P	IeEA	"E	34	0	:11	$z
+Q	IeEA	"E	35	0	:12	${
+R	IeEA	"E	32	0	:9	$x
+S	IeEA	.	51	0	:18	"a
+T	IeEA	.	51	0	:19	"b
+U	IeEA	.	51	0	:20	"c
+V	IeEA	.	51	0	:21	"d
+W	#/?91	A	154	5	content	0	$%
+X	#1pY}	A	163	13	1	+	segment0_0	1	$)
+Y	#1pY}	A	163	13	1	,	segment0_1	1	$(
+Z	#1pY}	A	163	13	1	-	segment0_2	1	$'
+[	#1pY}	A	163	13	1	.	segment0_3	1	$&
