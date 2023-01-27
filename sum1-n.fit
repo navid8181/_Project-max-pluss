@@ -1,0 +1,52 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.2 07/10/2002            
+-- Compiled: 01/27/2023 22:59:53      
+
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "sum1-n"
+BEGIN
+
+    DEVICE = "EP1K10TC100-1";
+
+    "F0"                           : OUTPUT_PIN = 78     ;
+    "F1"                           : OUTPUT_PIN = 82     ;
+    "F2"                           : OUTPUT_PIN = 69     ;
+    "F3"                           : OUTPUT_PIN = 79     ;
+    "F4"                           : OUTPUT_PIN = 28     ;
+    "F5"                           : OUTPUT_PIN = 10     ;
+    "F6"                           : OUTPUT_PIN = 80     ;
+    "F7"                           : OUTPUT_PIN = 13     ;
+    "F8"                           : OUTPUT_PIN = 45     ;
+    "F9"                           : OUTPUT_PIN = 93     ;
+    "F10"                          : OUTPUT_PIN = 8      ;
+    "F11"                          : OUTPUT_PIN = 94     ;
+    "F12"                          : OUTPUT_PIN = 6      ;
+    "F13"                          : OUTPUT_PIN = 34     ;
+    "F14"                          : OUTPUT_PIN = 21     ;
+    "F15"                          : OUTPUT_PIN = 64     ;
+
+END;
+
+INTERNAL_INFO "sum1-n"
+BEGIN
+	DEVICE = EP1K10TC100-1;
+END;

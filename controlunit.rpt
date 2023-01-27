@@ -2,7 +2,7 @@ Project Information                      d:\_project max pluss\controlunit.rpt
 
 MAX+plus II Compiler Report File
 Version 10.2 07/10/2002
-Compiled: 01/25/2023 01:48:03
+Compiled: 01/27/2023 22:50:05
 
 Copyright (C) 1988-2002 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -86,10 +86,10 @@ Project Information                      d:\_project max pluss\controlunit.rpt
 |dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|
 |zero:27|
 |zero:27|lpm_constant:lpm_constant_component|
-|zero:123|
-|zero:123|lpm_constant:lpm_constant_component|
 |zero:63|
 |zero:63|lpm_constant:lpm_constant_component|
+|zero:123|
+|zero:123|lpm_constant:lpm_constant_component|
 |dec3x8:31|
 |dec3x8:31|lpm_decode:lpm_decode_component|
 |dec3x8:31|lpm_decode:lpm_decode_component|altshift:external_latency_ffs|
@@ -166,6 +166,155 @@ Project Information                      d:\_project max pluss\controlunit.rpt
 |ir:122|4bitregister:40|d:53|lpm_ff:lpm_ff_component|
 |ir:122|zero:41|
 |ir:122|zero:41|lpm_constant:lpm_constant_component|
+|alu:125|
+|alu:125|alulayer:80|
+|alu:125|alulayer:80|logiclayer:2|
+|alu:125|alulayer:80|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:80|mux4x1:3|
+|alu:125|alulayer:80|arithmeticlayer:8|
+|alu:125|alulayer:80|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:80|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:80|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:80|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:1|
+|alu:125|alulayer:1|logiclayer:2|
+|alu:125|alulayer:1|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:1|mux4x1:3|
+|alu:125|alulayer:1|arithmeticlayer:8|
+|alu:125|alulayer:1|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:1|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:1|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:1|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:100|
+|alu:125|alulayer:100|logiclayer:2|
+|alu:125|alulayer:100|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:100|mux4x1:3|
+|alu:125|alulayer:100|arithmeticlayer:8|
+|alu:125|alulayer:100|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:100|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:100|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:100|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:84|
+|alu:125|alulayer:84|logiclayer:2|
+|alu:125|alulayer:84|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:84|mux4x1:3|
+|alu:125|alulayer:84|arithmeticlayer:8|
+|alu:125|alulayer:84|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:84|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:84|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:84|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:88|
+|alu:125|alulayer:88|logiclayer:2|
+|alu:125|alulayer:88|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:88|mux4x1:3|
+|alu:125|alulayer:88|arithmeticlayer:8|
+|alu:125|alulayer:88|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:88|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:88|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:88|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:92|
+|alu:125|alulayer:92|logiclayer:2|
+|alu:125|alulayer:92|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:92|mux4x1:3|
+|alu:125|alulayer:92|arithmeticlayer:8|
+|alu:125|alulayer:92|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:92|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:92|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:92|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:96|
+|alu:125|alulayer:96|logiclayer:2|
+|alu:125|alulayer:96|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:96|mux4x1:3|
+|alu:125|alulayer:96|arithmeticlayer:8|
+|alu:125|alulayer:96|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:96|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:96|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:96|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:104|
+|alu:125|alulayer:104|logiclayer:2|
+|alu:125|alulayer:104|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:104|mux4x1:3|
+|alu:125|alulayer:104|arithmeticlayer:8|
+|alu:125|alulayer:104|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:104|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:104|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:104|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:108|
+|alu:125|alulayer:108|logiclayer:2|
+|alu:125|alulayer:108|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:108|mux4x1:3|
+|alu:125|alulayer:108|arithmeticlayer:8|
+|alu:125|alulayer:108|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:108|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:108|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:108|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:64|
+|alu:125|alulayer:64|logiclayer:2|
+|alu:125|alulayer:64|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:64|mux4x1:3|
+|alu:125|alulayer:64|arithmeticlayer:8|
+|alu:125|alulayer:64|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:64|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:64|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:64|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:69|
+|alu:125|alulayer:69|logiclayer:2|
+|alu:125|alulayer:69|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:69|mux4x1:3|
+|alu:125|alulayer:69|arithmeticlayer:8|
+|alu:125|alulayer:69|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:69|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:69|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:69|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:73|
+|alu:125|alulayer:73|logiclayer:2|
+|alu:125|alulayer:73|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:73|mux4x1:3|
+|alu:125|alulayer:73|arithmeticlayer:8|
+|alu:125|alulayer:73|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:73|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:73|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:73|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:77|
+|alu:125|alulayer:77|logiclayer:2|
+|alu:125|alulayer:77|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:77|mux4x1:3|
+|alu:125|alulayer:77|arithmeticlayer:8|
+|alu:125|alulayer:77|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:77|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:77|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:77|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:23|
+|alu:125|alulayer:23|logiclayer:2|
+|alu:125|alulayer:23|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:23|mux4x1:3|
+|alu:125|alulayer:23|arithmeticlayer:8|
+|alu:125|alulayer:23|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:23|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:23|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:23|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:20|
+|alu:125|alulayer:20|logiclayer:2|
+|alu:125|alulayer:20|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:20|mux4x1:3|
+|alu:125|alulayer:20|arithmeticlayer:8|
+|alu:125|alulayer:20|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:20|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:20|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:20|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|alulayer:15|
+|alu:125|alulayer:15|logiclayer:2|
+|alu:125|alulayer:15|logiclayer:2|mux4x1:2|
+|alu:125|alulayer:15|mux4x1:3|
+|alu:125|alulayer:15|arithmeticlayer:8|
+|alu:125|alulayer:15|arithmeticlayer:8|fulladder:12|
+|alu:125|alulayer:15|arithmeticlayer:8|mux4x1:6|
+|alu:125|alulayer:15|arithmeticlayer:8|zero:3|
+|alu:125|alulayer:15|arithmeticlayer:8|zero:3|lpm_constant:lpm_constant_component|
+|alu:125|zero:113|
+|alu:125|zero:113|lpm_constant:lpm_constant_component|
+|alu:125|zero:114|
+|alu:125|zero:114|lpm_constant:lpm_constant_component|
 
 
 Device-Specific Information:             d:\_project max pluss\controlunit.rpt
@@ -193,14 +342,14 @@ Device Options:
 
                                                                    
                                                                    
-                        R   R R           R R   R   R     R        
-                        E   E E           E E   E   E     E        
-                        S   S S V         S S   S   S     S     ^  
-                        E   E E C         E E   E V E     E     D  
-                #       R   R R C         R R   R C R     R     A  
-                T       V G V V I G G G G V V   V C V     V   b T  
-                C b d b E N E E N N N N N E E t E I E b d E b 1 A  
-                K 1 3 4 D D D D T D D D D D D 6 D O D 6 4 D 5 0 0  
+                            R R           R R             R        
+                            E E           E E             E        
+                            S S V         S S             S     ^  
+                            E E C         E E     V       E     D  
+                #           R R C         R R     C       R     A  
+                T         G V V I G G G G V V   t C       V   b T  
+                C d b b b N E E N N N N N E E t 1 I t t t E b 1 A  
+                K 4 0 1 7 D D D T D D D D D D 4 4 O 7 1 0 D 6 0 0  
               ----------------------------------------------------_ 
              / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
             /     99  97  95  93  91  89  87  85  83  81  79  77    | 
@@ -209,37 +358,37 @@ Device Options:
       #TDO |  3                                                    73 | #TDI 
      VCCIO |  4                                                    72 | VCCINT 
        t11 |  5                                                    71 | RESERVED 
-        t2 |  6                                                    70 | t9 
-       t13 |  7                                                    69 | t0 
-       t12 |  8                                                    68 | t14 
-        t5 |  9                                                    67 | VCCIO 
-        t4 | 10                                                    66 | GND 
-       GND | 11                                                    65 | b7 
-    VCCINT | 12                                                    64 | RESERVED 
-  RESERVED | 13                   EP1K10TC100-1                    63 | RESERVED 
-       b11 | 14                                                    62 | t7 
-        b0 | 15                                                    61 | d7 
-        d0 | 16                                                    60 | VCCINT 
+        b9 |  6                                                    70 | RESERVED 
+       t15 |  7                                                    69 | t13 
+        t2 |  8                                                    68 | t10 
+        t3 |  9                                                    67 | VCCIO 
+        t9 | 10                                                    66 | GND 
+       GND | 11                                                    65 | d0 
+    VCCINT | 12                                                    64 | b5 
+  RESERVED | 13                   EP1K10TC100-1                    63 | b8 
+  RESERVED | 14                                                    62 | t5 
+  RESERVED | 15                                                    61 | t12 
+        b4 | 16                                                    60 | VCCINT 
      VCCIO | 17                                                    59 | GND 
-       GND | 18                                                    58 | d2 
-  RESERVED | 19                                                    57 | RESERVED 
-  RESERVED | 20                                                    56 | RESERVED 
-       t10 | 21                                                    55 | b2 
-  RESERVED | 22                                                    54 | ^MSEL0 
+       GND | 18                                                    58 | RESERVED 
+        d6 | 19                                                    57 | RESERVED 
+  RESERVED | 20                                                    56 | d2 
+        t6 | 21                                                    55 | b3 
+        d3 | 22                                                    54 | ^MSEL0 
   RESERVED | 23                                                    53 | ^MSEL1 
       #TMS | 24                                                    52 | VCCINT 
   ^nSTATUS | 25                                                    51 | ^nCONFIG 
            |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
             \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
              \----------------------------------------------------- 
-                R b R d t d t t d V G V G c G G G b V I R b t R R  
-                E 8 E 5 8 6 1 1 1 C N C N l N N N 3 C   E 9 3 E E  
-                S   S         5   C D C D k D D D   C   S     S S  
-                E   E             I   _       _     I   E     E E  
-                R   R             N   C       C     O   R     R R  
-                V   V             T   K       K         V     V V  
-                E   E                 L       L         E     E E  
-                D   D                 K       K         D     D D  
+                b d I R R b R R d V G V G c G G G R V R R R R t d  
+                2 7   E E 1 E E 5 C N C N l N N N E C E E E E 8 1  
+                      S S 1 S S   C D C D k D D D S C S S S S      
+                      E E   E E   I   _       _   E I E E E E      
+                      R R   R R   N   C       C   R O R R R R      
+                      V V   V V   T   K       K   V   V V V V      
+                      E E   E E       L       L   E   E E E E      
+                      D D   D D       K       K   D   D D D D      
                                                                    
                                                                    
 
@@ -268,9 +417,9 @@ controlunit
 Logic                Column       Row                                   
 Array                Interconnect Interconnect         Clears/     External  
 Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
-A7       8/ 8(100%)   4/ 8( 50%)   4/ 8( 50%)    1/2    0/2       3/22( 13%)   
-A16      8/ 8(100%)   2/ 8( 25%)   6/ 8( 75%)    1/2    0/2       3/22( 13%)   
-A17      4/ 8( 50%)   1/ 8( 12%)   3/ 8( 37%)    1/2    0/2       2/22(  9%)   
+A3       8/ 8(100%)   5/ 8( 62%)   3/ 8( 37%)    0/2    0/2       4/22( 18%)   
+A5       8/ 8(100%)   3/ 8( 37%)   5/ 8( 62%)    1/2    0/2       3/22( 13%)   
+A8       4/ 8( 50%)   1/ 8( 12%)   3/ 8( 37%)    1/2    0/2       1/22(  4%)   
 
 
 Embedded             Column       Row                                   
@@ -308,11 +457,11 @@ Synthesized logic cells:                         0/ 576   (  0%)
 Logic Cell and Embedded Cell Counts
 
 Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
- A:      0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   8   4   0   0   0   0   0   0   0     20/0  
+ A:      0   0   8   0   8   0   0   4   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0     20/0  
  B:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
  C:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
 
-Total:   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   8   4   0   0   0   0   0   0   0     20/0  
+Total:   0   0   8   0   8   0   0   4   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0     20/0  
 
 
 
@@ -351,43 +500,43 @@ controlunit
 
        Fed By Fed By                                Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-  15      -     -    B    --     OUTPUT                 0    0    0    0  b0
-  99      -     -    -    24     OUTPUT                 0    0    0    0  b1
-  55      -     -    C    --     OUTPUT                 0    0    0    0  b2
-  43      -     -    -    12     OUTPUT                 0    0    0    0  b3
-  97      -     -    -    23     OUTPUT                 0    0    0    0  b4
-  78      -     -    -    01     OUTPUT                 0    0    0    0  b5
-  81      -     -    -    03     OUTPUT                 0    0    0    0  b6
-  65      -     -    B    --     OUTPUT                 0    0    0    0  b7
-  27      -     -    -    21     OUTPUT                 0    0    0    0  b8
-  47      -     -    -    09     OUTPUT                 0    0    0    0  b9
+  98      -     -    -    24     OUTPUT                 0    0    0    0  b0
+  97      -     -    -    23     OUTPUT                 0    0    0    0  b1
+  26      -     -    -    23     OUTPUT                 0    0    0    0  b2
+  55      -     -    C    --     OUTPUT                 0    0    0    0  b3
+  16      -     -    B    --     OUTPUT                 0    0    0    0  b4
+  64      -     -    B    --     OUTPUT                 0    0    0    0  b5
+  78      -     -    -    01     OUTPUT                 0    0    0    0  b6
+  96      -     -    -    22     OUTPUT                 0    0    0    0  b7
+  63      -     -    B    --     OUTPUT                 0    0    0    0  b8
+   6      -     -    A    --     OUTPUT                 0    0    0    0  b9
   77      -     -    -    01     OUTPUT                 0    0    0    0  b10
-  14      -     -    B    --     OUTPUT                 0    0    0    0  b11
-  16      -     -    B    --     OUTPUT                 0    0    0    0  d0
-  34      -     -    -    14     OUTPUT                 0    0    0    0  d1
-  58      -     -    C    --     OUTPUT                 0    0    0    0  d2
-  98      -     -    -    24     OUTPUT                 0    0    0    0  d3
-  80      -     -    -    03     OUTPUT                 0    0    0    0  d4
-  29      -     -    -    19     OUTPUT                 0    0    0    0  d5
-  31      -     -    -    17     OUTPUT                 0    0    0    0  d6
-  61      -     -    B    --     OUTPUT                 0    0    0    0  d7
-  45      -     -    -    11     OUTPUT                 0    0    0    0  I
-  69      -     -    A    --     OUTPUT                 0    1    0    0  t0
-  32      -     -    -    16     OUTPUT                 0    1    0    0  t1
-   6      -     -    A    --     OUTPUT                 0    1    0    0  t2
-  48      -     -    -    07     OUTPUT                 0    1    0    0  t3
-  10      -     -    A    --     OUTPUT                 0    1    0    0  t4
-   9      -     -    A    --     OUTPUT                 0    1    0    0  t5
-  85      -     -    -    08     OUTPUT                 0    1    0    0  t6
-  62      -     -    B    --     OUTPUT                 0    1    0    0  t7
-  30      -     -    -    18     OUTPUT                 0    1    0    0  t8
-  70      -     -    A    --     OUTPUT                 0    1    0    0  t9
-  21      -     -    C    --     OUTPUT                 0    1    0    0  t10
+  31      -     -    -    17     OUTPUT                 0    0    0    0  b11
+  65      -     -    B    --     OUTPUT                 0    0    0    0  d0
+  50      -     -    -    02     OUTPUT                 0    0    0    0  d1
+  56      -     -    C    --     OUTPUT                 0    0    0    0  d2
+  22      -     -    C    --     OUTPUT                 0    0    0    0  d3
+  99      -     -    -    24     OUTPUT                 0    0    0    0  d4
+  34      -     -    -    14     OUTPUT                 0    0    0    0  d5
+  19      -     -    C    --     OUTPUT                 0    0    0    0  d6
+  27      -     -    -    21     OUTPUT                 0    0    0    0  d7
+  28      -     -    -    20     OUTPUT                 0    0    0    0  I
+  80      -     -    -    03     OUTPUT                 0    1    0    0  t0
+  81      -     -    -    03     OUTPUT                 0    1    0    0  t1
+   8      -     -    A    --     OUTPUT                 0    1    0    0  t2
+   9      -     -    A    --     OUTPUT                 0    1    0    0  t3
+  85      -     -    -    08     OUTPUT                 0    1    0    0  t4
+  62      -     -    B    --     OUTPUT                 0    1    0    0  t5
+  21      -     -    C    --     OUTPUT                 0    1    0    0  t6
+  82      -     -    -    04     OUTPUT                 0    1    0    0  t7
+  49      -     -    -    06     OUTPUT                 0    1    0    0  t8
+  10      -     -    A    --     OUTPUT                 0    1    0    0  t9
+  68      -     -    A    --     OUTPUT                 0    1    0    0  t10
    5      -     -    A    --     OUTPUT                 0    1    0    0  t11
-   8      -     -    A    --     OUTPUT                 0    1    0    0  t12
-   7      -     -    A    --     OUTPUT                 0    1    0    0  t13
-  68      -     -    A    --     OUTPUT                 0    1    0    0  t14
-  33      -     -    -    15     OUTPUT                 0    1    0    0  t15
+  61      -     -    B    --     OUTPUT                 0    1    0    0  t12
+  69      -     -    A    --     OUTPUT                 0    1    0    0  t13
+  84      -     -    -    05     OUTPUT                 0    1    0    0  t14
+   7      -     -    A    --     OUTPUT                 0    1    0    0  t15
 
 
 Code:
@@ -410,26 +559,26 @@ controlunit
 
                                                     Fan-In    Fan-Out
  IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-   -      5     -    A    17       DFFE   +            0    0    0   19  |Counter4:7|lpm_counter:lpm_counter_component|dffs0
-   -      4     -    A    16       DFFE   +            0    1    0   18  |Counter4:7|lpm_counter:lpm_counter_component|dffs1
-   -      1     -    A    17       DFFE   +            0    2    0   17  |Counter4:7|lpm_counter:lpm_counter_component|dffs2
-   -      2     -    A    07       DFFE   +            0    3    0   16  |Counter4:7|lpm_counter:lpm_counter_component|dffs3
-   -      5     -    A    07       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode0_3
-   -      7     -    A    16       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode1_3
-   -      2     -    A    17       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode2_3
-   -      8     -    A    07       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode3_3
-   -      8     -    A    16       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode4_3
-   -      6     -    A    16       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode5_3
-   -      1     -    A    07       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode6_3
-   -      6     -    A    07       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode7_3
-   -      3     -    A    17       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode0_3
-   -      3     -    A    07       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode1_3
-   -      4     -    A    07       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode2_3
-   -      1     -    A    16       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode3_3
-   -      5     -    A    16       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode4_3
-   -      3     -    A    16       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode5_3
-   -      7     -    A    07       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode6_3
-   -      2     -    A    16       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode7_3
+   -      3     -    A    08       DFFE   +            0    0    0   19  |Counter4:7|lpm_counter:lpm_counter_component|dffs0
+   -      2     -    A    08       DFFE   +            0    1    0   18  |Counter4:7|lpm_counter:lpm_counter_component|dffs1
+   -      1     -    A    08       DFFE   +            0    2    0   17  |Counter4:7|lpm_counter:lpm_counter_component|dffs2
+   -      6     -    A    05       DFFE   +            0    3    0   16  |Counter4:7|lpm_counter:lpm_counter_component|dffs3
+   -      2     -    A    03       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode0_3
+   -      3     -    A    03       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode1_3
+   -      5     -    A    03       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode2_3
+   -      7     -    A    05       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode3_3
+   -      4     -    A    08       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode4_3
+   -      6     -    A    03       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode5_3
+   -      4     -    A    03       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode6_3
+   -      1     -    A    03       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode7_3
+   -      4     -    A    05       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode0_3
+   -      8     -    A    03       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode1_3
+   -      7     -    A    03       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode2_3
+   -      1     -    A    05       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode3_3
+   -      8     -    A    05       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode4_3
+   -      5     -    A    05       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode5_3
+   -      2     -    A    05       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode6_3
+   -      3     -    A    05       AND2                0    4    1    0  |Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode7_3
 
 
 Code:
@@ -454,9 +603,9 @@ Row FastTrack Interconnect:
           Global         Left Half-      Right Half-
          FastTrack       FastTrack       FastTrack 
 Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
-A:       6/ 96(  6%)     2/ 48(  4%)     5/ 48( 10%)    0/16(  0%)      9/16( 56%)     0/16(  0%)
-B:       0/ 96(  0%)     1/ 48(  2%)     0/ 48(  0%)    0/16(  0%)      6/16( 37%)     0/16(  0%)
-C:       1/ 96(  1%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      3/16( 18%)     0/16(  0%)
+A:       8/ 96(  8%)     6/ 48( 12%)     0/ 48(  0%)    0/16(  0%)      8/16( 50%)     0/16(  0%)
+B:       0/ 96(  0%)     2/ 48(  4%)     0/ 48(  0%)    0/16(  0%)      6/16( 37%)     0/16(  0%)
+C:       1/ 96(  1%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      5/16( 31%)     0/16(  0%)
 
 
 Column FastTrack Interconnect:
@@ -464,28 +613,28 @@ Column FastTrack Interconnect:
          FastTrack                                 
 Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 01:      0/24(  0%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
-02:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-03:      0/24(  0%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
-04:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-05:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-06:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-07:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-08:      3/24( 12%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-09:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+02:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+03:      3/24( 12%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
+04:      2/24(  8%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+05:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+06:      2/24(  8%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+07:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+08:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+09:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 10:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-11:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-12:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+11:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+12:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 13:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 14:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-15:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-16:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+15:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+16:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 17:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-18:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-19:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-20:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+20:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
 21:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-22:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-23:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+22:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+23:      0/24(  0%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
 24:      0/24(  0%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
@@ -592,172 +741,172 @@ I        =  GND;
 
 -- Node name is 't0' 
 -- Equation name is 't0', type is output 
-t0       =  _LC5_A7;
+t0       =  _LC2_A3;
 
 -- Node name is 't1' 
 -- Equation name is 't1', type is output 
-t1       =  _LC7_A16;
+t1       =  _LC3_A3;
 
 -- Node name is 't2' 
 -- Equation name is 't2', type is output 
-t2       =  _LC2_A17;
+t2       =  _LC5_A3;
 
 -- Node name is 't3' 
 -- Equation name is 't3', type is output 
-t3       =  _LC8_A7;
+t3       =  _LC7_A5;
 
 -- Node name is 't4' 
 -- Equation name is 't4', type is output 
-t4       =  _LC8_A16;
+t4       =  _LC4_A8;
 
 -- Node name is 't5' 
 -- Equation name is 't5', type is output 
-t5       =  _LC6_A16;
+t5       =  _LC6_A3;
 
 -- Node name is 't6' 
 -- Equation name is 't6', type is output 
-t6       =  _LC1_A7;
+t6       =  _LC4_A3;
 
 -- Node name is 't7' 
 -- Equation name is 't7', type is output 
-t7       =  _LC6_A7;
+t7       =  _LC1_A3;
 
 -- Node name is 't8' 
 -- Equation name is 't8', type is output 
-t8       =  _LC3_A17;
+t8       =  _LC4_A5;
 
 -- Node name is 't9' 
 -- Equation name is 't9', type is output 
-t9       =  _LC3_A7;
+t9       =  _LC8_A3;
 
 -- Node name is 't10' 
 -- Equation name is 't10', type is output 
-t10      =  _LC4_A7;
+t10      =  _LC7_A3;
 
 -- Node name is 't11' 
 -- Equation name is 't11', type is output 
-t11      =  _LC1_A16;
+t11      =  _LC1_A5;
 
 -- Node name is 't12' 
 -- Equation name is 't12', type is output 
-t12      =  _LC5_A16;
+t12      =  _LC8_A5;
 
 -- Node name is 't13' 
 -- Equation name is 't13', type is output 
-t13      =  _LC3_A16;
+t13      =  _LC5_A5;
 
 -- Node name is 't14' 
 -- Equation name is 't14', type is output 
-t14      =  _LC7_A7;
+t14      =  _LC2_A5;
 
 -- Node name is 't15' 
 -- Equation name is 't15', type is output 
-t15      =  _LC2_A16;
+t15      =  _LC3_A5;
 
 -- Node name is '|Counter4:7|lpm_counter:lpm_counter_component|dffs0' from file "lpm_counter.tdf" line 234, column 10
--- Equation name is '_LC5_A17', type is buried 
-_LC5_A17 = DFFE(!_LC5_A17, GLOBAL( clk),  VCC,  VCC,  VCC);
+-- Equation name is '_LC3_A8', type is buried 
+_LC3_A8  = DFFE(!_LC3_A8, GLOBAL( clk),  VCC,  VCC,  VCC);
 
 -- Node name is '|Counter4:7|lpm_counter:lpm_counter_component|dffs1' from file "lpm_counter.tdf" line 234, column 10
--- Equation name is '_LC4_A16', type is buried 
-_LC4_A16 = DFFE( _EQ001, GLOBAL( clk),  VCC,  VCC,  VCC);
-  _EQ001 = !_LC4_A16 &  _LC5_A17
-         #  _LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC2_A8', type is buried 
+_LC2_A8  = DFFE( _EQ001, GLOBAL( clk),  VCC,  VCC,  VCC);
+  _EQ001 = !_LC2_A8 &  _LC3_A8
+         #  _LC2_A8 & !_LC3_A8;
 
 -- Node name is '|Counter4:7|lpm_counter:lpm_counter_component|dffs2' from file "lpm_counter.tdf" line 234, column 10
--- Equation name is '_LC1_A17', type is buried 
-_LC1_A17 = DFFE( _EQ002, GLOBAL( clk),  VCC,  VCC,  VCC);
-  _EQ002 =  _LC1_A17 & !_LC5_A17
-         #  _LC1_A17 & !_LC4_A16
-         # !_LC1_A17 &  _LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC1_A8', type is buried 
+_LC1_A8  = DFFE( _EQ002, GLOBAL( clk),  VCC,  VCC,  VCC);
+  _EQ002 =  _LC1_A8 & !_LC3_A8
+         #  _LC1_A8 & !_LC2_A8
+         # !_LC1_A8 &  _LC2_A8 &  _LC3_A8;
 
 -- Node name is '|Counter4:7|lpm_counter:lpm_counter_component|dffs3' from file "lpm_counter.tdf" line 234, column 10
--- Equation name is '_LC2_A7', type is buried 
-_LC2_A7  = DFFE( _EQ003, GLOBAL( clk),  VCC,  VCC,  VCC);
-  _EQ003 =  _LC2_A7 & !_LC5_A17
-         #  _LC2_A7 & !_LC4_A16
-         # !_LC1_A17 &  _LC2_A7
-         #  _LC1_A17 & !_LC2_A7 &  _LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC6_A5', type is buried 
+_LC6_A5  = DFFE( _EQ003, GLOBAL( clk),  VCC,  VCC,  VCC);
+  _EQ003 = !_LC3_A8 &  _LC6_A5
+         # !_LC2_A8 &  _LC6_A5
+         # !_LC1_A8 &  _LC6_A5
+         #  _LC1_A8 &  _LC2_A8 &  _LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode0_3' from file "declut.tdf" line 79, column 52
--- Equation name is '_LC5_A7', type is buried 
-_LC5_A7  = LCELL( _EQ004);
-  _EQ004 = !_LC1_A17 & !_LC2_A7 & !_LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC2_A3', type is buried 
+_LC2_A3  = LCELL( _EQ004);
+  _EQ004 = !_LC1_A8 & !_LC2_A8 & !_LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode1_3' from file "declut.tdf" line 79, column 52
--- Equation name is '_LC7_A16', type is buried 
-_LC7_A16 = LCELL( _EQ005);
-  _EQ005 = !_LC1_A17 & !_LC2_A7 & !_LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC3_A3', type is buried 
+_LC3_A3  = LCELL( _EQ005);
+  _EQ005 = !_LC1_A8 & !_LC2_A8 &  _LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode2_3' from file "declut.tdf" line 79, column 52
--- Equation name is '_LC2_A17', type is buried 
-_LC2_A17 = LCELL( _EQ006);
-  _EQ006 = !_LC1_A17 & !_LC2_A7 &  _LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC5_A3', type is buried 
+_LC5_A3  = LCELL( _EQ006);
+  _EQ006 = !_LC1_A8 &  _LC2_A8 & !_LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode3_3' from file "declut.tdf" line 79, column 52
--- Equation name is '_LC8_A7', type is buried 
-_LC8_A7  = LCELL( _EQ007);
-  _EQ007 = !_LC1_A17 & !_LC2_A7 &  _LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC7_A5', type is buried 
+_LC7_A5  = LCELL( _EQ007);
+  _EQ007 = !_LC1_A8 &  _LC2_A8 &  _LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode4_3' from file "declut.tdf" line 81, column 52
--- Equation name is '_LC8_A16', type is buried 
-_LC8_A16 = LCELL( _EQ008);
-  _EQ008 =  _LC1_A17 & !_LC2_A7 & !_LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC4_A8', type is buried 
+_LC4_A8  = LCELL( _EQ008);
+  _EQ008 =  _LC1_A8 & !_LC2_A8 & !_LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode5_3' from file "declut.tdf" line 81, column 52
--- Equation name is '_LC6_A16', type is buried 
-_LC6_A16 = LCELL( _EQ009);
-  _EQ009 =  _LC1_A17 & !_LC2_A7 & !_LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC6_A3', type is buried 
+_LC6_A3  = LCELL( _EQ009);
+  _EQ009 =  _LC1_A8 & !_LC2_A8 &  _LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode6_3' from file "declut.tdf" line 81, column 52
--- Equation name is '_LC1_A7', type is buried 
-_LC1_A7  = LCELL( _EQ010);
-  _EQ010 =  _LC1_A17 & !_LC2_A7 &  _LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC4_A3', type is buried 
+_LC4_A3  = LCELL( _EQ010);
+  _EQ010 =  _LC1_A8 &  _LC2_A8 & !_LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder0|anode7_3' from file "declut.tdf" line 81, column 52
--- Equation name is '_LC6_A7', type is buried 
-_LC6_A7  = LCELL( _EQ011);
-  _EQ011 =  _LC1_A17 & !_LC2_A7 &  _LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC1_A3', type is buried 
+_LC1_A3  = LCELL( _EQ011);
+  _EQ011 =  _LC1_A8 &  _LC2_A8 &  _LC3_A8 & !_LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode0_3' from file "declut.tdf" line 79, column 52
--- Equation name is '_LC3_A17', type is buried 
-_LC3_A17 = LCELL( _EQ012);
-  _EQ012 = !_LC1_A17 &  _LC2_A7 & !_LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC4_A5', type is buried 
+_LC4_A5  = LCELL( _EQ012);
+  _EQ012 = !_LC1_A8 & !_LC2_A8 & !_LC3_A8 &  _LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode1_3' from file "declut.tdf" line 79, column 52
--- Equation name is '_LC3_A7', type is buried 
-_LC3_A7  = LCELL( _EQ013);
-  _EQ013 = !_LC1_A17 &  _LC2_A7 & !_LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC8_A3', type is buried 
+_LC8_A3  = LCELL( _EQ013);
+  _EQ013 = !_LC1_A8 & !_LC2_A8 &  _LC3_A8 &  _LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode2_3' from file "declut.tdf" line 79, column 52
--- Equation name is '_LC4_A7', type is buried 
-_LC4_A7  = LCELL( _EQ014);
-  _EQ014 = !_LC1_A17 &  _LC2_A7 &  _LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC7_A3', type is buried 
+_LC7_A3  = LCELL( _EQ014);
+  _EQ014 = !_LC1_A8 &  _LC2_A8 & !_LC3_A8 &  _LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode3_3' from file "declut.tdf" line 79, column 52
--- Equation name is '_LC1_A16', type is buried 
-_LC1_A16 = LCELL( _EQ015);
-  _EQ015 = !_LC1_A17 &  _LC2_A7 &  _LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC1_A5', type is buried 
+_LC1_A5  = LCELL( _EQ015);
+  _EQ015 = !_LC1_A8 &  _LC2_A8 &  _LC3_A8 &  _LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode4_3' from file "declut.tdf" line 81, column 52
--- Equation name is '_LC5_A16', type is buried 
-_LC5_A16 = LCELL( _EQ016);
-  _EQ016 =  _LC1_A17 &  _LC2_A7 & !_LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC8_A5', type is buried 
+_LC8_A5  = LCELL( _EQ016);
+  _EQ016 =  _LC1_A8 & !_LC2_A8 & !_LC3_A8 &  _LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode5_3' from file "declut.tdf" line 81, column 52
--- Equation name is '_LC3_A16', type is buried 
-_LC3_A16 = LCELL( _EQ017);
-  _EQ017 =  _LC1_A17 &  _LC2_A7 & !_LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC5_A5', type is buried 
+_LC5_A5  = LCELL( _EQ017);
+  _EQ017 =  _LC1_A8 & !_LC2_A8 &  _LC3_A8 &  _LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode6_3' from file "declut.tdf" line 81, column 52
--- Equation name is '_LC7_A7', type is buried 
-_LC7_A7  = LCELL( _EQ018);
-  _EQ018 =  _LC1_A17 &  _LC2_A7 &  _LC4_A16 & !_LC5_A17;
+-- Equation name is '_LC2_A5', type is buried 
+_LC2_A5  = LCELL( _EQ018);
+  _EQ018 =  _LC1_A8 &  _LC2_A8 & !_LC3_A8 &  _LC6_A5;
 
 -- Node name is '|Dec4x16:9|lpm_decode:lpm_decode_component|declut:decoder1|anode7_3' from file "declut.tdf" line 81, column 52
--- Equation name is '_LC2_A16', type is buried 
-_LC2_A16 = LCELL( _EQ019);
-  _EQ019 =  _LC1_A17 &  _LC2_A7 &  _LC4_A16 &  _LC5_A17;
+-- Equation name is '_LC3_A5', type is buried 
+_LC3_A5  = LCELL( _EQ019);
+  _EQ019 =  _LC1_A8 &  _LC2_A8 &  _LC3_A8 &  _LC6_A5;
 
 
 
@@ -840,14 +989,14 @@ Compilation Times
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
-   Fitter                                 00:00:02
+   Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:02
+   Total Time                             00:00:00
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 15,998K
+Peak memory allocated during compilation  = 18,129K

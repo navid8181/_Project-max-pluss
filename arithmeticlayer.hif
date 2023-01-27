@@ -29,8 +29,8 @@ TREE
 {
 	arithmeticlayer::(0,0):(0): arithmeticlayer.gdf
 	{
-		fulladder::(0,0):(12): fulladder.gdf;
-		mux4x1::(0,0):(6): mux4x1.gdf;
 		zero::(0,0):(3): zero.tdf;
+		mux4x1::(0,0):(6): mux4x1.gdf;
+		fulladder::(0,0):(12): fulladder.gdf;
 	}
 }
