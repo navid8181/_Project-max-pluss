@@ -150,6 +150,7 @@ FILES
 	{
 		dec4x16 [USE_LPM_FOR_AHDL_OPERATORS] [lpm_decode.inc]
 		{
+			28 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [eq2,eq1,eq0,data0,data1,data2,data3];
 			23 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [eq1,eq0,data0,data1,data2,data3];
 		}
 	}
@@ -201,6 +202,7 @@ TREE
 {
 	sum1-n::(0,0):(0): sum1-n.gdf
 	{
+		zero::(0,0):(94): zero.tdf;
 		zero::(0,0):(90): zero.tdf
 		{
 			lpm_constant:8:(48,2):(28,lpm_constant_component): lpm_constant.tdf;

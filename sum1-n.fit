@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.2 07/10/2002            
--- Compiled: 01/27/2023 23:10:30      
+-- Compiled: 01/27/2023 23:54:07      
 
 -- Copyright (C) 1988-2002 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -28,39 +28,115 @@ BEGIN
     DEVICE = "EP1K10TC100-1";
 
     "CCCCCC"                       : INPUT_PIN  = 39     ;
-    "E"                            : OUTPUT_PIN = 31     ;
-    "F0"                           : OUTPUT_PIN = 85     ;
+    "dr0"                          : OUTPUT_PIN = 63     ;
+    "dr1"                          : OUTPUT_PIN = 65     ;
+    "E"                            : OUTPUT_PIN = 61     ;
+    "F0"                           : OUTPUT_PIN = 27     ;
     "F1"                           : OUTPUT_PIN = 19     ;
-    "F2"                           : OUTPUT_PIN = 10     ;
-    "F3"                           : OUTPUT_PIN = 84     ;
-    "F4"                           : OUTPUT_PIN = 8      ;
-    "F5"                           : OUTPUT_PIN = 21     ;
-    "F6"                           : OUTPUT_PIN = 13     ;
-    "F7"                           : OUTPUT_PIN = 26     ;
-    "F8"                           : OUTPUT_PIN = 78     ;
-    "F9"                           : OUTPUT_PIN = 97     ;
-    "F10"                          : OUTPUT_PIN = 57     ;
-    "F11"                          : OUTPUT_PIN = 28     ;
-    "F12"                          : OUTPUT_PIN = 55     ;
-    "F13"                          : OUTPUT_PIN = 68     ;
-    "F14"                          : OUTPUT_PIN = 49     ;
-    "F15"                          : OUTPUT_PIN = 27     ;
-    "|Counter4:44|lpm_counter:lpm_counter_component|dffs0" : LOCATION   = LC3_B17;
-    "|Counter4:44|lpm_counter:lpm_counter_component|dffs1" : LOCATION   = LC2_B17;
-    "|Counter4:44|lpm_counter:lpm_counter_component|dffs2" : LOCATION   = LC1_B17;
-    "|Counter4:44|lpm_counter:lpm_counter_component|dffs3" : LOCATION   = LC5_B17;
-    "|Dec4x16:43|lpm_decode:lpm_decode_component|declut:decoder0|anode1_3" : LOCATION   = LC4_B17;
+    "F2"                           : OUTPUT_PIN = 8      ;
+    "F3"                           : OUTPUT_PIN = 45     ;
+    "F4"                           : OUTPUT_PIN = 6      ;
+    "F5"                           : OUTPUT_PIN = 62     ;
+    "F6"                           : OUTPUT_PIN = 46     ;
+    "F7"                           : OUTPUT_PIN = 10     ;
+    "F8"                           : OUTPUT_PIN = 80     ;
+    "F9"                           : OUTPUT_PIN = 7      ;
+    "F10"                          : OUTPUT_PIN = 49     ;
+    "F11"                          : OUTPUT_PIN = 99     ;
+    "F12"                          : OUTPUT_PIN = 21     ;
+    "F13"                          : OUTPUT_PIN = 47     ;
+    "F14"                          : OUTPUT_PIN = 20     ;
+    "F15"                          : OUTPUT_PIN = 34     ;
+    "|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|:8" : LOCATION   = LC8_B6 ;
+    "|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~8~1" : LOCATION   = LC8_B10;
+    "|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~8~2" : LOCATION   = LC3_B2 ;
+    "|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~8~3" : LOCATION   = LC1_B6 ;
+    "|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~8~4" : LOCATION   = LC1_B10;
+    "|alu:1|alulayer:80|arithmeticlayer:8|fulladder:12|~8~5" : LOCATION   = LC7_B6 ;
+    "|Counter4:44|lpm_counter:lpm_counter_component|dffs0" : LOCATION   = LC6_B4 ;
+    "|Counter4:44|lpm_counter:lpm_counter_component|dffs1" : LOCATION   = LC1_B4 ;
+    "|Counter4:44|lpm_counter:lpm_counter_component|dffs2" : LOCATION   = LC5_B4 ;
+    "|Counter4:44|lpm_counter:lpm_counter_component|dffs3" : LOCATION   = LC3_B4 ;
+    "|Dec4x16:43|lpm_decode:lpm_decode_component|declut:decoder0|anode0_3" : LOCATION   = LC2_B4 ;
+    "|dr:3|4bitregister:1|D:50|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC4_B8 ;
+    "|dr:3|4bitregister:1|D:51|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC1_B8 ;
+    "|dr:3|4bitregister:1|D:52|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC4_B4 ;
+    "|dr:3|4bitregister:1|D:53|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC8_B4 ;
+    "|dr:3|4bitregister:1|ha:59|:4" : LOCATION   = LC3_B8 ;  -- |dr:3|4bitregister:1|ha:59|c
+    "|dr:3|4bitregister:1|ha:61|:4" : LOCATION   = LC5_B2 ;  -- |dr:3|4bitregister:1|ha:61|c
+    "|dr:3|4bitregister:2|D:50|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC4_B2 ;
+    "|dr:3|4bitregister:2|D:51|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC7_B2 ;
+    "|dr:3|4bitregister:2|D:52|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC8_B2 ;
+    "|dr:3|4bitregister:2|D:53|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC1_B2 ;
+    "|dr:3|4bitregister:2|ha:59|:4" : LOCATION   = LC6_B2 ;  -- |dr:3|4bitregister:2|ha:59|c
+    "|dr:3|4bitregister:2|ha:61|:4" : LOCATION   = LC2_B2 ;  -- |dr:3|4bitregister:2|ha:61|c
+    "|dr:3|4bitregister:3|D:50|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC4_B10;
+    "|dr:3|4bitregister:3|D:51|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC5_B10;
+    "|dr:3|4bitregister:3|D:52|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC7_B10;
+    "|dr:3|4bitregister:3|D:53|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC3_B10;
+    "|dr:3|4bitregister:3|ha:59|:4" : LOCATION   = LC6_B10;  -- |dr:3|4bitregister:3|ha:59|c
+    "|dr:3|4bitregister:3|ha:61|:4" : LOCATION   = LC2_B10;  -- |dr:3|4bitregister:3|ha:61|c
+    "|dr:3|4bitregister:4|D:50|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC3_B6 ;
+    "|dr:3|4bitregister:4|D:51|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC2_B6 ;
+    "|dr:3|4bitregister:4|D:52|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC4_B6 ;
+    "|dr:3|4bitregister:4|D:53|lpm_ff:lpm_ff_component|dffs0" : LOCATION   = LC6_B6 ;
+    "|dr:3|4bitregister:4|ha:59|:4" : LOCATION   = LC5_B6 ;  -- |dr:3|4bitregister:4|ha:59|c
 
 END;
 
 INTERNAL_INFO "sum1-n"
 BEGIN
 	DEVICE = EP1K10TC100-1;
-    OD5P39  : LORAX = "1:FB5->LC3_B17,->LC2_B17,->LC1_B17,->LC5_B17|";
-    LC4_B17 : LORAX = "1:MSW3R1C16,V11C16->OV3C16P31|";
-	LC3_B17 : LORAX2 = "X, X, X, LC3_B17";
-	LC2_B17 : LORAX2 = "X, LC2_B17, LC4_B17, LC3_B17";
-	LC1_B17 : LORAX2 = "LC1_B17, LC2_B17, LC4_B17, LC3_B17";
-	LC5_B17 : LORAX2 = "LC2_B17, LC5_B17, LC1_B17, LC3_B17";
-	LC4_B17 : LORAX2 = "LC5_B17, LC1_B17, LC2_B17, LC3_B17";
+    LC3_B2  : LORAX = "1:MSW2R1C1,HHL4R1,PA18R1C9->LC1_B10|";
+    LC1_B6  : LORAX = "1:MSW0R1C5,HHL20R1,PA16R1C9->LC1_B10|";
+    LC1_B10 : LORAX = "1:MSW0R1C9,HHL19R1,PA17R1C5->LC8_B6|";
+    LC8_B6  : LORAX = "1:MSW7R1C5,HHL47R1->OH15R1P61|";
+    OD5P39  : LORAX = "1:FB5->LC6_B4,->LC1_B4,->LC5_B4,->LC3_B4,->LC4_B8,->LC1_B8,->LC4_B4,->LC8_B4,->LC4_B2,->LC7_B2,->LC8_B2,->LC1_B2,->LC4_B10,->LC5_B10,->LC7_B10,->LC3_B10,->LC3_B6,->LC2_B6,->LC4_B6,->LC6_B6|";
+    LC2_B4  : LORAX = "1:MSW1R1C3,G35R1|2:PA3R1C5->LC8_B6|,2:PA7R1C7->LC4_B8,->LC1_B8,->LC3_B8||";
+    LC4_B8  : LORAX = "1:MSW3R1C7,HHL13R1->OH11R1P63|2:PA2R1C5->LC1_B6||";
+    LC1_B8  : LORAX = "1:MSW0R1C7,HHL23R1->OH8R1P65|2:PA1R1C9->LC1_B10||";
+    LC4_B4  : LORAX = "1:MSW0R1C2,G40R1,PA19R1C1->LC3_B2,->LC5_B2|";
+    LC8_B4  : LORAX = "1:MSW7R1C3,G63R1,PA21R1C1->LC3_B2,->LC5_B2|";
+    LC3_B8  : LORAX = "1:MSW2R1C7,G3R1|2:PA18R1C1->LC5_B2|,2:PA18R1C3->LC4_B4,->LC8_B4||";
+    LC4_B2  : LORAX = "1:MSW3R1C1,G9R1,PA12R1C5->LC8_B6|";
+    LC1_B2  : LORAX = "1:MSW0R1C1,G44R1,PA6R1C9->LC8_B10|";
+    LC2_B2  : LORAX = "1:MSW1R1C1,G29R1,PA10R1C9->LC4_B10,->LC5_B10,->LC7_B10,->LC3_B10,->LC6_B10|";
+    LC4_B10 : LORAX = "1:MSW3R1C9,HHL17R1,PA19R1C5->LC1_B6|";
+    LC3_B10 : LORAX = "1:MSW2R1C9,HHL14R1,PA1R1C5->LC7_B6|";
+    LC2_B10 : LORAX = "1:MSW1R1C9,G34R1,PA6R1C5->LC3_B6,->LC2_B6,->LC4_B6,->LC6_B6,->LC5_B6|";
+    LC2_B6  : LORAX = "1:MSW1R1C5,HHL16R1,PA20R1C9->LC8_B10|";
+	LC8_B10 : LORAX2 = "LC2_B6, LC7_B10, LC1_B2, LC5_B10";
+	LC3_B2  : LORAX2 = "LC8_B2, LC8_B4, LC4_B4, LC7_B2";
+	LC1_B6  : LORAX2 = "X, LC4_B8, LC4_B10, LC3_B6";
+	LC1_B10 : LORAX2 = "LC1_B8, LC8_B10, LC3_B2, LC1_B6";
+	LC7_B6  : LORAX2 = "X, LC6_B6, LC3_B10, LC4_B6";
+	LC8_B6  : LORAX2 = "LC4_B2, LC7_B6, LC2_B4, LC1_B10";
+	LC6_B4  : LORAX2 = "X, X, X, LC6_B4";
+	LC1_B4  : LORAX2 = "LC1_B4, LC5_B4, LC3_B4, LC6_B4";
+	LC5_B4  : LORAX2 = "X, LC1_B4, LC5_B4, LC6_B4";
+	LC3_B4  : LORAX2 = "LC1_B4, LC3_B4, LC5_B4, LC6_B4";
+	LC2_B4  : LORAX2 = "LC1_B4, LC5_B4, LC3_B4, LC6_B4";
+	LC4_B8  : LORAX2 = "LC2_B4, X, X, LC4_B8";
+	LC1_B8  : LORAX2 = "LC2_B4, X, LC1_B8, LC4_B8";
+	LC4_B4  : LORAX2 = "LC2_B4, X, LC3_B8, LC4_B4";
+	LC8_B4  : LORAX2 = "LC2_B4, LC3_B8, LC8_B4, LC4_B4";
+	LC3_B8  : LORAX2 = "X, LC1_B8, LC2_B4, LC4_B8";
+	LC5_B2  : LORAX2 = "X, LC3_B8, LC8_B4, LC4_B4";
+	LC4_B2  : LORAX2 = "LC5_B2, X, X, LC4_B2";
+	LC7_B2  : LORAX2 = "LC5_B2, X, LC4_B2, LC7_B2";
+	LC8_B2  : LORAX2 = "LC5_B2, LC4_B2, LC8_B2, LC7_B2";
+	LC1_B2  : LORAX2 = "LC5_B2, LC6_B2, LC1_B2, LC8_B2";
+	LC6_B2  : LORAX2 = "X, LC4_B2, LC5_B2, LC7_B2";
+	LC2_B2  : LORAX2 = "X, LC6_B2, LC1_B2, LC8_B2";
+	LC4_B10 : LORAX2 = "LC2_B2, X, X, LC4_B10";
+	LC5_B10 : LORAX2 = "LC2_B2, X, LC5_B10, LC4_B10";
+	LC7_B10 : LORAX2 = "LC2_B2, X, LC6_B10, LC7_B10";
+	LC3_B10 : LORAX2 = "LC2_B2, LC6_B10, LC3_B10, LC7_B10";
+	LC6_B10 : LORAX2 = "X, LC2_B2, LC5_B10, LC4_B10";
+	LC2_B10 : LORAX2 = "X, LC6_B10, LC3_B10, LC7_B10";
+	LC3_B6  : LORAX2 = "LC2_B10, X, X, LC3_B6";
+	LC2_B6  : LORAX2 = "LC2_B10, X, LC2_B6, LC3_B6";
+	LC4_B6  : LORAX2 = "LC2_B10, LC4_B6, LC2_B6, LC3_B6";
+	LC6_B6  : LORAX2 = "LC2_B10, LC5_B6, LC6_B6, LC4_B6";
+	LC5_B6  : LORAX2 = "X, LC2_B10, LC2_B6, LC3_B6";
 END;
