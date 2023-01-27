@@ -164,6 +164,7 @@ FILES
 	{
 		zero [USE_LPM_FOR_AHDL_OPERATORS] [lpm_constant.inc]
 		{
+			27 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [];
 			7 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
 		}
 	}
@@ -200,6 +201,20 @@ TREE
 {
 	sum1-n::(0,0):(0): sum1-n.gdf
 	{
+		zero::(0,0):(90): zero.tdf
+		{
+			lpm_constant:8:(48,2):(28,lpm_constant_component): lpm_constant.tdf;
+		}
+		zero::(0,0):(89): zero.tdf
+		{
+			lpm_constant:8:(48,2):(28,lpm_constant_component): lpm_constant.tdf;
+		}
+		zero::(0,0):(88): zero.tdf;
+		zero::(0,0):(87): zero.tdf;
+		zero::(0,0):(86): zero.tdf
+		{
+			lpm_constant:8:(48,2):(28,lpm_constant_component): lpm_constant.tdf;
+		}
 		zero::(0,0):(82): zero.tdf;
 		zero::(0,0):(81): zero.tdf;
 		zero::(0,0):(68): zero.tdf;

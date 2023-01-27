@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.2 07/10/2002            
--- Compiled: 01/27/2023 22:59:53      
+-- Compiled: 01/27/2023 23:10:30      
 
 -- Copyright (C) 1988-2002 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -27,26 +27,40 @@ BEGIN
 
     DEVICE = "EP1K10TC100-1";
 
-    "F0"                           : OUTPUT_PIN = 78     ;
-    "F1"                           : OUTPUT_PIN = 82     ;
-    "F2"                           : OUTPUT_PIN = 69     ;
-    "F3"                           : OUTPUT_PIN = 79     ;
-    "F4"                           : OUTPUT_PIN = 28     ;
-    "F5"                           : OUTPUT_PIN = 10     ;
-    "F6"                           : OUTPUT_PIN = 80     ;
-    "F7"                           : OUTPUT_PIN = 13     ;
-    "F8"                           : OUTPUT_PIN = 45     ;
-    "F9"                           : OUTPUT_PIN = 93     ;
-    "F10"                          : OUTPUT_PIN = 8      ;
-    "F11"                          : OUTPUT_PIN = 94     ;
-    "F12"                          : OUTPUT_PIN = 6      ;
-    "F13"                          : OUTPUT_PIN = 34     ;
-    "F14"                          : OUTPUT_PIN = 21     ;
-    "F15"                          : OUTPUT_PIN = 64     ;
+    "CCCCCC"                       : INPUT_PIN  = 39     ;
+    "E"                            : OUTPUT_PIN = 31     ;
+    "F0"                           : OUTPUT_PIN = 85     ;
+    "F1"                           : OUTPUT_PIN = 19     ;
+    "F2"                           : OUTPUT_PIN = 10     ;
+    "F3"                           : OUTPUT_PIN = 84     ;
+    "F4"                           : OUTPUT_PIN = 8      ;
+    "F5"                           : OUTPUT_PIN = 21     ;
+    "F6"                           : OUTPUT_PIN = 13     ;
+    "F7"                           : OUTPUT_PIN = 26     ;
+    "F8"                           : OUTPUT_PIN = 78     ;
+    "F9"                           : OUTPUT_PIN = 97     ;
+    "F10"                          : OUTPUT_PIN = 57     ;
+    "F11"                          : OUTPUT_PIN = 28     ;
+    "F12"                          : OUTPUT_PIN = 55     ;
+    "F13"                          : OUTPUT_PIN = 68     ;
+    "F14"                          : OUTPUT_PIN = 49     ;
+    "F15"                          : OUTPUT_PIN = 27     ;
+    "|Counter4:44|lpm_counter:lpm_counter_component|dffs0" : LOCATION   = LC3_B17;
+    "|Counter4:44|lpm_counter:lpm_counter_component|dffs1" : LOCATION   = LC2_B17;
+    "|Counter4:44|lpm_counter:lpm_counter_component|dffs2" : LOCATION   = LC1_B17;
+    "|Counter4:44|lpm_counter:lpm_counter_component|dffs3" : LOCATION   = LC5_B17;
+    "|Dec4x16:43|lpm_decode:lpm_decode_component|declut:decoder0|anode1_3" : LOCATION   = LC4_B17;
 
 END;
 
 INTERNAL_INFO "sum1-n"
 BEGIN
 	DEVICE = EP1K10TC100-1;
+    OD5P39  : LORAX = "1:FB5->LC3_B17,->LC2_B17,->LC1_B17,->LC5_B17|";
+    LC4_B17 : LORAX = "1:MSW3R1C16,V11C16->OV3C16P31|";
+	LC3_B17 : LORAX2 = "X, X, X, LC3_B17";
+	LC2_B17 : LORAX2 = "X, LC2_B17, LC4_B17, LC3_B17";
+	LC1_B17 : LORAX2 = "LC1_B17, LC2_B17, LC4_B17, LC3_B17";
+	LC5_B17 : LORAX2 = "LC2_B17, LC5_B17, LC1_B17, LC3_B17";
+	LC4_B17 : LORAX2 = "LC5_B17, LC1_B17, LC2_B17, LC3_B17";
 END;
