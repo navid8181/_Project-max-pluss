@@ -29,10 +29,66 @@ TREE
 {
 	ir::(0,0):(0): ir.gdf
 	{
-		4bitregister::(0,0):(40): 4bitregister.gdf;
-		4bitregister::(0,0):(39): 4bitregister.gdf;
-		4bitregister::(0,0):(38): 4bitregister.gdf;
-		4bitregister::(0,0):(37): 4bitregister.gdf;
 		zero::(0,0):(41): zero.tdf;
+		4bitregister::(0,0):(37): 4bitregister.gdf
+		{
+			d::(0,0):(53): d.tdf;
+			d::(0,0):(52): d.tdf;
+			d::(0,0):(51): d.tdf;
+			d::(0,0):(50): d.tdf;
+			mux2x1::(0,0):(57): mux2x1.gdf;
+			mux2x1::(0,0):(56): mux2x1.gdf;
+			mux2x1::(0,0):(55): mux2x1.gdf;
+			mux2x1::(0,0):(54): mux2x1.gdf;
+			ha::(0,0):(61): ha.gdf;
+			ha::(0,0):(60): ha.gdf;
+			ha::(0,0):(59): ha.gdf;
+			ha::(0,0):(58): ha.gdf;
+		}
+		4bitregister::(0,0):(38): 4bitregister.gdf
+		{
+			d::(0,0):(53): d.tdf;
+			d::(0,0):(52): d.tdf;
+			d::(0,0):(51): d.tdf;
+			d::(0,0):(50): d.tdf;
+			mux2x1::(0,0):(57): mux2x1.gdf;
+			mux2x1::(0,0):(56): mux2x1.gdf;
+			mux2x1::(0,0):(55): mux2x1.gdf;
+			mux2x1::(0,0):(54): mux2x1.gdf;
+			ha::(0,0):(61): ha.gdf;
+			ha::(0,0):(60): ha.gdf;
+			ha::(0,0):(59): ha.gdf;
+			ha::(0,0):(58): ha.gdf;
+		}
+		4bitregister::(0,0):(39): 4bitregister.gdf
+		{
+			d::(0,0):(53): d.tdf;
+			d::(0,0):(52): d.tdf;
+			d::(0,0):(51): d.tdf;
+			d::(0,0):(50): d.tdf;
+			mux2x1::(0,0):(57): mux2x1.gdf;
+			mux2x1::(0,0):(56): mux2x1.gdf;
+			mux2x1::(0,0):(55): mux2x1.gdf;
+			mux2x1::(0,0):(54): mux2x1.gdf;
+			ha::(0,0):(61): ha.gdf;
+			ha::(0,0):(60): ha.gdf;
+			ha::(0,0):(59): ha.gdf;
+			ha::(0,0):(58): ha.gdf;
+		}
+		4bitregister::(0,0):(40): 4bitregister.gdf
+		{
+			d::(0,0):(53): d.tdf;
+			d::(0,0):(52): d.tdf;
+			d::(0,0):(51): d.tdf;
+			d::(0,0):(50): d.tdf;
+			mux2x1::(0,0):(57): mux2x1.gdf;
+			mux2x1::(0,0):(56): mux2x1.gdf;
+			mux2x1::(0,0):(55): mux2x1.gdf;
+			mux2x1::(0,0):(54): mux2x1.gdf;
+			ha::(0,0):(61): ha.gdf;
+			ha::(0,0):(60): ha.gdf;
+			ha::(0,0):(59): ha.gdf;
+			ha::(0,0):(58): ha.gdf;
+		}
 	}
 }

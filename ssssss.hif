@@ -27,19 +27,15 @@ FILES
 }
 TREE
 {
-	4bitregister::(0,0):(0): 4bitregister.gdf
+	ssssss::(0,0):(0): ssssss.gdf
 	{
-		ha::(0,0):(61): ha.gdf;
-		ha::(0,0):(60): ha.gdf;
-		ha::(0,0):(59): ha.gdf;
-		ha::(0,0):(58): ha.gdf;
-		mux2x1::(0,0):(57): mux2x1.gdf;
-		mux2x1::(0,0):(56): mux2x1.gdf;
-		mux2x1::(0,0):(55): mux2x1.gdf;
-		mux2x1::(0,0):(54): mux2x1.gdf;
-		d::(0,0):(53): d.tdf;
-		d::(0,0):(52): d.tdf;
-		d::(0,0):(51): d.tdf;
-		d::(0,0):(50): d.tdf;
+		dec4x16::(0,0):(23): dec4x16.tdf;
+		counter4::(0,0):(24): counter4.tdf;
+		zero::(0,0):(25): zero.tdf;
+		zero::(0,0):(26): zero.tdf;
+		zero::(0,0):(27): zero.tdf;
+		dr::(0,0):(28): dr.gdf;
+		ac::(0,0):(29): ac.gdf;
+		alu::(0,0):(30): alu.gdf;
 	}
 }
