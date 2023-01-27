@@ -44,7 +44,6 @@ SUBDESIGN GoodRam
 	wraddress[11..0]	 : INPUT;
 	rdaddress[11..0]	 : INPUT;
 	wren	 : INPUT = VCC;
-	rden	 : INPUT = VCC;
 	clock	 : INPUT;
 	q[15..0]	 : OUTPUT;
 )
@@ -67,7 +66,6 @@ BEGIN
 	lpm_ram_dp_component.rdclock = clock;
 	lpm_ram_dp_component.wren = wren;
 	lpm_ram_dp_component.wrclock = clock;
-	lpm_ram_dp_component.rden = rden;
 	lpm_ram_dp_component.data[15..0] = data[15..0];
 	lpm_ram_dp_component.rdaddress[11..0] = rdaddress[11..0];
 	lpm_ram_dp_component.wraddress[11..0] = wraddress[11..0];
@@ -81,7 +79,7 @@ END;
 -- Retrieval info: PRIVATE: WidthData NUMERIC "16"
 -- Retrieval info: PRIVATE: WidthAddr NUMERIC "12"
 -- Retrieval info: PRIVATE: Clock NUMERIC "0"
--- Retrieval info: PRIVATE: rden NUMERIC "1"
+-- Retrieval info: PRIVATE: rden NUMERIC "0"
 -- Retrieval info: PRIVATE: REGdata NUMERIC "1"
 -- Retrieval info: PRIVATE: REGwraddress NUMERIC "1"
 -- Retrieval info: PRIVATE: REGwren NUMERIC "1"
@@ -110,13 +108,11 @@ END;
 -- Retrieval info: USED_PORT: wraddress 0 0 12 0 INPUT NODEFVAL wraddress[11..0]
 -- Retrieval info: USED_PORT: rdaddress 0 0 12 0 INPUT NODEFVAL rdaddress[11..0]
 -- Retrieval info: USED_PORT: wren 0 0 0 0 INPUT VCC wren
--- Retrieval info: USED_PORT: rden 0 0 0 0 INPUT VCC rden
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
 -- Retrieval info: CONNECT: @data 0 0 16 0 data 0 0 16 0
 -- Retrieval info: CONNECT: q 0 0 16 0 @q 0 0 16 0
 -- Retrieval info: CONNECT: @wraddress 0 0 12 0 wraddress 0 0 12 0
 -- Retrieval info: CONNECT: @rdaddress 0 0 12 0 rdaddress 0 0 12 0
 -- Retrieval info: CONNECT: @wren 0 0 0 0 wren 0 0 0 0
--- Retrieval info: CONNECT: @rden 0 0 0 0 rden 0 0 0 0
 -- Retrieval info: CONNECT: @wrclock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: @rdclock 0 0 0 0 clock 0 0 0 0
