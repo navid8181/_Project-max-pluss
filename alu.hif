@@ -24,39 +24,11 @@ HIF003
 --
 FILES
 {
-	lpm_constant.tdf
+	alulayer.gdf
 	{
-		lpm_constant [LPM_CVALUE,LPM_WIDTH,USE_LPM_FOR_AHDL_OPERATORS] []
+		alulayer [] []
 		{
-			7 [LPM_CVALUE=0,LPM_WIDTH=1,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
-		}
-	}
-	zero.tdf
-	{
-		zero [USE_LPM_FOR_AHDL_OPERATORS] [lpm_constant.inc]
-		{
-			6 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
-		}
-	}
-	mux4x1.gdf
-	{
-		mux4x1 [] []
-		{
-			3 [] [];
-		}
-	}
-	logiclayer.gdf
-	{
-		logiclayer [] []
-		{
-			2 [] [];
-		}
-	}
-	fulladder.gdf
-	{
-		fulladder [] []
-		{
-			5 [] [];
+			1 [] [];
 		}
 	}
 	arithmeticlayer.gdf
@@ -66,11 +38,39 @@ FILES
 			4 [] [];
 		}
 	}
-	alulayer.gdf
+	fulladder.gdf
 	{
-		alulayer [] []
+		fulladder [] []
 		{
-			1 [] [];
+			5 [] [];
+		}
+	}
+	logiclayer.gdf
+	{
+		logiclayer [] []
+		{
+			2 [] [];
+		}
+	}
+	mux4x1.gdf
+	{
+		mux4x1 [] []
+		{
+			3 [] [];
+		}
+	}
+	zero.tdf
+	{
+		zero [USE_LPM_FOR_AHDL_OPERATORS] [lpm_constant.inc]
+		{
+			6 [USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0];
+		}
+	}
+	lpm_constant.tdf
+	{
+		lpm_constant [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_CVALUE] []
+		{
+			7 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=1,LPM_CVALUE=0] [result0];
 		}
 	}
 	alu.gdf
@@ -85,234 +85,234 @@ TREE
 {
 	alu::(0,0):(0): alu.gdf
 	{
-		alulayer::(0,0):(1): alulayer.gdf
+		zero::(0,0):(114): zero.tdf;
+		zero::(0,0):(113): zero.tdf;
+		alulayer::(0,0):(108): alulayer.gdf
 		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
 			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
 			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf
-				{
-					lpm_constant::(48,2):(28,lpm_constant_component): lpm_constant.tdf;
-				}
-			}
-		}
-		alulayer::(0,0):(15): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
 				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
 			}
-		}
-		alulayer::(0,0):(20): alulayer.gdf
-		{
+			mux4x1::(0,0):(3): mux4x1.gdf;
 			logiclayer::(0,0):(2): logiclayer.gdf
 			{
 				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(23): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(64): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(69): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(73): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(77): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(80): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(84): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(88): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(92): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(96): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
-		}
-		alulayer::(0,0):(100): alulayer.gdf
-		{
-			logiclayer::(0,0):(2): logiclayer.gdf
-			{
-				mux4x1::(0,0):(2): mux4x1.gdf;
-			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
 			}
 		}
 		alulayer::(0,0):(104): alulayer.gdf
 		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
 			logiclayer::(0,0):(2): logiclayer.gdf
 			{
 				mux4x1::(0,0):(2): mux4x1.gdf;
 			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
-			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
-			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
-				zero::(0,0):(3): zero.tdf;
-			}
 		}
-		alulayer::(0,0):(108): alulayer.gdf
+		alulayer::(0,0):(100): alulayer.gdf
 		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
 			logiclayer::(0,0):(2): logiclayer.gdf
 			{
 				mux4x1::(0,0):(2): mux4x1.gdf;
 			}
-			mux4x1::(0,0):(3): mux4x1.gdf;
+		}
+		alulayer::(0,0):(96): alulayer.gdf
+		{
 			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
 			{
-				fulladder::(0,0):(12): fulladder.gdf;
-				mux4x1::(0,0):(6): mux4x1.gdf;
 				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
 			}
 		}
-		zero::(0,0):(113): zero.tdf;
-		zero::(0,0):(114): zero.tdf;
+		alulayer::(0,0):(92): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(88): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(84): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(80): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(77): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(73): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(69): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(64): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(23): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(20): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(15): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf;
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
+		alulayer::(0,0):(1): alulayer.gdf
+		{
+			arithmeticlayer::(0,0):(8): arithmeticlayer.gdf
+			{
+				zero::(0,0):(3): zero.tdf
+				{
+					lpm_constant::(48,2):(28,lpm_constant_component): lpm_constant.tdf;
+				}
+				mux4x1::(0,0):(6): mux4x1.gdf;
+				fulladder::(0,0):(12): fulladder.gdf;
+			}
+			mux4x1::(0,0):(3): mux4x1.gdf;
+			logiclayer::(0,0):(2): logiclayer.gdf
+			{
+				mux4x1::(0,0):(2): mux4x1.gdf;
+			}
+		}
 	}
 }
