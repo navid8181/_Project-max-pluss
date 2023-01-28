@@ -2,7 +2,7 @@ Project Informationc:\users\admin\documents\github\_project-max-pluss\moris_comp
 
 MAX+plus II Compiler Report File
 Version 10.2 07/10/2002
-Compiled: 01/28/2023 06:49:02
+Compiled: 01/28/2023 07:17:22
 
 Copyright (C) 1988-2002 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -5720,18 +5720,18 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:00
+   Compiler Netlist Extractor             00:00:01
    Database Builder                       00:00:00
-   Logic Synthesizer                      00:00:01
-   Partitioner                            00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:01
    Fitter                                 00:00:02
    Timing SNF Extractor                   00:00:01
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:04
+   Total Time                             00:00:05
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 51,725K
+Peak memory allocated during compilation  = 53,291K
