@@ -1,0 +1,175 @@
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "bustest" ASSIGNED TO AN EP1K50TC144-1
+TCK                              : 1
+CONF_DONE                        : 2
+nCEO                             : 3
+TDO                              : 4
+VCCIO                            : 5
+GND                              : 6
+ALU_Cin                          : 7
+input2                           : 8
+RESERVED                         : 9
+BUS_Result15                     : 10
+RESERVED                         : 11
+RESERVED                         : 12
+RESERVED                         : 13
+RESERVED                         : 14
+GND                              : 15
+VCCINT                           : 16
+RESERVED                         : 17
+RESERVED                         : 18
+RESERVED                         : 19
+RESERVED                         : 20
+RESERVED                         : 21
+RESERVED                         : 22
+input3                           : 23
+VCCIO                            : 24
+GND                              : 25
+RESERVED                         : 26
+RESERVED                         : 27
+RESERVED                         : 28
+RESERVED                         : 29
+RESERVED                         : 30
+RESERVED                         : 31
+RESERVED                         : 32
+RESERVED                         : 33
+TMS                              : 34
+nSTATUS                          : 35
+BUS_Result11                     : 36
+input5                           : 37
+RESERVED                         : 38
+RESERVED                         : 39
+GND                              : 40
+RESERVED                         : 41
+RESERVED                         : 42
+RESERVED                         : 43
+RESERVED                         : 44
+VCCIO                            : 45
+RESERVED                         : 46
+RESERVED                         : 47
+RESERVED                         : 48
+RESERVED                         : 49
+VCCINT                           : 50
+RESERVED                         : 51
+GND                              : 52
+VCC_CKLK                         : 53
+ALU_S0                           : 54
+clk                              : 55
+ALU_S1                           : 56
+GND_CKLK                         : 57
+GND                              : 58
+RESERVED                         : 59
+BUS_Select2                      : 60
+VCCIO                            : 61
+RESERVED                         : 62
+RESERVED                         : 63
+DR_INR                           : 64
+BUS_Result13                     : 65
+GND                              : 66
+DR_Clear                         : 67
+RESERVED                         : 68
+BUS_Result0                      : 69
+BUS_Result10                     : 70
+VCCIO                            : 71
+RESERVED                         : 72
+BUS_Select0                      : 73
+nCONFIG                          : 74
+VCCINT                           : 75
+MSEL1                            : 76
+MSEL0                            : 77
+RESERVED                         : 78
+RESERVED                         : 79
+input4                           : 80
+input0                           : 81
+RESERVED                         : 82
+RESERVED                         : 83
+GND                              : 84
+VCCINT                           : 85
+RESERVED                         : 86
+BUS_Result3                      : 87
+RESERVED                         : 88
+BUS_Result8                      : 89
+RESERVED                         : 90
+RESERVED                         : 91
+RESERVED                         : 92
+GND                              : 93
+VCCIO                            : 94
+BUS_Result14                     : 95
+RESERVED                         : 96
+BUS_Result1                      : 97
+BUS_Result2                      : 98
+input7                           : 99
+BUS_Result5                      : 100
+AC_Load                          : 101
+input6                           : 102
+VCCINT                           : 103
+GND                              : 104
+TDI                              : 105
+nCE                              : 106
+DCLK                             : 107
+DATA0                            : 108
+BUS_Result7                      : 109
+RESERVED                         : 110
+BUS_Select1                      : 111
+input1                           : 112
+RESERVED                         : 113
+BUS_Result4                      : 114
+VCCIO                            : 115
+DR_Load                          : 116
+AC_INR                           : 117
+RESERVED                         : 118
+RESERVED                         : 119
+RESERVED                         : 120
+RESERVED                         : 121
+RESERVED                         : 122
+GND                              : 123
+ALU_S3                           : 124
+AC_Clear                         : 125
+ALU_S2                           : 126
+VCCINT                           : 127
+BUS_Result9                      : 128
+GND                              : 129
+BUS_Result12                     : 130
+RESERVED                         : 131
+RESERVED                         : 132
+RESERVED                         : 133
+VCCIO                            : 134
+RESERVED                         : 135
+RESERVED                         : 136
+RESERVED                         : 137
+RESERVED                         : 138
+GND                              : 139
+RESERVED                         : 140
+RESERVED                         : 141
+BUS_Result6                      : 142
+RESERVED                         : 143
+RESERVED                         : 144

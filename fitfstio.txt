@@ -73,182 +73,182 @@ Global Tsu=-1(-1.000000), Tco=-1(-1.000000)
 
 
 Input/output cells:
-	Address0 : IN
-	Address1 : IN
-	Address2 : IN
-	Address3 : IN
-	Address4 : IN
-	Address5 : IN
-	Address6 : IN
-	Address7 : IN
-	Address8 : IN
-	Address9 : IN
-	Address10 : IN
-	Address11 : IN
-	Data1 : IN
-	Data3 : IN
-	Out1 : OUT
-	Out3 : OUT
+	Out8 : IN
+	Out11 : IN
 	~PIN000 -> 40 : IN
-	~PIN001 -> 38 : IN
+	~PIN001 : IN
+	~PIN003 : IN
+	~PIN004 : IN
+	~PIN005 : IN
+	~PIN006 : IN
+	~PIN007 : IN
+	~PIN008 : IN
+	~PIN009 : IN
+	~PIN010 : IN
+	~PIN011 : IN
+	~PIN012 : IN
+	~PIN013 : IN
+	~PIN020 : OUT
+	~PIN023 : OUT
+	~PIN024 -> 38 : IN
 
 Set clique dont_touch:
 
-Cell: Address0, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address1, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address2, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address3, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address4, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address5, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address6, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address7, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address8, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address9, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address10, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Address11, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: |Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:132|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
-Cell: |Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:162|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
-Cell: |Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
-Cell: |Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
-Cell: |Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
-Cell: |Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
-Cell: Data1, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Data3, rdfbits: 5, fast_io bit: 0, periphery: 0,0
-Cell: Out1, rdfbits: 3, fast_io bit: 0, periphery: 0,0
-Cell: Out3, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: |Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:237|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:282|result_node, rdfbits: 50, fast_io bit: 0, periphery: 0,0
+Cell: |Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: |Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11, rdfbits: 8000, fast_io bit: 0, periphery: 0,0
+Cell: Out8, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: Out11, rdfbits: 5, fast_io bit: 0, periphery: 0,0
 Cell: ~PIN000, rdfbits: 805, fast_io bit: 0, periphery: 0,0
-Cell: ~PIN001, rdfbits: 805, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN001, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN003, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN004, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN005, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN006, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN007, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN008, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN009, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN010, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN011, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN012, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN013, rdfbits: 5, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN020, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN023, rdfbits: 3, fast_io bit: 0, periphery: 0,0
+Cell: ~PIN024, rdfbits: 805, fast_io bit: 0, periphery: 0,0
 
 
 Virtual pin individual set-up and clock-to-output times:
-For pin Address0 delays are: tsu=-1, tco=-1;
-For pin Address1 delays are: tsu=-1, tco=-1;
-For pin Address2 delays are: tsu=-1, tco=-1;
-For pin Address3 delays are: tsu=-1, tco=-1;
-For pin Address4 delays are: tsu=-1, tco=-1;
-For pin Address5 delays are: tsu=-1, tco=-1;
-For pin Address6 delays are: tsu=-1, tco=-1;
-For pin Address7 delays are: tsu=-1, tco=-1;
-For pin Address8 delays are: tsu=-1, tco=-1;
-For pin Address9 delays are: tsu=-1, tco=-1;
-For pin Address10 delays are: tsu=-1, tco=-1;
-For pin Address11 delays are: tsu=-1, tco=-1;
-For pin Data1 delays are: tsu=-1, tco=-1;
-For pin Data3 delays are: tsu=-1, tco=-1;
-For pin Out1 delays are: tsu=-1, tco=-1;
-For pin Out3 delays are: tsu=-1, tco=-1;
+For pin Out8 delays are: tsu=-1, tco=-1;
+For pin Out11 delays are: tsu=-1, tco=-1;
 For pin ~PIN000 delays are: tsu=-1, tco=-1;
 For pin ~PIN001 delays are: tsu=-1, tco=-1;
+For pin ~PIN003 delays are: tsu=-1, tco=-1;
+For pin ~PIN004 delays are: tsu=-1, tco=-1;
+For pin ~PIN005 delays are: tsu=-1, tco=-1;
+For pin ~PIN006 delays are: tsu=-1, tco=-1;
+For pin ~PIN007 delays are: tsu=-1, tco=-1;
+For pin ~PIN008 delays are: tsu=-1, tco=-1;
+For pin ~PIN009 delays are: tsu=-1, tco=-1;
+For pin ~PIN010 delays are: tsu=-1, tco=-1;
+For pin ~PIN011 delays are: tsu=-1, tco=-1;
+For pin ~PIN012 delays are: tsu=-1, tco=-1;
+For pin ~PIN013 delays are: tsu=-1, tco=-1;
+For pin ~PIN020 delays are: tsu=-1, tco=-1;
+For pin ~PIN023 delays are: tsu=-1, tco=-1;
+For pin ~PIN024 delays are: tsu=-1, tco=-1;
 
 
 Cells driven by pins
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address1
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address1
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address1
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address1
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address2
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address2
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address2
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address2
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address3
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address3
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address3
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address3
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address4
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address4
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address4
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address4
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address5
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address5
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address5
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address5
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address6
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address6
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address6
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address6
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address7
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address7
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address7
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address7
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address8
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address8
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address8
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address8
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address9
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address9
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address9
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address9
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Address10
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Address10
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Address10
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Address10
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:132|result_node is driven by Address11
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:162|result_node is driven by Address11
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1 is driven by Data1
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1 is driven by Data1
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3 is driven by Data3
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3 is driven by Data3
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by Out8
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by Out8
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by Out11
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by Out11
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:237|result_node is driven by ~PIN001
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:282|result_node is driven by ~PIN001
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN003
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN003
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN003
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN003
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN004
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN004
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN004
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN004
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN005
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN005
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN005
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN005
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN006
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN006
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN006
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN006
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN007
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN007
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN007
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN007
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN008
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN008
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN008
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN008
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN009
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN009
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN009
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN009
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN010
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN010
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN010
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN010
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN011
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN011
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN011
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN011
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN012
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN012
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN012
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN012
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8 is driven by ~PIN013
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11 is driven by ~PIN013
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8 is driven by ~PIN013
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11 is driven by ~PIN013
 
 
 Cells driving pins
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:132|result_node drives Out1
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:162|result_node drives Out3
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:237|result_node drives ~PIN020
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:282|result_node drives ~PIN023
 
 
 FAST I/O assignement after cleaning up:
-Address0: fast_io=0
-Address1: fast_io=0
-Address2: fast_io=0
-Address3: fast_io=0
-Address4: fast_io=0
-Address5: fast_io=0
-Address6: fast_io=0
-Address7: fast_io=0
-Address8: fast_io=0
-Address9: fast_io=0
-Address10: fast_io=0
-Address11: fast_io=0
-Data1: fast_io=0
-Data3: fast_io=0
-Out1: fast_io=0
-Out3: fast_io=0
+Out8: fast_io=0
+Out11: fast_io=0
 ~PIN000: fast_io=0
 ~PIN001: fast_io=0
+~PIN003: fast_io=0
+~PIN004: fast_io=0
+~PIN005: fast_io=0
+~PIN006: fast_io=0
+~PIN007: fast_io=0
+~PIN008: fast_io=0
+~PIN009: fast_io=0
+~PIN010: fast_io=0
+~PIN011: fast_io=0
+~PIN012: fast_io=0
+~PIN013: fast_io=0
+~PIN020: fast_io=0
+~PIN023: fast_io=0
+~PIN024: fast_io=0
 
 
 Layer-by-layer logic: fast_io=0
 
 Layer 0
-	Address0, RDF bits: 5, lab#=0
-	Address1, RDF bits: 5, lab#=0
-	Address2, RDF bits: 5, lab#=0
-	Address3, RDF bits: 5, lab#=0
-	Address4, RDF bits: 5, lab#=0
-	Address5, RDF bits: 5, lab#=0
-	Address6, RDF bits: 5, lab#=0
-	Address7, RDF bits: 5, lab#=0
-	Address8, RDF bits: 5, lab#=0
-	Address9, RDF bits: 5, lab#=0
-	Address10, RDF bits: 5, lab#=0
-	Address11, RDF bits: 5, lab#=0
-	Data1, RDF bits: 5, lab#=0
-	Data3, RDF bits: 5, lab#=0
-	Out1, RDF bits: 3, lab#=0
-	Out3, RDF bits: 3, lab#=0
+	Out8, RDF bits: 5, lab#=0
+	Out11, RDF bits: 5, lab#=0
 	~PIN000, RDF bits: 805, lab#=0
-	~PIN001, RDF bits: 805, lab#=0
+	~PIN001, RDF bits: 5, lab#=0
+	~PIN003, RDF bits: 5, lab#=0
+	~PIN004, RDF bits: 5, lab#=0
+	~PIN005, RDF bits: 5, lab#=0
+	~PIN006, RDF bits: 5, lab#=0
+	~PIN007, RDF bits: 5, lab#=0
+	~PIN008, RDF bits: 5, lab#=0
+	~PIN009, RDF bits: 5, lab#=0
+	~PIN010, RDF bits: 5, lab#=0
+	~PIN011, RDF bits: 5, lab#=0
+	~PIN012, RDF bits: 5, lab#=0
+	~PIN013, RDF bits: 5, lab#=0
+	~PIN020, RDF bits: 3, lab#=0
+	~PIN023, RDF bits: 3, lab#=0
+	~PIN024, RDF bits: 805, lab#=0
 
 Layer 1
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:132|result_node, RDF bits: 50, lab#=0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:162|result_node, RDF bits: 50, lab#=0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_1, RDF bits: 8000, lab#=0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_3, RDF bits: 8000, lab#=0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_1, RDF bits: 8000, lab#=0
-	|Basic_RAM:1|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_3, RDF bits: 8000, lab#=0
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:237|result_node, RDF bits: 50, lab#=0
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|lpm_mux:mux|muxlut:282|result_node, RDF bits: 50, lab#=0
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_8, RDF bits: 8000, lab#=0
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment0_11, RDF bits: 8000, lab#=0
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_8, RDF bits: 8000, lab#=0
+	|Basic_RAM:191|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|segment1_11, RDF bits: 8000, lab#=0
 
 
 Physical pins available:
@@ -321,103 +321,103 @@ row: -1, col: 7 RDF: 800003c7
 
 Sorted pins:
 
-Pin ~PIN001: Link strength=0, fast_io=0, group No.=17
-Pin ~PIN000: Link strength=0, fast_io=0, group No.=16
-Pin Address0: Link strength=864, fast_io=0, group No.=0
-Pin Address1: Link strength=864, fast_io=0, group No.=0
-Pin Address2: Link strength=864, fast_io=0, group No.=0
-Pin Address3: Link strength=864, fast_io=0, group No.=0
-Pin Address4: Link strength=864, fast_io=0, group No.=0
-Pin Address5: Link strength=864, fast_io=0, group No.=0
-Pin Address6: Link strength=864, fast_io=0, group No.=0
-Pin Address7: Link strength=864, fast_io=0, group No.=0
-Pin Address8: Link strength=864, fast_io=0, group No.=0
-Pin Address9: Link strength=864, fast_io=0, group No.=0
-Pin Address10: Link strength=864, fast_io=0, group No.=0
-Pin Data1: Link strength=792, fast_io=0, group No.=0
-Pin Data3: Link strength=792, fast_io=0, group No.=0
-Pin Address11: Link strength=544, fast_io=0, group No.=0
-Pin Out1: Link strength=472, fast_io=0, group No.=0
-Pin Out3: Link strength=472, fast_io=0, group No.=0
+Pin ~PIN024: Link strength=0, fast_io=0, group No.=17
+Pin ~PIN000: Link strength=0, fast_io=0, group No.=2
+Pin ~PIN003: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN004: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN005: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN006: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN007: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN008: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN009: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN010: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN011: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN012: Link strength=864, fast_io=0, group No.=0
+Pin ~PIN013: Link strength=864, fast_io=0, group No.=0
+Pin Out8: Link strength=792, fast_io=0, group No.=0
+Pin Out11: Link strength=792, fast_io=0, group No.=0
+Pin ~PIN001: Link strength=544, fast_io=0, group No.=0
+Pin ~PIN020: Link strength=472, fast_io=0, group No.=0
+Pin ~PIN023: Link strength=472, fast_io=0, group No.=0
 
 Output pin initial assignments:
 
-Initially output pin Out1 is assigned to pin 71(index:5)
-Initially output pin Out3 is assigned to pin 70(index:6)
+Initially output pin ~PIN020 is assigned to pin 71(index:5)
+Initially output pin ~PIN023 is assigned to pin 70(index:6)
 
 All the rest pin assignments:
 
-Initially pin Address0 is assigned to pin 69(index:7, cost:6401)
-Initially pin Address1 is assigned to pin 68(index:8, cost:12801)
-Initially pin Address2 is assigned to pin 10(index:66, cost:9601)
-Initially pin Address3 is assigned to pin 9(index:67, cost:16001)
-Initially pin Address4 is assigned to pin 8(index:68, cost:22401)
-Initially pin Address5 is assigned to pin 7(index:69, cost:28801)
-Initially pin Address6 is assigned to pin 6(index:70, cost:35201)
-Initially pin Address7 is assigned to pin 5(index:71, cost:41601)
-Initially pin Address8 is assigned to pin 23(index:53, cost:17281)
-Initially pin Address9 is assigned to pin 22(index:54, cost:23681)
-Initially pin Address10 is assigned to pin 21(index:55, cost:30081)
-Initially pin Data1 is assigned to pin 20(index:56, cost:36241)
-Initially pin Data3 is assigned to pin 19(index:57, cost:37841)
-Initially pin Address11 is assigned to pin 58(index:18, cost:17601)
-Initially pin Out1 is assigned to pin 71(index:5, cost:21521)
-Initially pin Out3 is assigned to pin 70(index:6, cost:21521)
-Initially pin Address0 is assigned to pin 69(index:7, cost:36481)
-Initially pin Address1 is assigned to pin 68(index:8, cost:36481)
-Initially pin Address2 is assigned to pin 10(index:66, cost:54721)
-Initially pin Address3 is assigned to pin 9(index:67, cost:54721)
-Initially pin Address4 is assigned to pin 8(index:68, cost:54721)
-Initially pin Address5 is assigned to pin 7(index:69, cost:54721)
-Initially pin Address6 is assigned to pin 6(index:70, cost:54721)
-Initially pin Address7 is assigned to pin 5(index:71, cost:54721)
-Initially pin Address8 is assigned to pin 23(index:53, cost:44481)
-Initially pin Address9 is assigned to pin 22(index:54, cost:44481)
-Initially pin Address10 is assigned to pin 21(index:55, cost:44481)
-Initially pin Data1 is assigned to pin 20(index:56, cost:39441)
-Initially pin Data3 is assigned to pin 19(index:57, cost:39441)
-Initially pin Address11 is assigned to pin 58(index:18, cost:17601)
-Initially pin Out1 is assigned to pin 71(index:5, cost:21521)
-Initially pin Out3 is assigned to pin 70(index:6, cost:21521)
-Pin 69 is being cleared (used to be vpin Address0)
-Pin 68 is being cleared (used to be vpin Address1)
-Pin 10 is being cleared (used to be vpin Address2)
-Pin 9 is being cleared (used to be vpin Address3)
-Pin 8 is being cleared (used to be vpin Address4)
-Pin 7 is being cleared (used to be vpin Address5)
-Pin 6 is being cleared (used to be vpin Address6)
-Pin 5 is being cleared (used to be vpin Address7)
-Pin 23 is being cleared (used to be vpin Address8)
-Pin 22 is being cleared (used to be vpin Address9)
-Pin 21 is being cleared (used to be vpin Address10)
-Pin 58 is being cleared (used to be vpin Address11)
-Pin 20 is being cleared (used to be vpin Data1)
-Pin 19 is being cleared (used to be vpin Data3)
-Pin 71 is being cleared (used to be vpin Out1)
-Pin 70 is being cleared (used to be vpin Out3)
+Initially pin ~PIN003 is assigned to pin 69(index:7, cost:6401)
+Initially pin ~PIN004 is assigned to pin 68(index:8, cost:12801)
+Initially pin ~PIN005 is assigned to pin 10(index:66, cost:9601)
+Initially pin ~PIN006 is assigned to pin 9(index:67, cost:16001)
+Initially pin ~PIN007 is assigned to pin 8(index:68, cost:22401)
+Initially pin ~PIN008 is assigned to pin 7(index:69, cost:28801)
+Initially pin ~PIN009 is assigned to pin 6(index:70, cost:35201)
+Initially pin ~PIN010 is assigned to pin 5(index:71, cost:41601)
+Initially pin ~PIN011 is assigned to pin 23(index:53, cost:17281)
+Initially pin ~PIN012 is assigned to pin 22(index:54, cost:23681)
+Initially pin ~PIN013 is assigned to pin 21(index:55, cost:30081)
+Initially pin Out8 is assigned to pin 20(index:56, cost:36241)
+Initially pin Out11 is assigned to pin 19(index:57, cost:37841)
+Initially pin ~PIN001 is assigned to pin 58(index:18, cost:17601)
+Initially pin ~PIN020 is assigned to pin 71(index:5, cost:21521)
+Initially pin ~PIN023 is assigned to pin 70(index:6, cost:21521)
+Initially pin ~PIN003 is assigned to pin 69(index:7, cost:36481)
+Initially pin ~PIN004 is assigned to pin 68(index:8, cost:36481)
+Initially pin ~PIN005 is assigned to pin 10(index:66, cost:54721)
+Initially pin ~PIN006 is assigned to pin 9(index:67, cost:54721)
+Initially pin ~PIN007 is assigned to pin 8(index:68, cost:54721)
+Initially pin ~PIN008 is assigned to pin 7(index:69, cost:54721)
+Initially pin ~PIN009 is assigned to pin 6(index:70, cost:54721)
+Initially pin ~PIN010 is assigned to pin 5(index:71, cost:54721)
+Initially pin ~PIN011 is assigned to pin 23(index:53, cost:44481)
+Initially pin ~PIN012 is assigned to pin 22(index:54, cost:44481)
+Initially pin ~PIN013 is assigned to pin 21(index:55, cost:44481)
+Initially pin Out8 is assigned to pin 20(index:56, cost:39441)
+Initially pin Out11 is assigned to pin 19(index:57, cost:39441)
+Initially pin ~PIN001 is assigned to pin 58(index:18, cost:17601)
+Initially pin ~PIN020 is assigned to pin 71(index:5, cost:21521)
+Initially pin ~PIN023 is assigned to pin 70(index:6, cost:21521)
+Pin 20 is being cleared (used to be vpin Out8)
+Pin 19 is being cleared (used to be vpin Out11)
+Pin 58 is being cleared (used to be vpin ~PIN001)
+Pin 69 is being cleared (used to be vpin ~PIN003)
+Pin 68 is being cleared (used to be vpin ~PIN004)
+Pin 10 is being cleared (used to be vpin ~PIN005)
+Pin 9 is being cleared (used to be vpin ~PIN006)
+Pin 8 is being cleared (used to be vpin ~PIN007)
+Pin 7 is being cleared (used to be vpin ~PIN008)
+Pin 6 is being cleared (used to be vpin ~PIN009)
+Pin 5 is being cleared (used to be vpin ~PIN010)
+Pin 23 is being cleared (used to be vpin ~PIN011)
+Pin 22 is being cleared (used to be vpin ~PIN012)
+Pin 21 is being cleared (used to be vpin ~PIN013)
+Pin 71 is being cleared (used to be vpin ~PIN020)
+Pin 70 is being cleared (used to be vpin ~PIN023)
 
 
 Layer-by-layer logic: fast_io=1
 
 Layer 0
-	Address0, RDF bits: 5, lab#=0
-	Address1, RDF bits: 5, lab#=0
-	Address2, RDF bits: 5, lab#=0
-	Address3, RDF bits: 5, lab#=0
-	Address4, RDF bits: 5, lab#=0
-	Address5, RDF bits: 5, lab#=0
-	Address6, RDF bits: 5, lab#=0
-	Address7, RDF bits: 5, lab#=0
-	Address8, RDF bits: 5, lab#=0
-	Address9, RDF bits: 5, lab#=0
-	Address10, RDF bits: 5, lab#=0
-	Address11, RDF bits: 5, lab#=0
-	Data1, RDF bits: 5, lab#=0
-	Data3, RDF bits: 5, lab#=0
-	Out1, RDF bits: 3, lab#=0
-	Out3, RDF bits: 3, lab#=0
+	Out8, RDF bits: 5, lab#=0
+	Out11, RDF bits: 5, lab#=0
 	~PIN000, RDF bits: 805, lab#=0
-	~PIN001, RDF bits: 805, lab#=0
+	~PIN001, RDF bits: 5, lab#=0
+	~PIN003, RDF bits: 5, lab#=0
+	~PIN004, RDF bits: 5, lab#=0
+	~PIN005, RDF bits: 5, lab#=0
+	~PIN006, RDF bits: 5, lab#=0
+	~PIN007, RDF bits: 5, lab#=0
+	~PIN008, RDF bits: 5, lab#=0
+	~PIN009, RDF bits: 5, lab#=0
+	~PIN010, RDF bits: 5, lab#=0
+	~PIN011, RDF bits: 5, lab#=0
+	~PIN012, RDF bits: 5, lab#=0
+	~PIN013, RDF bits: 5, lab#=0
+	~PIN020, RDF bits: 3, lab#=0
+	~PIN023, RDF bits: 3, lab#=0
+	~PIN024, RDF bits: 805, lab#=0
 
 Layer 1
 
